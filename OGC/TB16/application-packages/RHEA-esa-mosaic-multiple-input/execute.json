@@ -1,0 +1,28 @@
+{
+  "mode": "async",
+  "response": "document",
+  "inputs": [
+    {
+      "id": "inputlist",
+      "href": "https://cloud.rheagroup.com/index.php/s/SmFq5aKB8rnYEP4/download"
+    },
+    {
+      "id": "inputlist",
+      "href": "https://cloud.rheagroup.com/index.php/s/ArocXWGPmBxxSAW/download"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "mosaic",
+      "transmissionMode": "reference"
+    },
+    {
+      "id": "quicklook",
+      "transmissionMode": "reference"
+    },
+    {
+      "id": "properties",
+      "transmissionMode": "reference"
+    }
+  ]
+}

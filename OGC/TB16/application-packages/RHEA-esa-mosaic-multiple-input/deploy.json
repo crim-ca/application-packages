@@ -1,0 +1,84 @@
+{
+    "processDescription": {
+        "processVersion": "0.2.0",
+        "process": {
+            "id": "esa-mosaic-multiple-input",
+            "title": "ESA lst mosaic multiple inputs",
+            "keywords": [
+                "rhea",
+                "ogc",
+                "testbed-16",
+                "mosaic"
+            ],
+            "metadata": []
+        }
+    },
+    "jobControlOptions": [
+        "async-execute"
+    ],
+    "outputTransmission": [
+        "reference"
+    ],
+    "additionalParameters": [
+        {
+            "role": "http://www.opengis.net/eoc/applicationContext/processMetadata",
+            "parameters": [
+                {
+                    "name": "ImageReference",
+                    "values": [
+                        "josemanueldelgadoblasco/lst_mosaic:v1.2_multiple_inputfiles"
+                    ]
+                }
+            ]
+        }
+    ],
+    "deploymentProfileName": "http://www.opengis.net/profiles/eoc/dockerizedApplication",
+    "executionUnit": [
+        {
+            "unit": {
+                "cwlVersion": "v1.0",
+                "class": "CommandLineTool",
+                "id": "esa-mosaic-lst",
+                "baseCommand": "python3.6 /mosaicking_S3.py",
+                "label": "ESA lst mosaic multiple inputs",
+                "hints": {
+                    "DockerRequirement": {
+                        "dockerPull": "josemanueldelgadoblasco/lst_mosaic:v1.2_multiple_inputfiles_supporting_zipfiles"
+                    }
+                },
+                "inputs": {
+                    "inputlist": {
+                        "label": "S3 input products",
+                        "inputBinding": {
+                            "position": 1
+                        },
+                        "type": {
+                            "items": "File",
+                            "type": "array"
+                        }
+                    }
+                },
+                "outputs": {
+                    "mosaic": {
+                        "outputBinding": {
+                            "glob": "S3_*.tif"
+                        },
+                        "type": "File"
+                    },
+                    "quicklook": {
+                        "outputBinding": {
+                            "glob": "S3_*.png"
+                        },
+                        "type": "File"
+                    },
+                    "properties": {
+                        "outputBinding": {
+                            "glob": "S3_*.properties"
+                        },
+                        "type": "File"
+                    }
+                }
+            }
+        }
+    ]
+}

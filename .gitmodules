@@ -1,3 +1,6 @@
 [submodule "OGC/TB14"]
 	path = OGC/TB14
 	url = https://github.com/crim-ca/testbed14
+[submodule "tools/script-utils"]
+	path = tools/script-utils
+	url = https://github.com/fmigneault/script-utils

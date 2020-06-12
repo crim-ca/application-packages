@@ -1,0 +1,141 @@
+{
+    "processDescription": {
+        "processVersion": "0.3.3",
+        "process": {
+            "id": "TIE_crim_ml-segmentation-public",
+            "title": "OGC Testbed-16 Pixel-Wise Classifier (public references)",
+            "abstract": "Pixel-wise classification of recognized objects on a satellite image.",
+            "keywords": [
+                "thelper",
+                "inference",
+                "ogc",
+                "testbed-16",
+                "crim",
+                "machine learning",
+                "deep learning",
+                "neural network",
+                "object classification",
+                "satellite imagery"
+            ],
+            "metadata": [
+                {
+                    "type": "provider-name",
+                    "title": "Provider Name",
+                    "role": "http://www.opengis.net/eoc/applicationContext/providerMetadata",
+                    "value": "Computer Research Institute of Montreal (CRIM)",
+                    "lang": "en-CA"
+                },
+                {
+                    "type": "provider-name",
+                    "title": "Fournisseur",
+                    "role": "http://www.opengis.net/eoc/applicationContext/providerMetadata",
+                    "value": "Centre de Recherche Informatique de Montr\u00e9al (CRIM)",
+                    "lang": "fr-CA"
+                },
+                {
+                    "rel": "provider-site-en",
+                    "type": "provider-site",
+                    "title": "Provider Site",
+                    "role": "http://www.opengis.net/eoc/applicationContext/providerMetadata",
+                    "href": "https://www.crim.ca/en",
+                    "hreflang": "en-CA"
+                },
+                {
+                    "rel": "provider-site-fr",
+                    "type": "provider-site",
+                    "title": "Page du fournisseur",
+                    "role": "http://www.opengis.net/eoc/applicationContext/providerMetadata",
+                    "href": "https://www.crim.ca/fr",
+                    "hreflang": "fr-CA"
+                }
+            ],
+            "inputs": [
+                {
+                    "id": "raster_file",
+                    "title": "Raster file",
+                    "abstract": "Input raster onto which to run object classification.",
+                    "formats": [
+                        {
+                            "mimeType": "application/zip",
+                            "default": true
+                        }
+                    ],
+                    "minOccurs": 1,
+                    "maxOccurs": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "id": "classification",
+                    "title": "Inference classification results.",
+                    "abstract": "Pixel-wise classification results obtained from inference of the model.\nEach pixel value represents the classified class.\n",
+                    "formats": [
+                        {
+                            "mimeType": "application/geo+tiff",
+                            "default": true
+                        }
+                    ]
+                },
+                {
+                    "id": "probabilities",
+                    "title": "Inference classification probabilities",
+                    "abstract": "Pixel-wise probability estimation of the produced classification results,\nfor each corresponding class. Each band index corresponds to the probabilities\nof the class indices.\n",
+                    "formats": [
+                        {
+                            "mimeType": "application/geo+tiff",
+                            "default": true
+                        }
+                    ]
+                },
+                {
+                    "id": "labels",
+                    "title": "Class label mapping.",
+                    "abstract": "Mapping of class names to indices matching the classification results and the probability estimation bands.\n",
+                    "formats": [
+                        {
+                            "mimeType": "application/json",
+                            "default": true
+                        }
+                    ]
+                },
+                {
+                    "id": "config",
+                    "title": "Inference configuration.",
+                    "abstract": "Extended configuration definition that got used to execute the inference operation.",
+                    "formats": [
+                        {
+                            "mimeType": "application/json",
+                            "default": true
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "jobControlOptions": [
+        "async-execute",
+        "gpu-execute"
+    ],
+    "outputTransmission": [
+        "reference"
+    ],
+    "additionalParameters": [
+        {
+            "role": "http://www.opengis.net/eoc/applicationContext/processMetadata",
+            "parameters": [
+                {
+                    "name": "ImageReference",
+                    "values": [
+                        "docker-registry.crim.ca/ogc-public/ogc-thelper-tb16:0.3.3"
+                    ]
+                }
+            ]
+        }
+    ],
+    "deploymentProfileName": "http://www.opengis.net/profiles/eoc/dockerizedApplication",
+    "executionUnit": [
+        {
+            "href": "https://raw.githubusercontent.com/crim-ca/application-packages/master/application-packages/OGC/TB16/application-packages/CRIM-ml-segmentation/package.cwl"
+        }
+    ]
+}

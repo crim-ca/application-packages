@@ -1,0 +1,48 @@
+{
+    "mode": "async",
+    "response": "document",
+    "inputs": [
+        {
+            "id": "raster_file",
+            "href": "https://ogc-ades.crim.ca:/wps-outputs/ogc-tb16/S2A_MSIL1C_20170608T161031_N0205_R097_T18TVR_20170608T161030.SAFE.zip"
+        },
+        {
+            "id": "raster_bands",
+            "data": 2
+        },
+        {
+            "id": "raster_bands",
+            "data": 3
+        },
+        {
+            "id": "raster_bands",
+            "data": 4
+        },
+        {
+            "id": "batch_size",
+            "data": 1000
+        },
+        {
+            "id": "device",
+            "data": "cpu"
+        }
+    ],
+    "outputs": [
+        {
+            "id": "classification",
+            "transmissionMode": "reference"
+        },
+        {
+            "id": "probabilities",
+            "transmissionMode": "reference"
+        },
+        {
+            "id": "labels",
+            "transmissionMode": "reference"
+        },
+        {
+            "id": "config",
+            "transmissionMode": "reference"
+        }
+    ]
+}

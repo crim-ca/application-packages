@@ -1,0 +1,16 @@
+# inputs
+inputlist:
+  - class: File
+    path: /tmp/ogc-esa-mosaic/S3_SL_2_LST_1.zip
+  - class: File
+    path: /tmp/ogc-esa-mosaic/S3_SL_2_LST_2.zip
+# outputs
+mosaic:
+  class: File
+  path: /tmp/ogc-esa-mosaic/S3_SL_2_LST.tif
+quicklook:
+  class: File
+  path: /tmp/ogc-esa-mosaic/S3_SL_2_LST.png
+properties:
+  class: File
+  path: /tmp/ogc-esa-mosaic/output/S3_SL_2_LST.properties
