@@ -2,8 +2,8 @@
     "processDescription": {
         "processVersion": "0.3.3",
         "process": {
-            "id": "TIE_crim_ml-segmentation-public",
-            "title": "OGC Testbed-16 Pixel-Wise Classifier (public references)",
+            "id": "TIE_crim_ml-segmentation",
+            "title": "OGC Testbed-16 Pixel-Wise Classifier",
             "abstract": "Pixel-wise classification of recognized objects on a satellite image.",
             "keywords": [
                 "thelper",
@@ -29,7 +29,7 @@
                     "type": "provider-name",
                     "title": "Fournisseur",
                     "role": "http://www.opengis.net/eoc/applicationContext/providerMetadata",
-                    "value": "Centre de Recherche Informatique de Montr\u00e9al (CRIM)",
+                    "value": "Centre de Recherche Informatique de Montréal (CRIM)",
                     "lang": "fr-CA"
                 },
                 {
@@ -68,7 +68,7 @@
                 {
                     "id": "classification",
                     "title": "Inference classification results.",
-                    "abstract": "Pixel-wise classification results obtained from inference of the model.\nEach pixel value represents the classified class.\n",
+                    "abstract": "Pixel-wise classification results obtained from inference of the model. Each pixel value represents the classified class.",
                     "formats": [
                         {
                             "mimeType": "application/geo+tiff",
@@ -79,7 +79,7 @@
                 {
                     "id": "probabilities",
                     "title": "Inference classification probabilities",
-                    "abstract": "Pixel-wise probability estimation of the produced classification results,\nfor each corresponding class. Each band index corresponds to the probabilities\nof the class indices.\n",
+                    "abstract": "Pixel-wise probability estimation of the produced classification results, for each corresponding class. Each band index corresponds to the probabilities of the class indices.",
                     "formats": [
                         {
                             "mimeType": "application/geo+tiff",
@@ -90,7 +90,7 @@
                 {
                     "id": "labels",
                     "title": "Class label mapping.",
-                    "abstract": "Mapping of class names to indices matching the classification results and the probability estimation bands.\n",
+                    "abstract": "Mapping of class names to indices matching the classification results and the probability estimation bands.",
                     "formats": [
                         {
                             "mimeType": "application/json",
@@ -110,32 +110,18 @@
                     ]
                 }
             ]
-        }
+        },
+        "jobControlOptions": [
+            "async-execute"
+        ],
+        "outputTransmission": [
+            "reference"
+        ]
     },
-    "jobControlOptions": [
-        "async-execute",
-        "gpu-execute"
-    ],
-    "outputTransmission": [
-        "reference"
-    ],
-    "additionalParameters": [
-        {
-            "role": "http://www.opengis.net/eoc/applicationContext/processMetadata",
-            "parameters": [
-                {
-                    "name": "ImageReference",
-                    "values": [
-                        "docker-registry.crim.ca/ogc-public/ogc-thelper-tb16:0.3.3"
-                    ]
-                }
-            ]
-        }
-    ],
     "deploymentProfileName": "http://www.opengis.net/profiles/eoc/dockerizedApplication",
     "executionUnit": [
         {
-            "href": "https://raw.githubusercontent.com/crim-ca/application-packages/master/application-packages/OGC/TB16/application-packages/CRIM-ml-segmentation/package.cwl"
+            "href": "https://raw.githubusercontent.com/crim-ca/application-packages/master/OGC/TB16/application-packages/CRIM-ml-segmentation/package.cwl"
         }
     ]
 }
