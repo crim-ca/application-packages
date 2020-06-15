@@ -2,7 +2,7 @@
     "processDescription": {
         "processVersion": "0.3.3",
         "process": {
-            "id": "TIE_crim_ml-segmentation",
+            "id": "TIE_crim_ml-segmentation-public",
             "title": "OGC Testbed-16 Pixel-Wise Classifier",
             "abstract": "Pixel-wise classification of recognized objects on a satellite image.",
             "keywords": [
@@ -60,8 +60,8 @@
                             "default": true
                         }
                     ],
-                    "minOccurs": 1,
-                    "maxOccurs": 1
+                    "minOccurs": "1",
+                    "maxOccurs": "1"
                 }
             ],
             "outputs": [
