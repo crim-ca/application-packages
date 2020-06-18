@@ -1,0 +1,32 @@
+{
+  "mode": "async",
+  "response": "document",
+  "inputs": [
+    {
+      "id": "files",
+      "href": "https://ogc-ades.crim.ca/wps-outputs/ogc-tb16/Deimos.tif"
+    },
+    {
+      "id": "files",
+      "href": "https://ogc-ades.crim.ca/wps-outputs/ogc-tb16/PROBAV_S1_TOA_X10Y02_20150617_1KM_V101.tif"
+    },
+    {
+      "id": "files",
+      "href": "https://ogc-ades.crim.ca/wps-outputs/ogc-tb16/S1A_IW_GRDH_1SDV_20170507T224357_20170507T224422_016482_01B4FD_682E.SAFE.zip"
+    },
+    {
+      "id": "files",
+      "href": "https://ogc-ades.crim.ca/wps-outputs/ogc-tb16/S1A_IW_GRDH_1SDV_20170519T224357_20170519T224422_016657_01BA57_B4F7.SAFE.zip"
+    },
+    {
+      "id": "files",
+      "href": "https://ogc-ades.crim.ca/wps-outputs/ogc-tb16/S2A_MSIL1C_20191212T155641_N0208_R054_T18TXR_20191212T191005.zip"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "output",
+      "transmissionMode": "reference"
+    }
+  ]
+}

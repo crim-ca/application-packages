@@ -1,0 +1,101 @@
+{
+    "processDescription": {
+        "processVersion": "0.3.0",
+        "process": {
+            "id": "ogc-tb16-stacker",
+            "title": "ogc-tb16-stacker",
+            "abstract": "In this step several files (2 or more) of satellite images from different sources (radar, optical, or infra-red) are gathered in a single Stack file. This Stack file contains a copy of the metadata and bands of the source files. Among these bands, one is chosen as reference (Master). This band is used as a reference for projection and resampling operations. All other bands are projected and re-sampled on the same geographic coordinate system and spatial resolution of the reference band. The intersection between the different bands is determined, and the bands are then cut according to this intersection.\n\nThe main caveat of the plugin is with multi-resolution products as Master. At the moment the geo-information of the first band of the first product is used. In case of products with multiple resolutions (e.g.: Sentinel-2 with 10m, 20m, 60m), you cannot directly use the 10m resolution because 10m bands are by default not the first band within that product.",
+            "keywords": [
+                "crim",
+                "ogc",
+                "testbed-16",
+                "multi-sensor",
+                "multi-resolution",
+                "re-projection",
+                "intersection",
+                "satellite imagery",
+                "sentinel-1",
+                "sentinel-2",
+                "sentinel-3",
+                "radarsat-1",
+                "radarsat-2",
+                "deimos",
+                "proba-v"
+            ],
+            "metadata": [
+                {
+                    "type": "provider-name",
+                    "title": "Provider Name",
+                    "role": "http://www.opengis.net/eoc/applicationContext/providerMetadata",
+                    "value": "Computer Research Institute of Montreal (CRIM)",
+                    "lang": "en-CA"
+                },
+                {
+                    "type": "provider-name",
+                    "title": "Fournisseur",
+                    "role": "http://www.opengis.net/eoc/applicationContext/providerMetadata",
+                    "value": "Centre de Recherche Informatique de Montréal (CRIM)",
+                    "lang": "fr-CA"
+                },
+                {
+                    "rel": "provider-site-en",
+                    "type": "provider-site",
+                    "title": "Provider Site",
+                    "role": "http://www.opengis.net/eoc/applicationContext/providerMetadata",
+                    "href": "https://www.crim.ca/en",
+                    "hreflang": "en-CA"
+                },
+                {
+                    "rel": "provider-site-fr",
+                    "type": "provider-site",
+                    "title": "Page du fournisseur",
+                    "role": "http://www.opengis.net/eoc/applicationContext/providerMetadata",
+                    "href": "https://www.crim.ca/fr",
+                    "hreflang": "fr-CA"
+                }
+            ],
+            "inputs": [
+                {
+                    "id": "files",
+                    "title": "Input Image",
+                    "formats": [
+                        {
+                            "mimeType": "application/zip",
+                            "default": false
+                        },
+                        {
+                            "mimeType": "image/tiff",
+                            "default": false
+                        }
+                    ],
+                    "minOccurs": "2",
+                    "maxOccurs": "unbounded"
+                }
+            ],
+            "outputs": [
+                {
+                    "id": "output",
+                    "title": "Stacked Image",
+                    "formats": [
+                        {
+                            "mimeType": "image/tiff",
+                            "default": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "jobControlOptions": [
+            "async-execute"
+        ],
+        "outputTransmission": [
+            "reference"
+        ]
+    },
+    "executionUnit": [
+        {
+            "href": "https://raw.githubusercontent.com/crim-ca/application-packages/master/OGC/TB16/application-packages/CRIM-stacker/package.cwl"
+        }
+    ],
+    "deploymentProfileName": "http://www.opengis.net/profiles/eoc/dockerizedApplication"
+}
