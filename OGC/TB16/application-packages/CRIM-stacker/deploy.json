@@ -2,8 +2,8 @@
     "processDescription": {
         "processVersion": "0.3.0",
         "process": {
-            "id": "stacker-v2",
-            "title": "stacker-v2",
+            "id": "ogc-tb16-stacker",
+            "title": "ogc-tb16-stacker",
             "abstract": "In this step several files (2 or more) of satellite images from different sources (radar, optical, or infra-red) are gathered in a single Stack file. This Stack file contains a copy of the metadata and bands of the source files. Among these bands, one is chosen as reference (Master). This band is used as a reference for projection and resampling operations. All other bands are projected and re-sampled on the same geographic coordinate system and spatial resolution of the reference band. The intersection between the different bands is determined, and the bands are then cut according to this intersection.\n\nThe main caveat of the plugin is with multi-resolution products as Master. At the moment the geo-information of the first band of the first product is used. In case of products with multiple resolutions (e.g.: Sentinel-2 with 10m, 20m, 60m), you cannot directly use the 10m resolution because 10m bands are by default not the first band within that product.",
             "keywords": [
                 "crim",
