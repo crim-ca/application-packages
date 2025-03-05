@@ -1,6 +1,6 @@
 {
     "processDescription": {
-        "processVersion": "0.3.0",
+        "processVersion": "0.3.1",
         "process": {
             "id": "ogc-tb16-stacker",
             "title": "ogc-tb16-stacker",
@@ -24,14 +24,14 @@
             ],
             "metadata": [
                 {
-                    "type": "provider-name",
+                    "type": "text/plain",
                     "title": "Provider Name",
                     "role": "http://www.opengis.net/eoc/applicationContext/providerMetadata",
                     "value": "Computer Research Institute of Montreal (CRIM)",
                     "lang": "en-CA"
                 },
                 {
-                    "type": "provider-name",
+                    "type": "text/plain",
                     "title": "Fournisseur",
                     "role": "http://www.opengis.net/eoc/applicationContext/providerMetadata",
                     "value": "Centre de Recherche Informatique de Montréal (CRIM)",
@@ -39,7 +39,7 @@
                 },
                 {
                     "rel": "provider-site-en",
-                    "type": "provider-site",
+                    "type": "text/html",
                     "title": "Provider Site",
                     "role": "http://www.opengis.net/eoc/applicationContext/providerMetadata",
                     "href": "https://www.crim.ca/en",
@@ -47,7 +47,7 @@
                 },
                 {
                     "rel": "provider-site-fr",
-                    "type": "provider-site",
+                    "type": "text/html",
                     "title": "Page du fournisseur",
                     "role": "http://www.opengis.net/eoc/applicationContext/providerMetadata",
                     "href": "https://www.crim.ca/fr",
