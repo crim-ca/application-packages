@@ -1,9 +1,14 @@
-[submodule "OGC/TB14"]
-	path = OGC/TB14
-	url = https://github.com/crim-ca/testbed14
-	branch = master
 [submodule "utils"]
 	path = utils
 	url = https://github.com/fmigneault/script-utils
 	branch = 1.1.0
-
+[submodule "OGC/OSPD-Phase1"]
+	path = OGC/OSPD-Phase1
+	url = https://github.com/crim-ca/ogc-ospd-phase1
+[submodule "OGC/TB14"]
+	path = OGC/TB14
+	url = https://github.com/crim-ca/testbed14
+	branch = master
+[submodule "OGC/TB20"]
+	path = OGC/TB20
+	url = https://github.com/crim-ca/ogc-tb20
