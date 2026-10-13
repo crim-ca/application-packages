@@ -1,0 +1,16 @@
+{
+  "inputs": {
+    "input": {
+      "href": "https://example.com/data"
+    },
+    "spectral": {
+      "href": "https://example.com/data"
+    },
+    "output_name": "value"
+  },
+  "outputs": {
+    "output": {
+      "transmissionMode": "reference"
+    }
+  }
+}

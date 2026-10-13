@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_specific_contributing_area_sca_file": {
+      "href": "https://example.com/data"
+    },
+    "input_slope_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value"
+  },
+  "outputs": {}
+}

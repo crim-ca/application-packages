@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "slope_threshold_degrees": "value",
+    "profile_curvature_threshold": "value",
+    "plan_curvature_threshold": "value"
+  },
+  "outputs": {}
+}

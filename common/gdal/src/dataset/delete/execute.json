@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "filename": "value"
+  },
+  "outputs": {
+    "output": {
+      "transmissionMode": "reference"
+    }
+  }
+}

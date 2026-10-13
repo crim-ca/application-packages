@@ -1,0 +1,19 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "input_vector_transportation_line_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "search_distance_in_map_units": "value",
+    "minimum_road_width_in_map_units": "value",
+    "typical_embankment_width_in_map_units": "value",
+    "typical_embankment_max_height_in_map_units": "value",
+    "embankment_max_width_in_map_units": "value",
+    "max_upwards_increment_in_elevation_units": "value",
+    "spillout_slope_in_map_units": "value"
+  },
+  "outputs": {}
+}

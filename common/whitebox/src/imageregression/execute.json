@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "independent_variable_x": {
+      "href": "https://example.com/data"
+    },
+    "dependent_variable_y": {
+      "href": "https://example.com/data"
+    },
+    "output_summary_report_file": "value",
+    "num_samples_for_scattergram": "value"
+  },
+  "outputs": {}
+}

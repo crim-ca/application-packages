@@ -1,0 +1,7 @@
+{
+  "inputs": {
+    "number_of_points": "value",
+    "weight": "value"
+  },
+  "outputs": {}
+}

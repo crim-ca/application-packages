@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "output_roughness_magnitude_file": "value",
+    "output_roughness_scale_file": "value",
+    "maximum_search_neighbourhood_radius_grid_cells": "value"
+  },
+  "outputs": {}
+}

@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "input_file": {
+      "href": "https://example.com/data"
+    },
+    "input_base_file": {
+      "href": "https://example.com/data"
+    }
+  },
+  "outputs": {}
+}

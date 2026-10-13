@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "input_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "number_of_tones": "value"
+  },
+  "outputs": {}
+}

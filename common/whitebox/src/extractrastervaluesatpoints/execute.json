@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "input_files": {
+      "href": "https://example.com/data"
+    },
+    "input_points_file": {
+      "href": "https://example.com/data"
+    }
+  },
+  "outputs": {}
+}

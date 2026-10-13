@@ -1,0 +1,9 @@
+{
+  "inputs": {
+    "input_files": {
+      "href": "https://example.com/data"
+    },
+    "output_raster_file": "value"
+  },
+  "outputs": {}
+}

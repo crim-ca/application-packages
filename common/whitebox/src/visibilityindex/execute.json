@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "station_height_in_z_units": "value",
+    "resolution_factor": "value"
+  },
+  "outputs": {}
+}

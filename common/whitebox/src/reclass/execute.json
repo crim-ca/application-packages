@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "input_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "reclass_values_new_value_from_value_to_less_than": "value"
+  },
+  "outputs": {}
+}

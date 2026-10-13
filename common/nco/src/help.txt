@@ -1,0 +1,1094 @@
+@@@ ncatted
+ncatted Command line options cheatsheet (full details at http://nco.sf.net/nco.html#ncatted):
+ncatted [-a ...] [--bfr byt] [-D dbg_lvl] [--glb ...] [-H] [-h] [--hdr_pad nbr] [--hpss] [-l path] [-O] [-o out.nc] [-p path] [-R] [-r] [-t] [--uio] in.nc [[out.nc]]
+
+-a, --attribute att_nm,var_nm,mode,att_typ,att_val Attribute specification:
+			mode = a,c,d,m,n,o,p (append, create, delete, modify, nappend, overwrite, prepend)
+			att_typ = f,d,l/i,s,c,b (float, double, long/int, short, char, byte)
+			netCDF4 types = ub,us,u,ll,ull,sng (unsigned byte, u. short, u. int, long long int, u. long long int, string)
+    --bfr_sz, buffer_size sz	Buffer size to open files with
+-D, --dbg_lvl, debug-level lvl	Debug-level is lvl
+    --glb_att_add nm=val	Global attribute to add
+-H, --fl_lst_in, file_list	Do not create "input_file_list" global attribute that stores stdin filenames
+-h, --hst, history	Do not append to "history" global attribute
+    --hdr_pad, header_pad	Pad output header with nbr bytes
+    --hpss, hpss_try	Search for unfound files on HPSS with 'hsi get ...'
+-l, --lcl, local path	Local storage path for remotely-retrieved files
+-O, --ovr, overwrite	Overwrite existing output file, if any
+-o, --output, fl_out 	Output file name (or use last positional argument)
+-p, --pth, path path	Path prefix for all input filenames
+-R, --rtn, retain	Retain remotely-retrieved files after use
+-r, --revision, version	Compile-time configuration and/or program version
+-t, --typ_mch, type_match 	Type-match attribute edits
+    --uio, share_all	Unbuffered I/O to read/write netCDF3 file(s)
+in.nc			Input file name (or use stdin)
+[out.nc]		Output file name (or use -o option)
+
+Eight ways to find more help on ncatted and/or NCO:
+1. Examples:     http://nco.sf.net/nco.html#xmp_ncatted
+2. Ref. manual:  http://nco.sf.net/nco.html#ncatted
+3. User Guide:   http://nco.sf.net#RTFM
+4. Manual pages: 'man ncatted', 'man nco', ...
+5. Homepage:     http://nco.sf.net
+6. Code:         http://github.com/nco/nco
+7. Help Forum:   http://sf.net/p/nco/discussion/9830
+8. Publications: http://nco.sf.net#pub
+Post questions, suggestions, patches at http://sf.net/projects/nco
+@@@ ncbo
+ncbo Command line options cheatsheet (full details at http://nco.sf.net/nco.html#ncbo):
+ncbo [-3] [-4] [-5] [-6] [-7] [-A] [--bfr byt] [-C] [-c] [--cmp sng] [--cnk_byt byt] [--cnk_csh byt] [--cnk_dmn nm,lmn] [--cnk_map map] [--cnk_min byt] [--cnk_plc plc] [--cnk_scl sz] [-D dbg_lvl] [-d ...] [-F] [--fl_fmt fmt] [-G grp:lvl] [-g ...] [--glb ...] [-H] [-h] [--hdf] [--hdr_pad nbr] [--hpss] [-L lvl] [-l path] [--msa] [-n ...] [--no_cll_msr] [--no_frm_trm] [--no_tmp_fl] [-O] [-o out.nc] [-p path] [-R] [-r] [--ram_all] [-t thr_nbr] [--uio] [--unn] [-v ...] [-X box] [-x] [-y op_typ] in1.nc in2.nc [out.nc]
+
+-3, --3, classic	Output file in netCDF3 CLASSIC (32-bit offset) storage format
+-4, --4, netcdf4	Output file in netCDF4 (HDF5) storage format
+-5, --5, 64bit_data	Output file in netCDF3 64-bit data (i.e., CDF5, PnetCDF) storage format
+-6, --6, 64, 64bit_offset	Output file in netCDF3 64-bit offset storage format
+-7, --7, netcdf4_classic	Output file in netCDF4 CLASSIC format (3+4=7)
+-A, --apn, append	Append to existing output file, if any
+    --bfr_sz, buffer_size sz	Buffer size to open files with
+-C, --no_crd, xcl_ass_var	Exclude coordinates, CF-associated variables (ancillary, bounds, ...)
+-c, --crd, xtr_ass_var	Extract coordinates, CF-associated variables (ancillary, bounds, ...)
+    --cmp cmp_sng	Compression string (e.g., 'gbr,3|zstd,1')
+    --cnk_byt, chunk_byte sz_byt	Chunksize in bytes
+    --cnk_csh, chunk_cache sz_byt	Chunk cache size in bytes
+    --cnk_dmn, chunk_dimension nm,sz_lmn	Chunksize of dimension nm (in elements not bytes)
+    --cnk_map, chunk_map map	Chunking map [dmn,lfp,nc4,nco,prd,rd1,rew,scl,xpl,xst]
+    --cnk_min, chunk_min sz_byt	Minimum size [B] of variable to chunk
+    --cnk_plc, chunk_policy plc	Chunking policy [all,g2d,g3d,xpl,xst,uck]
+    --cnk_scl, chunk_scalar sz_lmn	Chunksize scalar (in elements not bytes) (for all dimensions)
+-D, --dbg_lvl, debug-level lvl	Debug-level is lvl
+-d, --dmn, dimension dim,[min][,[max]][,[stride]] Dimension's limits and stride in hyperslab
+-F, --ftn, fortran	Fortran indexing conventions (1-based) for I/O
+    --fl_fmt, file_format fmt	File format for output [classic,64bit_offset,64bit_data,netcdf4,netcdf4_classic]
+-G, --gpe [grp_nm][:[lvl]]	Group Path Editing path, levels to replace
+-g, --grp grp1[,grp2[...]] Group(s) to process (regular expressions supported)
+    --glb_att_add nm=val	Global attribute to add
+-H, --fl_lst_in, file_list	Do not create "input_file_list" global attribute that stores stdin filenames
+-h, --hst, history	Do not append to "history" global attribute
+    --hdf_upk, hdf_unpack	HDF unpack convention: unpacked=scale_factor*(packed-add_offset)
+    --hdr_pad, header_pad	Pad output header with nbr bytes
+    --hpss, hpss_try	Search for unfound files on HPSS with 'hsi get ...'
+-L, --dfl_lvl, deflate lvl	Lempel-Ziv deflation/compression (lvl=0..9) for netCDF4 output
+-l, --lcl, local path	Local storage path for remotely-retrieved files
+    --msa, msa_usr_rdr	Multi-Slab-Algorithm output in User-Order
+-n, --nintap nbr_files,[nbr_numeric_chars[,increment]] NINTAP-style abbreviation of file list
+    --no_cll_msr	Do not extract cell_measures variables
+    --no_frm_trm	Do not extract formula_terms variables
+    --no_tmp_fl		Do not write output to temporary file
+-O, --ovr, overwrite	Overwrite existing output file, if any
+-o, --output, fl_out 	Output file name (or use last positional argument)
+-p, --pth, path path	Path prefix for all input filenames
+-R, --rtn, retain	Retain remotely-retrieved files after use
+-r, --revision, version	Compile-time configuration and/or program version
+    --ram_all, diskless_all	Open netCDF3 files and create output files in RAM
+-t, --thr_nbr, threads, omp_num_threads thr_nbr	Thread number for OpenMP
+    --uio, share_all	Unbuffered I/O to read/write netCDF3 file(s)
+    --unn, union	Select union of specified groups and variables
+-v, --variable var1[,var2[...]] Variable(s) to process (regular expressions supported)
+-X, --auxiliary lon_min,lon_max,lat_min,lat_max	Auxiliary coordinate bounding box
+-x, --xcl, exclude	Extract all variables EXCEPT those specified with -v
+-y, --op_typ, operation op_typ	Binary arithmetic operation: add,sbt,mlt,dvd (+,-,*,/)
+in1.nc in2.nc		Input file names (or use stdin)
+[out.nc]		Output file name (or use -o option)
+
+Eight ways to find more help on ncbo and/or NCO:
+1. Examples:     http://nco.sf.net/nco.html#xmp_ncbo
+2. Ref. manual:  http://nco.sf.net/nco.html#ncbo
+3. User Guide:   http://nco.sf.net#RTFM
+4. Manual pages: 'man ncbo', 'man nco', ...
+5. Homepage:     http://nco.sf.net
+6. Code:         http://github.com/nco/nco
+7. Help Forum:   http://sf.net/p/nco/discussion/9830
+8. Publications: http://nco.sf.net#pub
+Post questions, suggestions, patches at http://sf.net/projects/nco
+@@@ ncclimo
+
+ERROR: Unrecognized option [1m--help[0m
+[07mBasic usage:
+[0m[1mncclimo -c caseid -s yr_srt -e yr_end -i drc_in -o drc_out -r rgr_map[0m # Generate & regrid climatology
+[1mncclimo -v var_lst -s yr_srt -e yr_end -o drc_out -r rgr_map in1.nc in2.nc ... inN.nc[0m # Split, reshape, & regrid timeseries
+[1mncclimo --case=caseid --start=yr_srt --end=yr_end --input=drc_in --output=drc_out --map=rgr_map[0m # Long options
+
+Command-line options [long-option synonyms in \e[3mitalics\e[0m]:
+\e[07m-3\e[0m          Output file format CLASSIC (netCDF3 classic CDF1) [\e[3mfl_fmt, file_format=classic\e[0m]
+\e[07m-4\e[0m          Output file format NETCDF4 (netCDF4 extended HDF5) [\e[3mfl_fmt, file_format=netcdf4\e[0m]
+\e[07m-5\e[0m          Output file format 64BIT_DATA (netCDF3/PnetCDF CDF5) [\e[3mfl_fmt, file_format=64bit_data\e[0m]
+\e[07m-6\e[0m          Output file format 64BIT_OFFSET (netCDF3 64bit CDF2) [\e[3mfl_fmt, file_format=64bit_offset\e[0m]
+\e[07m-7\e[0m          Output file format NETCDF4_CLASSIC (netCDF4 classic HDF5) [\e[3mfl_fmt, file_format=netcdf4_classic\e[0m]
+\e[07m-a\e[0m \e[1mwnt_md\e[0m   Winter mode (default \e[1mjfd\e[0m) [\e[3mwnt_md, dcm_md, dec_md, december_mode, winter_mode\e[0m] [\e[3mscd,djf | sdd,jfd\e[0m]
+ \e[1m--amwg_lnk\e[0m Link E3SM-climo to AMWG-climo filenames [\e[3mamwg_links, AMWG_link\e[0m]
+ \e[1m--area_nm\e[0m  Area-variable name (default \e[1marea\e[0m) [\e[3marea_nm, area_name, area\e[0m]
+\e[07m-C\e[0m \e[1mclm_md\e[0m   Climatology mode (default \e[1mmth\e[0m) [\e[3mclm_md, climatology_mode, climo_mode\e[0m] [\e[3mann | dly | hfc | hfs | mth\e[0m]
+\e[07m-c\e[0m \e[1mcaseid\e[0m   Case ID string to generate input names or to name HFC output (default \e[1m\e[0m) [\e[3mcaseid, case_id, case\e[0m]
+ \e[1m--cmp_sng\e[0m  Compression string (empty means none) (default \e[1m\e[0m) [\e[3mcmp, cmp_sng, compress, compression, cpr, cdc, codec \e[0m]
+\e[07m-d\e[0m \e[1mdbg_lvl\e[0m  Debug level (default \e[1m0\e[0m) [\e[3mdbg_lvl, dbg, debug, debug_level\e[0m]
+ \e[1m--d2f\e[0m      Convert double-precision fields to single-precision (default \e[1mNo\e[0m) [\e[3md2f | d2s | dbl_flt | dbl_sgl | double_float\e[0m]
+ \e[1m--dpf\e[0m      Days-per-file in every high-frequency splitter input file [\e[3mdpf, days_per_file\e[0m]
+ \e[1m--dpt_fl\e[0m   Depth file with refBottomDepth for MPAS ocean (empty means none) (default \e[1m\e[0m) [\e[3mdpt_fl, mpas_fl, mpas_depth, depth_file\e[0m]
+\e[07m-E\e[0m \e[1myr_end\e[0m   End year previous climo (empty means none) (default \e[1m\e[0m) [\e[3myr_end_prv, prv_yr_end, previous_end\e[0m]
+\e[07m-e\e[0m \e[1myr_end\e[0m   End year (default \e[1m2\e[0m) [\e[3myr_end, end_yr, year_end, end_year, end\e[0m]
+\e[07m-f\e[0m \e[1mfml_nm\e[0m   Family name (nickname) (empty means none) (default \e[1m\e[0m) [\e[3mfml_nm, fml, family_name\e[0m]
+ \e[1m--fl_fmt\e[0m   File format (empty is inherited from input) (default \e[1m\e[0m) [\e[3mfl_fmt, fmt_out, file_format, format_out\e[0m]
+\e[07m-h\e[0m \e[1mhst_nm\e[0m   History volume name (default \e[1mh0\e[0m) [\e[3mhst_nm, history_name, history\e[0m]
+ \e[1m--hrz_dmn\e[0m  Horizontal dimension name(s) (default \e[1mncol\e[0m) [\e[3mhrz_dmn, dmn_hrz, hrz_dmn_nm, horizontal_dimension\e[0m]
+\e[07m-i\e[0m \e[1mdrc_in\e[0m   Input directory (default \e[1m\e[0m) [\e[3mdrc_in, in_drc, dir_in, in_dir, input\e[0m]
+\e[07m-j\e[0m \e[1mjob_nbr\e[0m  Job simultaneity for parallelism (default \e[1m12\e[0m) [\e[3mjob_nbr, job_number, jobs\e[0m]
+\e[07m-L\e[0m \e[1mdfl_lvl\e[0m  Deflate level (empty is none) (default \e[1m\e[0m) [\e[3mdfl_lvl, dfl, deflate\e[0m]
+\e[07m-l\e[0m \e[1mlnk_flg\e[0m  Link E3SM-climo to AMWG-climo filenames (default \e[1mNo\e[0m) [\e[3mlnk_flg, link_flag\e[0m]
+\e[07m-m\e[0m \e[1mmdl_nm\e[0m   Model name string in output filenames (default \e[1meam\e[0m) [\e[3mmdl_nm, mdl, model_name, model\e[0m]
+ \e[1m--mth_end\e[0m  End month (default \e[1m12\e[0m) [\e[3mmth_end, end_mth, month_end, end_month\e[0m]
+ \e[1m--mth_srt\e[0m  Start month (default \e[1m1\e[0m) [\e[3mmth_srt, start_mth, month_start, start_month\e[0m]
+\e[07m-n\e[0m \e[1mnco_opt\e[0m  NCO options (empty means none) (default \e[1m--no_tmp_fl\e[0m) [\e[3mnco_opt, nco, nco_options\e[0m]
+ \e[1m--no_lnk\e[0m   Do not link E3SM-climo to AMWG-climo filenames [\e[3mno_links, no_amwg_links, no_amwg, no_AMWG_link\e[0m]
+ \e[1m--no_cll_msr\e[0m  Omit cell_measures variables (e.g., 'area') [\e[3mno_area, no_cll_msr, no_cell_measures\e[0m]
+ \e[1m--no_frm_trm\e[0m  Omit formula_terms variables (e.g., 'hyba', 'PS') [\e[3mno_frm_trm, no_frm, no_formula_terms\e[0m]
+ \e[1m--no_ntv_tms\e[0m  Omit native-grid timeseries (splitter only) [\e[3mno_ntv_tms, no_ntv, no_native\e[0m]
+ \e[1m--no_stg_grd\e[0m  Omit staggered grid variables ('slat, slon, w_stag') [\e[3mno_stg_grd, no_stg, no_stagger, no_staggered_grid\e[0m]
+ \e[1m--no_stdin\e[0m Do not check stdin for input file list [\e[3mno_stdin, no_inp_std, no_redirect, no_standard_input\e[0m]
+\e[07m-O\e[0m \e[1mdrc_rgr\e[0m  Regridded directory (default \e[1m\e[0m) [\e[3mdrc_rgr, rgr_drc, dir_regrid, regrid\e[0m]
+\e[07m-o\e[0m \e[1mdrc_out\e[0m  Output directory (default \e[1m/\e[0m) [\e[3mdrc_out, out_drc, dir_out, out_dir, output\e[0m]
+\e[07m-P\e[0m \e[1mprc_typ\e[0m  Procedure type (empty means none) (default \e[1m\e[0m) [\e[3mprc_typ, procedure\e[0m]
+\e[07m-p\e[0m \e[1mpar_typ\e[0m  Parallelism type (default \e[1mbackground\e[0m) [\e[3mpar_typ, par_md, parallel_type, parallel_mode, parallel\e[0m] [\e[3mserial | background | mpi\e[0m]
+ \e[1m--ppc_prc\e[0m  Precision-preserving compression precision (empty means none) (default \e[1m\e[0m) [\e[3mppc, ppc_prc, precision, quantize\e[0m]
+\e[07m-R\e[0m \e[1mrgr_opt\e[0m  Regrid options (empty means none) (default \e[1m\e[0m) [\e[3mrgr_opt, regrid_options\e[0m]
+\e[07m-r\e[0m \e[1mrgr_map\e[0m  Regrid map-file (horizontal) (empty means none) (default \e[1m\e[0m) [\e[3mrgr_map, regrid_map, map, map_file, map_fl\e[0m]
+ \e[1m--rgn_avg\e[0m  Regional and global average timeseries (default \e[1mNo\e[0m) [\e[3mrgn_avg, glb_avg, hms_avg, regional_average\e[0m]
+\e[07m-S\e[0m \e[1myr_srt\e[0m   Start year previous climo (empty means none) (default \e[1m\e[0m) [\e[3myr_srt_prv, prv_yr_srt, previous_start\e[0m]
+\e[07m-s\e[0m \e[1myr_srt\e[0m   Start year (default \e[1m1\e[0m) [\e[3myr_srt, start_yr, year_start, start_year, start\e[0m]
+ \e[1m--seasons\e[0m  Seasons to output ('none' means none) (default \e[1mmam,jja,son,djf\e[0m, also available: jfm,amj,jas,ond,on,fm) [\e[3mcsn_lst, csn, seasons\e[0m]
+ \e[1m--sgs_frc\e[0m  Sub-grid fraction variable (empty means none) (default \e[1m\e[0m) [\e[3msgs_frc, ice_frc, lnd_frc, ocn_frc, subgrid_fraction\e[0m]
+ \e[1m--split\e[0m    Split input files into single-variable timeseries (default \e[1mNo\e[0m [\e[3msplitter, tms_flg, timeseries\e[0m]
+\e[07m-t\e[0m \e[1mthr_nbr\e[0m  Thread number for regridder (default \e[1m2\e[0m) [\e[3mthr_nbr, thr, thread_number, thread, threads\e[0m]
+ \e[1m--tpd_out\e[0m  Timesteps-per-day in output (default \e[1m1\e[0m) [\e[3mtpd_out, tpd, timesteps_per_day\e[0m]
+ \e[1m--uio\e[0m      Unbuffered I/O (NC_SHARE) for netCDF3 files [\e[3muio, unbuffered, share\e[0m]
+\e[07m-v\e[0m \e[1mvar_lst\e[0m  Variable list (empty means all) (default \e[1m\e[0m) [\e[3mvar_lst, variable_list, var, vars, variable, variables\e[0m]
+ \e[1m--var_xtr\e[0m  Extra variables for splitter timeseries (empty means none) (default \e[1m\e[0m) [\e[3mvar_xtr, var_extra, variables_extra, extra_variables\e[0m]
+ \e[1m--version\e[0m  Version and configuration information [\e[3mversion, vrs, config, configuration, cnf\e[0m]
+ \e[1m--vrt_out\e[0m   Vertical grid file for output (empty means none) (default \e[1m\e[0m) [\e[3mvrt_out, vrt_fl, vrt, vrt_crd, vrt_grd_out\e[0m]
+ \e[1m--vrt_xtr\e[0m  Vertical extrapolation type (empty means none) (default \e[1m\e[0m) [\e[3mvrt_xtr, xtr_mth, extrapolation_type, extrapolation_method\e[0m] (mss_val|nrs_ngh)
+\e[07m-X\e[0m \e[1mdrc_xtn\e[0m  Extended climo directory (default \e[1m\e[0m) [\e[3mdrc_xtn, xtn_drc, extended_dir, extended_climo, extended\e[0m]
+\e[07m-x\e[0m \e[1mdrc_prv\e[0m  Previous climo directory (default \e[1m\e[0m) [\e[3mdrc_prv, prv_drc, previous_dir, previous_climo, previous\e[0m]
+ \e[1m--xcl_var\e[0m  Exclude rather than extract var_lst [\e[3mxcl_var, xcl, exclude, exclude_variables\e[0m]
+\e[07m-Y\e[0m \e[1mrgr_xtn\e[0m  Regridded extended climo directory (default \e[1m\e[0m) [\e[3mdrc_rgr_xtn, drc_xtn_rgr, regridded_extended, extended_regridded\e[0m]
+\e[07m-y\e[0m \e[1mrgr_prv\e[0m  Regridded previous climo directory (default \e[1m\e[0m) [\e[3mdrc_rgr_prv, drc_prv_rgr, regridded_previous, previous_regridded\e[0m]
+ \e[1m--ypf_max\e[0m  Years-per-output-file maximum (default \e[1m50\e[0m) [\e[3mypf_max, ypf, years, years_per_file\e[0m]
+
+[07mExamples:[0m
+[1mncclimo -c 20180129.DECKv1b_piControl.ne30_oEC.edison -s 1 -e 2 -i /tmp/ne30/raw -o /tmp/ne30/clm -r ~zender/data/maps/map_ne30np4_to_fv129x256_aave.20150901.nc [0m# Generate EAM/CAM climo
+[1mncclimo -c control -m clm2 -s 1 -e 2 -i /tmp/ne30/raw -o /tmp/ne30/clm -r ~zender/data/maps/map_ne30np4_to_fv129x256_aave.20150901.nc [0m# Generate ELM/CLM climo
+[1mncclimo -P mpasseaice -s 1 -e 2 -i /tmp/mpas/raw -o /tmp/mpas/clm -r ~zender/data/maps/map_oEC60to30v3_to_cmip6_180x360_aave.20181001.nc [0m# Generate MPAS-Seaice climo
+[1mncclimo -P mpaso -p mpi -s 1 -e 5 -i /tmp/mpas/raw -o /tmp/mpas/clm -r ~zender/data/maps/map_oRRS18to6v3_to_cmip6_720x1440_nco.20200601.nc [0m# Generate MPAS-Ocean climo
+[1mcd output;ls *cam*19??-??*.nc | ncclimo -v FSNT,TREFHT -s 1900 -e 1999 -o /tmp/ne30/clm -r ~zender/data/maps/map_ne30np4_to_fv129x256_aave.20150901.nc [0m# Split climo
+[1mncclimo -c 20180129.DECKv1b_piControl.ne30_oEC.edison -m cam -S 41 -E 50 -x /tmp/ne30/rgr/0041-0050 -s 51 -e 60 -i /tmp/ne30/rgr/0051-0060 -X /tmp/ne30/rgr/0041-0060 [0m# Combine two climos
+
+[07mInteractive batch queues:[0m
+andes : srun -A CLI115 --nodes=1 --time=00:30:00 --job-name=ncclimo --pty bash
+andes : srun -A CLI115 --nodes=1 --time=00:30:00 --partition=gpu --job-name=ncclimo --pty bash # Bigmem
+blues : srun -A condo --nodes=1 --partition=acme-small --time=00:30:00 --job-name=ncclimo --pty bash
+cheyen: qsub -I -A SCSG0002 -l select=1:ncpus=36:mpiprocs=1 -l walltime=00:30:00 -q regular -N ncclimo
+chrysa: srun -A e3sm --nodes=1 --partition=debug --time=00:30:00 --job-name=ncclimo --pty bash
+chrysa: srun --nodes=1 --time=30 --job-name=ncclimo --pty bash
+compy : srun -A e3sm --nodes=1 --time=00:30:00 --job-name=ncclimo --pty bash
+cooley: qsub -I -A ClimateEnergy_4 --nodecount=1 --time=00:30:00 --jobname=ncclimo
+cori  : srun -A e3sm --constraint=haswell --nodes=1 --time=00:30:00 --qos=debug --job-name=ncclimo --pty bash
+cori  : srun -A e3sm --constraint=knl --nodes=1 --time=00:30:00 --qos=debug --job-name=ncclimo --pty bash
+cori  : srun -A e3sm --constraint=amd --nodes=1 --time=00:30:00 --job-name=ncclimo --pty bash # Bigmem
+perlmu: srun -A e3sm --constraint=cpu --nodes=1 --time=00:30:00 --qos=debug --job-name=ncclimo --pty bash
+
+Complete documentation at http://nco.sf.net/nco.html#ncclimo
+
+@@@ ncdiff
+ncdiff Command line options cheatsheet (full details at http://nco.sf.net/nco.html#ncdiff):
+ncdiff [-3] [-4] [-5] [-6] [-7] [-A] [--bfr byt] [-C] [-c] [--cmp sng] [--cnk_byt byt] [--cnk_csh byt] [--cnk_dmn nm,lmn] [--cnk_map map] [--cnk_min byt] [--cnk_plc plc] [--cnk_scl sz] [-D dbg_lvl] [-d ...] [-F] [--fl_fmt fmt] [-G grp:lvl] [-g ...] [--glb ...] [-H] [-h] [--hdf] [--hdr_pad nbr] [--hpss] [-L lvl] [-l path] [--msa] [-n ...] [--no_cll_msr] [--no_frm_trm] [--no_tmp_fl] [-O] [-o out.nc] [-p path] [-R] [-r] [--ram_all] [-t thr_nbr] [--uio] [--unn] [-v ...] [-X box] [-x] [-y op_typ] in1.nc in2.nc [out.nc]
+
+-3, --3, classic	Output file in netCDF3 CLASSIC (32-bit offset) storage format
+-4, --4, netcdf4	Output file in netCDF4 (HDF5) storage format
+-5, --5, 64bit_data	Output file in netCDF3 64-bit data (i.e., CDF5, PnetCDF) storage format
+-6, --6, 64, 64bit_offset	Output file in netCDF3 64-bit offset storage format
+-7, --7, netcdf4_classic	Output file in netCDF4 CLASSIC format (3+4=7)
+-A, --apn, append	Append to existing output file, if any
+    --bfr_sz, buffer_size sz	Buffer size to open files with
+-C, --no_crd, xcl_ass_var	Exclude coordinates, CF-associated variables (ancillary, bounds, ...)
+-c, --crd, xtr_ass_var	Extract coordinates, CF-associated variables (ancillary, bounds, ...)
+    --cmp cmp_sng	Compression string (e.g., 'gbr,3|zstd,1')
+    --cnk_byt, chunk_byte sz_byt	Chunksize in bytes
+    --cnk_csh, chunk_cache sz_byt	Chunk cache size in bytes
+    --cnk_dmn, chunk_dimension nm,sz_lmn	Chunksize of dimension nm (in elements not bytes)
+    --cnk_map, chunk_map map	Chunking map [dmn,lfp,nc4,nco,prd,rd1,rew,scl,xpl,xst]
+    --cnk_min, chunk_min sz_byt	Minimum size [B] of variable to chunk
+    --cnk_plc, chunk_policy plc	Chunking policy [all,g2d,g3d,xpl,xst,uck]
+    --cnk_scl, chunk_scalar sz_lmn	Chunksize scalar (in elements not bytes) (for all dimensions)
+-D, --dbg_lvl, debug-level lvl	Debug-level is lvl
+-d, --dmn, dimension dim,[min][,[max]][,[stride]] Dimension's limits and stride in hyperslab
+-F, --ftn, fortran	Fortran indexing conventions (1-based) for I/O
+    --fl_fmt, file_format fmt	File format for output [classic,64bit_offset,64bit_data,netcdf4,netcdf4_classic]
+-G, --gpe [grp_nm][:[lvl]]	Group Path Editing path, levels to replace
+-g, --grp grp1[,grp2[...]] Group(s) to process (regular expressions supported)
+    --glb_att_add nm=val	Global attribute to add
+-H, --fl_lst_in, file_list	Do not create "input_file_list" global attribute that stores stdin filenames
+-h, --hst, history	Do not append to "history" global attribute
+    --hdf_upk, hdf_unpack	HDF unpack convention: unpacked=scale_factor*(packed-add_offset)
+    --hdr_pad, header_pad	Pad output header with nbr bytes
+    --hpss, hpss_try	Search for unfound files on HPSS with 'hsi get ...'
+-L, --dfl_lvl, deflate lvl	Lempel-Ziv deflation/compression (lvl=0..9) for netCDF4 output
+-l, --lcl, local path	Local storage path for remotely-retrieved files
+    --msa, msa_usr_rdr	Multi-Slab-Algorithm output in User-Order
+-n, --nintap nbr_files,[nbr_numeric_chars[,increment]] NINTAP-style abbreviation of file list
+    --no_cll_msr	Do not extract cell_measures variables
+    --no_frm_trm	Do not extract formula_terms variables
+    --no_tmp_fl		Do not write output to temporary file
+-O, --ovr, overwrite	Overwrite existing output file, if any
+-o, --output, fl_out 	Output file name (or use last positional argument)
+-p, --pth, path path	Path prefix for all input filenames
+-R, --rtn, retain	Retain remotely-retrieved files after use
+-r, --revision, version	Compile-time configuration and/or program version
+    --ram_all, diskless_all	Open netCDF3 files and create output files in RAM
+-t, --thr_nbr, threads, omp_num_threads thr_nbr	Thread number for OpenMP
+    --uio, share_all	Unbuffered I/O to read/write netCDF3 file(s)
+    --unn, union	Select union of specified groups and variables
+-v, --variable var1[,var2[...]] Variable(s) to process (regular expressions supported)
+-X, --auxiliary lon_min,lon_max,lat_min,lat_max	Auxiliary coordinate bounding box
+-x, --xcl, exclude	Extract all variables EXCEPT those specified with -v
+-y, --op_typ, operation op_typ	Binary arithmetic operation: add,sbt,mlt,dvd (+,-,*,/)
+in1.nc in2.nc		Input file names (or use stdin)
+[out.nc]		Output file name (or use -o option)
+
+Eight ways to find more help on ncdiff and/or NCO:
+1. Examples:     http://nco.sf.net/nco.html#xmp_ncdiff
+2. Ref. manual:  http://nco.sf.net/nco.html#ncdiff
+3. User Guide:   http://nco.sf.net#RTFM
+4. Manual pages: 'man ncdiff', 'man nco', ...
+5. Homepage:     http://nco.sf.net
+6. Code:         http://github.com/nco/nco
+7. Help Forum:   http://sf.net/p/nco/discussion/9830
+8. Publications: http://nco.sf.net#pub
+Post questions, suggestions, patches at http://sf.net/projects/nco
+@@@ ncea
+ncea Command line options cheatsheet (full details at http://nco.sf.net/nco.html#ncea):
+ncea [-3] [-4] [-5] [-6] [-7] [-A] [--bfr byt] [-C] [-c] [--cb ...] [--cmp sng] [--cnk_byt byt] [--cnk_csh byt] [--cnk_dmn nm,lmn] [--cnk_map map] [--cnk_min byt] [--cnk_plc plc] [--cnk_scl sz] [-D dbg_lvl] [-d ...]  [--dbl|flt] [-F] [--fl_fmt fmt] [-G grp:lvl] [-g ...] [--glb ...] [-H] [-h] [--hdf] [--hdr_pad nbr] [--hpss] [-L lvl] [-l path] [--msa] [-n ...] [--no_cll_msr] [--no_frm_trm] [--no_tmp_fl] [--nsm_fl] [--nsm_grp] [--nsm_sfx] [-O] [-o out.nc] [-p path] [--ppc ...] [-R] [-r] [--ram_all] [-t thr_nbr] [--uio] [--unn] [-v ...] [-w wgt] [-X box] [-x] [-y op_typ] in1.nc in2.nc [...] [out.nc]
+
+-3, --3, classic	Output file in netCDF3 CLASSIC (32-bit offset) storage format
+-4, --4, netcdf4	Output file in netCDF4 (HDF5) storage format
+-5, --5, 64bit_data	Output file in netCDF3 64-bit data (i.e., CDF5, PnetCDF) storage format
+-6, --6, 64, 64bit_offset	Output file in netCDF3 64-bit offset storage format
+-7, --7, netcdf4_classic	Output file in netCDF4 CLASSIC format (3+4=7)
+-A, --apn, append	Append to existing output file, if any
+    --bfr_sz, buffer_size sz	Buffer size to open files with
+-C, --no_crd, xcl_ass_var	Exclude coordinates, CF-associated variables (ancillary, bounds, ...)
+-c, --crd, xtr_ass_var	Extract coordinates, CF-associated variables (ancillary, bounds, ...)
+    --cb, clm_bnd	CF Climatology and bounds information as yr_srt,yr_end,mth_srt,mth_end,tpd
+    --cmp cmp_sng	Compression string (e.g., 'gbr,3|zstd,1')
+    --cnk_byt, chunk_byte sz_byt	Chunksize in bytes
+    --cnk_csh, chunk_cache sz_byt	Chunk cache size in bytes
+    --cnk_dmn, chunk_dimension nm,sz_lmn	Chunksize of dimension nm (in elements not bytes)
+    --cnk_map, chunk_map map	Chunking map [dmn,lfp,nc4,nco,prd,rd1,rew,scl,xpl,xst]
+    --cnk_min, chunk_min sz_byt	Minimum size [B] of variable to chunk
+    --cnk_plc, chunk_policy plc	Chunking policy [all,g2d,g3d,xpl,xst,uck]
+    --cnk_scl, chunk_scalar sz_lmn	Chunksize scalar (in elements not bytes) (for all dimensions)
+-D, --dbg_lvl, debug-level lvl	Debug-level is lvl
+-d, --dmn, dimension dim,[min][,[max]][,[stride]] Dimension's limits and stride in hyperslab
+    --dbl, flt, rth_dbl|flt	dbl: Promote single- to double-precision b4 arithmetic (default). flt: Single-precision arithmetic is allowed.
+-F, --ftn, fortran	Fortran indexing conventions (1-based) for I/O
+    --fl_fmt, file_format fmt	File format for output [classic,64bit_offset,64bit_data,netcdf4,netcdf4_classic]
+-G, --gpe [grp_nm][:[lvl]]	Group Path Editing path, levels to replace
+-g, --grp grp1[,grp2[...]] Group(s) to process (regular expressions supported)
+    --glb_att_add nm=val	Global attribute to add
+-H, --fl_lst_in, file_list	Do not create "input_file_list" global attribute that stores stdin filenames
+-h, --hst, history	Do not append to "history" global attribute
+    --hdf_upk, hdf_unpack	HDF unpack convention: unpacked=scale_factor*(packed-add_offset)
+    --hdr_pad, header_pad	Pad output header with nbr bytes
+    --hpss, hpss_try	Search for unfound files on HPSS with 'hsi get ...'
+-L, --dfl_lvl, deflate lvl	Lempel-Ziv deflation/compression (lvl=0..9) for netCDF4 output
+-l, --lcl, local path	Local storage path for remotely-retrieved files
+    --msa, msa_usr_rdr	Multi-Slab-Algorithm output in User-Order
+-n, --nintap nbr_files,[nbr_numeric_chars[,increment]] NINTAP-style abbreviation of file list
+    --no_cll_msr	Do not extract cell_measures variables
+    --no_frm_trm	Do not extract formula_terms variables
+    --no_tmp_fl		Do not write output to temporary file
+    --nsm_fl, ensemble_file	Ensembles comprise equally weighted files
+    --nsm_grp, ensemble_group	Ensembles comprise equally weighted groups
+    --nsm_sfx, ensemble_suffix	Place ensemble output in group parent/parent+nsm_sfx
+-O, --ovr, overwrite	Overwrite existing output file, if any
+-o, --output, fl_out 	Output file name (or use last positional argument)
+-p, --pth, path path	Path prefix for all input filenames
+    --ppc v1[,v2[,...]]=prc	Precision-Preserving Compression: Number of total or decimal significant digits
+-R, --rtn, retain	Retain remotely-retrieved files after use
+-r, --revision, version	Compile-time configuration and/or program version
+    --ram_all, diskless_all	Open netCDF3 files and create output files in RAM
+-t, --thr_nbr, threads, omp_num_threads thr_nbr	Thread number for OpenMP
+    --uio, share_all	Unbuffered I/O to read/write netCDF3 file(s)
+    --unn, union	Select union of specified groups and variables
+-v, --variable var1[,var2[...]] Variable(s) to process (regular expressions supported)
+-w, --wgt_var, weight wgt	Per-file weights or variable name
+-X, --auxiliary lon_min,lon_max,lat_min,lat_max	Auxiliary coordinate bounding box
+-x, --xcl, exclude	Extract all variables EXCEPT those specified with -v
+-y, --op_typ, operation op_typ	Arithmetic operation: avg,mabs,mebs,mibs,min,max,tabs,ttl,sqravg,avgsqr,sqrt,rms,rmssdn
+in1.nc in2.nc [...]	Input file names (or use stdin)
+[out.nc]		Output file name (or use -o option)
+
+Eight ways to find more help on ncea and/or NCO:
+1. Examples:     http://nco.sf.net/nco.html#xmp_ncea
+2. Ref. manual:  http://nco.sf.net/nco.html#ncea
+3. User Guide:   http://nco.sf.net#RTFM
+4. Manual pages: 'man ncea', 'man nco', ...
+5. Homepage:     http://nco.sf.net
+6. Code:         http://github.com/nco/nco
+7. Help Forum:   http://sf.net/p/nco/discussion/9830
+8. Publications: http://nco.sf.net#pub
+Post questions, suggestions, patches at http://sf.net/projects/nco
+@@@ ncecat
+ncecat Command line options cheatsheet (full details at http://nco.sf.net/nco.html#ncecat):
+ncecat [-3] [-4] [-5] [-6] [-7] [-A] [--bfr byt] [-C] [-c] [--cmp sng] [--cnk_byt byt] [--cnk_dmn nm,lmn] [--cnk_map map] [--cnk_min byt] [--cnk_plc plc] [--cnk_scl sz] [-D dbg_lvl] [-d ...] [-F] [--fl_fmt fmt] [-G grp:lvl] [-g ...] [--gag] [--glb ...] [-H] [-h] [--hdr_pad nbr] [--hpss] [-L lvl] [-l path] [-M] [--md5_dgs] [--mrd] [--msa] [-n ...] [--no_cll_msr] [--no_frm_trm] [--no_tmp_fl] [-O] [-o out.nc] [-p path] [--ppc ...] [-R] [-r] [--ram_all] [-t thr_nbr] [--uio] [-u ulm_nm] [--unn] [-v ...] [-X box] [-x] in1.nc in2.nc [...] [out.nc]
+
+-3, --3, classic	Output file in netCDF3 CLASSIC (32-bit offset) storage format
+-4, --4, netcdf4	Output file in netCDF4 (HDF5) storage format
+-5, --5, 64bit_data	Output file in netCDF3 64-bit data (i.e., CDF5, PnetCDF) storage format
+-6, --6, 64, 64bit_offset	Output file in netCDF3 64-bit offset storage format
+-7, --7, netcdf4_classic	Output file in netCDF4 CLASSIC format (3+4=7)
+-A, --apn, append	Append to existing output file, if any
+    --bfr_sz, buffer_size sz	Buffer size to open files with
+-C, --no_crd, xcl_ass_var	Exclude coordinates, CF-associated variables (ancillary, bounds, ...)
+-c, --crd, xtr_ass_var	Extract coordinates, CF-associated variables (ancillary, bounds, ...)
+    --cmp cmp_sng	Compression string (e.g., 'gbr,3|zstd,1')
+    --cnk_byt, chunk_byte sz_byt	Chunksize in bytes
+    --cnk_dmn, chunk_dimension nm,sz_lmn	Chunksize of dimension nm (in elements not bytes)
+    --cnk_map, chunk_map map	Chunking map [dmn,lfp,nc4,nco,prd,rd1,rew,scl,xpl,xst]
+    --cnk_min, chunk_min sz_byt	Minimum size [B] of variable to chunk
+    --cnk_plc, chunk_policy plc	Chunking policy [all,g2d,g3d,xpl,xst,uck]
+    --cnk_scl, chunk_scalar sz_lmn	Chunksize scalar (in elements not bytes) (for all dimensions)
+-D, --dbg_lvl, debug-level lvl	Debug-level is lvl
+-d, --dmn, dimension dim,[min][,[max]][,[stride]] Dimension's limits and stride in hyperslab
+-F, --ftn, fortran	Fortran indexing conventions (1-based) for I/O
+    --fl_fmt, file_format fmt	File format for output [classic,64bit_offset,64bit_data,netcdf4,netcdf4_classic]
+    --gag, aggregate_group	Group Aggregation (not Record Aggregation)
+-G, --gpe [grp_nm][:[lvl]]	Group Path Editing path, levels to replace
+-g, --grp grp1[,grp2[...]] Group(s) to process (regular expressions supported)
+    --glb_att_add nm=val	Global attribute to add
+-H, --fl_lst_in, file_list	Do not create "input_file_list" global attribute that stores stdin filenames
+-h, --hst, history	Do not append to "history" global attribute
+    --hdr_pad, header_pad	Pad output header with nbr bytes
+    --hpss, hpss_try	Search for unfound files on HPSS with 'hsi get ...'
+-L, --dfl_lvl, deflate lvl	Lempel-Ziv deflation/compression (lvl=0..9) for netCDF4 output
+-l, --lcl, local path	Local storage path for remotely-retrieved files
+-M, --no_glb_mtd	Suppress (do not copy) global metadata
+    --md5_dgs, md5_digest	Perform MD5 digests
+    --msa, msa_usr_rdr	Multi-Slab-Algorithm output in User-Order
+-n, --nintap nbr_files,[nbr_numeric_chars[,increment]] NINTAP-style abbreviation of file list
+    --no_cll_msr	Do not extract cell_measures variables
+    --no_frm_trm	Do not extract formula_terms variables
+    --no_tmp_fl		Do not write output to temporary file
+-O, --ovr, overwrite	Overwrite existing output file, if any
+-o, --output, fl_out 	Output file name (or use last positional argument)
+-p, --pth, path path	Path prefix for all input filenames
+    --ppc v1[,v2[,...]]=prc	Precision-Preserving Compression: Number of total or decimal significant digits
+-R, --rtn, retain	Retain remotely-retrieved files after use
+-r, --revision, version	Compile-time configuration and/or program version
+    --ram_all, diskless_all	Open netCDF3 files and create output files in RAM
+-t, --thr_nbr, threads, omp_num_threads thr_nbr	Thread number for OpenMP
+-u, --ulm_nm, rcd_nm	New unlimited (record) dimension name
+    --uio, share_all	Unbuffered I/O to read/write netCDF3 file(s)
+    --unn, union	Select union of specified groups and variables
+-v, --variable var1[,var2[...]] Variable(s) to process (regular expressions supported)
+-X, --auxiliary lon_min,lon_max,lat_min,lat_max	Auxiliary coordinate bounding box
+-x, --xcl, exclude	Extract all variables EXCEPT those specified with -v
+in1.nc in2.nc [...]	Input file names (or use stdin)
+[out.nc]		Output file name (or use -o option)
+
+Eight ways to find more help on ncecat and/or NCO:
+1. Examples:     http://nco.sf.net/nco.html#xmp_ncecat
+2. Ref. manual:  http://nco.sf.net/nco.html#ncecat
+3. User Guide:   http://nco.sf.net#RTFM
+4. Manual pages: 'man ncecat', 'man nco', ...
+5. Homepage:     http://nco.sf.net
+6. Code:         http://github.com/nco/nco
+7. Help Forum:   http://sf.net/p/nco/discussion/9830
+8. Publications: http://nco.sf.net#pub
+Post questions, suggestions, patches at http://sf.net/projects/nco
+@@@ nces
+nces Command line options cheatsheet (full details at http://nco.sf.net/nco.html#nces):
+nces [-3] [-4] [-5] [-6] [-7] [-A] [--bfr byt] [-C] [-c] [--cb ...] [--cmp sng] [--cnk_byt byt] [--cnk_csh byt] [--cnk_dmn nm,lmn] [--cnk_map map] [--cnk_min byt] [--cnk_plc plc] [--cnk_scl sz] [-D dbg_lvl] [-d ...]  [--dbl|flt] [-F] [--fl_fmt fmt] [-G grp:lvl] [-g ...] [--glb ...] [-H] [-h] [--hdf] [--hdr_pad nbr] [--hpss] [-L lvl] [-l path] [--msa] [-n ...] [--no_cll_msr] [--no_frm_trm] [--no_tmp_fl] [--nsm_fl] [--nsm_grp] [--nsm_sfx] [-O] [-o out.nc] [-p path] [--ppc ...] [-R] [-r] [--ram_all] [-t thr_nbr] [--uio] [--unn] [-v ...] [-w wgt] [-X box] [-x] [-y op_typ] in1.nc in2.nc [...] [out.nc]
+
+-3, --3, classic	Output file in netCDF3 CLASSIC (32-bit offset) storage format
+-4, --4, netcdf4	Output file in netCDF4 (HDF5) storage format
+-5, --5, 64bit_data	Output file in netCDF3 64-bit data (i.e., CDF5, PnetCDF) storage format
+-6, --6, 64, 64bit_offset	Output file in netCDF3 64-bit offset storage format
+-7, --7, netcdf4_classic	Output file in netCDF4 CLASSIC format (3+4=7)
+-A, --apn, append	Append to existing output file, if any
+    --bfr_sz, buffer_size sz	Buffer size to open files with
+-C, --no_crd, xcl_ass_var	Exclude coordinates, CF-associated variables (ancillary, bounds, ...)
+-c, --crd, xtr_ass_var	Extract coordinates, CF-associated variables (ancillary, bounds, ...)
+    --cb, clm_bnd	CF Climatology and bounds information as yr_srt,yr_end,mth_srt,mth_end,tpd
+    --cmp cmp_sng	Compression string (e.g., 'gbr,3|zstd,1')
+    --cnk_byt, chunk_byte sz_byt	Chunksize in bytes
+    --cnk_csh, chunk_cache sz_byt	Chunk cache size in bytes
+    --cnk_dmn, chunk_dimension nm,sz_lmn	Chunksize of dimension nm (in elements not bytes)
+    --cnk_map, chunk_map map	Chunking map [dmn,lfp,nc4,nco,prd,rd1,rew,scl,xpl,xst]
+    --cnk_min, chunk_min sz_byt	Minimum size [B] of variable to chunk
+    --cnk_plc, chunk_policy plc	Chunking policy [all,g2d,g3d,xpl,xst,uck]
+    --cnk_scl, chunk_scalar sz_lmn	Chunksize scalar (in elements not bytes) (for all dimensions)
+-D, --dbg_lvl, debug-level lvl	Debug-level is lvl
+-d, --dmn, dimension dim,[min][,[max]][,[stride]] Dimension's limits and stride in hyperslab
+    --dbl, flt, rth_dbl|flt	dbl: Promote single- to double-precision b4 arithmetic (default). flt: Single-precision arithmetic is allowed.
+-F, --ftn, fortran	Fortran indexing conventions (1-based) for I/O
+    --fl_fmt, file_format fmt	File format for output [classic,64bit_offset,64bit_data,netcdf4,netcdf4_classic]
+-G, --gpe [grp_nm][:[lvl]]	Group Path Editing path, levels to replace
+-g, --grp grp1[,grp2[...]] Group(s) to process (regular expressions supported)
+    --glb_att_add nm=val	Global attribute to add
+-H, --fl_lst_in, file_list	Do not create "input_file_list" global attribute that stores stdin filenames
+-h, --hst, history	Do not append to "history" global attribute
+    --hdf_upk, hdf_unpack	HDF unpack convention: unpacked=scale_factor*(packed-add_offset)
+    --hdr_pad, header_pad	Pad output header with nbr bytes
+    --hpss, hpss_try	Search for unfound files on HPSS with 'hsi get ...'
+-L, --dfl_lvl, deflate lvl	Lempel-Ziv deflation/compression (lvl=0..9) for netCDF4 output
+-l, --lcl, local path	Local storage path for remotely-retrieved files
+    --msa, msa_usr_rdr	Multi-Slab-Algorithm output in User-Order
+-n, --nintap nbr_files,[nbr_numeric_chars[,increment]] NINTAP-style abbreviation of file list
+    --no_cll_msr	Do not extract cell_measures variables
+    --no_frm_trm	Do not extract formula_terms variables
+    --no_tmp_fl		Do not write output to temporary file
+    --nsm_fl, ensemble_file	Ensembles comprise equally weighted files
+    --nsm_grp, ensemble_group	Ensembles comprise equally weighted groups
+    --nsm_sfx, ensemble_suffix	Place ensemble output in group parent/parent+nsm_sfx
+-O, --ovr, overwrite	Overwrite existing output file, if any
+-o, --output, fl_out 	Output file name (or use last positional argument)
+-p, --pth, path path	Path prefix for all input filenames
+    --ppc v1[,v2[,...]]=prc	Precision-Preserving Compression: Number of total or decimal significant digits
+-R, --rtn, retain	Retain remotely-retrieved files after use
+-r, --revision, version	Compile-time configuration and/or program version
+    --ram_all, diskless_all	Open netCDF3 files and create output files in RAM
+-t, --thr_nbr, threads, omp_num_threads thr_nbr	Thread number for OpenMP
+    --uio, share_all	Unbuffered I/O to read/write netCDF3 file(s)
+    --unn, union	Select union of specified groups and variables
+-v, --variable var1[,var2[...]] Variable(s) to process (regular expressions supported)
+-w, --wgt_var, weight wgt	Per-file weights or variable name
+-X, --auxiliary lon_min,lon_max,lat_min,lat_max	Auxiliary coordinate bounding box
+-x, --xcl, exclude	Extract all variables EXCEPT those specified with -v
+-y, --op_typ, operation op_typ	Arithmetic operation: avg,mabs,mebs,mibs,min,max,tabs,ttl,sqravg,avgsqr,sqrt,rms,rmssdn
+in1.nc in2.nc [...]	Input file names (or use stdin)
+[out.nc]		Output file name (or use -o option)
+
+Eight ways to find more help on nces and/or NCO:
+1. Examples:     http://nco.sf.net/nco.html#xmp_nces
+2. Ref. manual:  http://nco.sf.net/nco.html#nces
+3. User Guide:   http://nco.sf.net#RTFM
+4. Manual pages: 'man nces', 'man nco', ...
+5. Homepage:     http://nco.sf.net
+6. Code:         http://github.com/nco/nco
+7. Help Forum:   http://sf.net/p/nco/discussion/9830
+8. Publications: http://nco.sf.net#pub
+Post questions, suggestions, patches at http://sf.net/projects/nco
+@@@ ncflint
+ncflint Command line options cheatsheet (full details at http://nco.sf.net/nco.html#ncflint):
+ncflint [-3] [-4] [-5] [-6] [-7] [-A] [--bfr byt] [-C] [-c] [--cmp sng] [--cnk_byt byt] [--cnk_csh byt] [--cnk_dmn nm,lmn] [--cnk_map map] [--cnk_min byt] [--cnk_plc plc] [--cnk_scl sz] [-D dbg_lvl] [-d ...] [-F] [--fix_rec_crd] [--fl_fmt fmt] [--glb ...] [-H] [-h] [--hdf] [--hdr_pad nbr] [--hpss] [-i var,val] [-L lvl] [-l path] [--msa] [--no_cll_msr] [--no_frm_trm] [--no_tmp_fl] [-O] [-o out.nc] [-p path] [--ppc ...] [-R] [-r] [--ram_all] [-t thr_nbr] [--uio] [-v ...] [-X box] [-x] [-w wgt_1[,wgt_2]] in1.nc in2.nc [out.nc]
+
+-3, --3, classic	Output file in netCDF3 CLASSIC (32-bit offset) storage format
+-4, --4, netcdf4	Output file in netCDF4 (HDF5) storage format
+-5, --5, 64bit_data	Output file in netCDF3 64-bit data (i.e., CDF5, PnetCDF) storage format
+-6, --6, 64, 64bit_offset	Output file in netCDF3 64-bit offset storage format
+-7, --7, netcdf4_classic	Output file in netCDF4 CLASSIC format (3+4=7)
+-A, --apn, append	Append to existing output file, if any
+    --bfr_sz, buffer_size sz	Buffer size to open files with
+-C, --no_crd, xcl_ass_var	Exclude coordinates, CF-associated variables (ancillary, bounds, ...)
+-c, --crd, xtr_ass_var	Extract coordinates, CF-associated variables (ancillary, bounds, ...)
+    --cmp cmp_sng	Compression string (e.g., 'gbr,3|zstd,1')
+    --cnk_byt, chunk_byte sz_byt	Chunksize in bytes
+    --cnk_csh, chunk_cache sz_byt	Chunk cache size in bytes
+    --cnk_dmn, chunk_dimension nm,sz_lmn	Chunksize of dimension nm (in elements not bytes)
+    --cnk_map, chunk_map map	Chunking map [dmn,lfp,nc4,nco,prd,rd1,rew,scl,xpl,xst]
+    --cnk_min, chunk_min sz_byt	Minimum size [B] of variable to chunk
+    --cnk_plc, chunk_policy plc	Chunking policy [all,g2d,g3d,xpl,xst,uck]
+    --cnk_scl, chunk_scalar sz_lmn	Chunksize scalar (in elements not bytes) (for all dimensions)
+-D, --dbg_lvl, debug-level lvl	Debug-level is lvl
+-d, --dmn, dimension dim,[min][,[max]][,[stride]] Dimension's limits and stride in hyperslab
+-F, --ftn, fortran	Fortran indexing conventions (1-based) for I/O
+    --fix_rec_crd	Do not interpolate/multiply record coordinate variables
+    --fl_fmt, file_format fmt	File format for output [classic,64bit_offset,64bit_data,netcdf4,netcdf4_classic]
+    --glb_att_add nm=val	Global attribute to add
+-H, --fl_lst_in, file_list	Do not create "input_file_list" global attribute that stores stdin filenames
+-h, --hst, history	Do not append to "history" global attribute
+    --hdf_upk, hdf_unpack	HDF unpack convention: unpacked=scale_factor*(packed-add_offset)
+    --hdr_pad, header_pad	Pad output header with nbr bytes
+    --hpss, hpss_try	Search for unfound files on HPSS with 'hsi get ...'
+-i, --ntp, interpolate var,val	Interpolant and value
+-L, --dfl_lvl, deflate lvl	Lempel-Ziv deflation/compression (lvl=0..9) for netCDF4 output
+-l, --lcl, local path	Local storage path for remotely-retrieved files
+    --msa, msa_usr_rdr	Multi-Slab-Algorithm output in User-Order
+    --no_cll_msr	Do not extract cell_measures variables
+    --no_frm_trm	Do not extract formula_terms variables
+    --no_tmp_fl		Do not write output to temporary file
+-O, --ovr, overwrite	Overwrite existing output file, if any
+-o, --output, fl_out 	Output file name (or use last positional argument)
+-p, --pth, path path	Path prefix for all input filenames
+    --ppc v1[,v2[,...]]=prc	Precision-Preserving Compression: Number of total or decimal significant digits
+-R, --rtn, retain	Retain remotely-retrieved files after use
+-r, --revision, version	Compile-time configuration and/or program version
+    --ram_all, diskless_all	Open netCDF3 files and create output files in RAM
+-t, --thr_nbr, threads, omp_num_threads thr_nbr	Thread number for OpenMP
+    --uio, share_all	Unbuffered I/O to read/write netCDF3 file(s)
+-v, --variable var1[,var2[...]] Variable(s) to process (regular expressions supported)
+-w, --wgt_var, weight wgt_1[,wgt_2] Weight(s) of file(s)
+-X, --auxiliary lon_min,lon_max,lat_min,lat_max	Auxiliary coordinate bounding box
+-x, --xcl, exclude	Extract all variables EXCEPT those specified with -v
+in1.nc in2.nc		Input file names (or use stdin)
+[out.nc]		Output file name (or use -o option)
+
+Eight ways to find more help on ncflint and/or NCO:
+1. Examples:     http://nco.sf.net/nco.html#xmp_ncflint
+2. Ref. manual:  http://nco.sf.net/nco.html#ncflint
+3. User Guide:   http://nco.sf.net#RTFM
+4. Manual pages: 'man ncflint', 'man nco', ...
+5. Homepage:     http://nco.sf.net
+6. Code:         http://github.com/nco/nco
+7. Help Forum:   http://sf.net/p/nco/discussion/9830
+8. Publications: http://nco.sf.net#pub
+Post questions, suggestions, patches at http://sf.net/projects/nco
+@@@ ncks
+ncks Command line options cheatsheet (full details at http://nco.sf.net/nco.html#ncks):
+ncks [-3] [-4] [-5] [-6] [-7] [-A] [-a] [--area_wgt] [-b fl_bnr] [--bfr byt] [-C] [-c] [--cal] [--cdl] [--chk_map] [--chk_nan] [--cmp sng] [--cnk_byt byt] [--cnk_csh byt] [--cnk_dmn nm,lmn] [--cnk_map map] [--cnk_min byt] [--cnk_plc plc] [--cnk_scl sz] [-D dbg_lvl] [-d ...] [--dt_fmt fmt] [-F] [--fix_rec_dmn dim] [--fl_fmt fmt] [--fmt_val fmt] [-G grp:lvl] [-g ...] [--glb ...] [--grp_xtr_var_xcl] [-H] [-h] [--hdn] [--hdr_pad nbr] [--hpss] [--jsn] [--jsn_fmt lvl] [-L lvl] [-l path] [-M] [-m] [--map map.nc] [--md5_dgs] [--md5_wrt] [--mk_rec_dmn dim] [--msa] [--no_blank] [--no_cll_msr] [--no_frm_trm] [--no_tmp_fl] [-O] [-o out.nc] [-P] [-p path] [--ppc ...] [-Q] [-q] [-R] [-r] [--rad] [--rgr] [--ram_all] [--rnr=wgt] [-s format] [--sparse] [-t thr_nbr] [-u] [--uio] [--unn] [-V] [-v ...] [--vrt_in vrt.nc] [--vrt_out vrt.nc] [-X box] [-x] [--xml] [--xml_no_loc] [--xml_spr_chr sng] [--xml_spr_nmr sng] [--xtn_var ...] in.nc [[out.nc]]
+
+-3, --3, classic	Output file in netCDF3 CLASSIC (32-bit offset) storage format
+-4, --4, netcdf4	Output file in netCDF4 (HDF5) storage format
+-5, --5, 64bit_data	Output file in netCDF3 64-bit data (i.e., CDF5, PnetCDF) storage format
+-6, --6, 64, 64bit_offset	Output file in netCDF3 64-bit offset storage format
+-7, --7, netcdf4_classic	Output file in netCDF4 CLASSIC format (3+4=7)
+-A, --apn, append	Append to existing output file, if any
+-a, --abc, alphabetize	Disable alphabetization of extracted variables
+    --area_wgt		Area-weight map-file statistics
+-b, --fl_bnr, binary-file fl_bnr	Unformatted binary file to write
+    --bfr_sz, buffer_size sz	Buffer size to open files with
+-C, --no_crd, xcl_ass_var	Exclude coordinates, CF-associated variables (ancillary, bounds, ...)
+-c, --crd, xtr_ass_var	Extract coordinates, CF-associated variables (ancillary, bounds, ...)
+    --cal,--cln	Print UDUnits-compatible dates/times in human-legible calendar format
+    --cdl		Print CDL (netCDF lingua franca used by ncdump/ncgen)
+    --chk_map		Check map-file quality
+    --chk_nan		Detect NaN and NaNf in floating-point variables
+    --cmp cmp_sng	Compression string (e.g., 'gbr,3|zstd,1')
+    --cnk_byt, chunk_byte sz_byt	Chunksize in bytes
+    --cnk_csh, chunk_cache sz_byt	Chunk cache size in bytes
+    --cnk_dmn, chunk_dimension nm,sz_lmn	Chunksize of dimension nm (in elements not bytes)
+    --cnk_map, chunk_map map	Chunking map [dmn,lfp,nc4,nco,prd,rd1,rew,scl,xpl,xst]
+    --cnk_min, chunk_min sz_byt	Minimum size [B] of variable to chunk
+    --cnk_plc, chunk_policy plc	Chunking policy [all,g2d,g3d,xpl,xst,uck]
+    --cnk_scl, chunk_scalar sz_lmn	Chunksize scalar (in elements not bytes) (for all dimensions)
+-D, --dbg_lvl, debug-level lvl	Debug-level is lvl
+-d, --dmn, dimension dim,[min][,[max]][,[stride]] Dimension's limits and stride in hyperslab
+    --dt_fmt, date_format	Print UDUnits-compatible dates/times in short, regular, or ISO8601 calendar format (fmt=1,2,3)
+-F, --ftn, fortran	Fortran indexing conventions (1-based) for I/O
+    --fix_rec_dmn dim	Change dimension dim (or all) to fixed dimension in output file
+    --fl_fmt, file_format fmt	File format for output [classic,64bit_offset,64bit_data,netcdf4,netcdf4_classic]
+-G, --gpe [grp_nm][:[lvl]]	Group Path Editing path, levels to replace
+-g, --grp grp1[,grp2[...]] Group(s) to process (regular expressions supported)
+    --glb_att_add nm=val	Global attribute to add
+-H, --data, hieronymus	Toggle printing data
+-h, --hst, history	Do not append to "history" global attribute
+    --hdn, hidden	Print hidden (aka special) attributes
+    --hdr_pad, header_pad	Pad output header with nbr bytes
+    --hpss, hpss_try	Search for unfound files on HPSS with 'hsi get ...'
+    --jsn, json	Print JSON (JavaScript Object Notation)
+    --jsn_fmt lvl	Verbosity of JSON format [0 = least verbose, 2 = most pedantic, add 4 to remove brackets]
+-L, --dfl_lvl, deflate lvl	Lempel-Ziv deflation/compression (lvl=0..9) for netCDF4 output
+-l, --lcl, local path	Local storage path for remotely-retrieved files
+-M, --Mtd, Metadata	Toggle printing global metadata
+-m, --mtd, metadata	Toggle printing variable metadata
+    --map, rgr_map map.nc	File containing (ESMF- or SCRIP-format) weights to regrid input to output grid
+    --md5_dgs, md5_digest	Perform MD5 digests
+    --md5_wrt, md5_write	Write MD5 digests as attributes
+    --mk_rec_dmn dim	Define dim as record dimension in output file
+    --msa, msa_usr_rdr	Multi-Slab-Algorithm output in User-Order
+    --no_blank		Print numeric missing values instead of blanks (underscores)
+    --no_cll_msr	Do not extract cell_measures variables
+    --no_frm_trm	Do not extract formula_terms variables
+    --no_tmp_fl		Do not write output to temporary file
+-O, --ovr, overwrite	Overwrite existing output file, if any
+-o, --output, fl_out 	Output file name (or use last positional argument)
+-P, --prn, print	Print data, metadata, and units. Abbreviation for -C -H -M -m -u.
+-p, --pth, path path	Path prefix for all input filenames
+    --ppc v1[,v2[,...]]=prc	Precision-Preserving Compression: Number of total or decimal significant digits
+-Q, --quiet		Quiet printing of dimension indices and coordinate values
+-q, --quench		Quench (turn-off) all printing to screen
+-R, --rtn, retain	Retain remotely-retrieved files after use
+-r, --revision, version	Compile-time configuration and/or program version
+    --orphan, rph_dmn	Retain or print all (including orphaned) dimensions
+    --ram_all, diskless_all	Open netCDF3 files and create output files in RAM
+    --rgr key=value	See http://nco.sf.net/nco.html#regrid for valid keys
+    --rnr_thr=wgt 	Coverage threshold to renormalize valid destination value
+-s, --sng_fmt, string format	String format for text output
+-t, --thr_nbr, threads, omp_num_threads thr_nbr	Thread number for OpenMP
+-u, --units		Toggle printing units of variables, if any
+    --uio, share_all	Unbuffered I/O to read/write netCDF3 file(s)
+    --unn, union	Select union of specified groups and variables
+-V, --var_val		Print variable values only
+-v, --variable var1[,var2[...]] Variable(s) to process (regular expressions supported)
+    --vrt_in vrt.nc	File containing input vertical coordinate grid
+    --vrt_out vrt.nc	File containing output vertical coordinate grid
+-X, --auxiliary lon_min,lon_max,lat_min,lat_max	Auxiliary coordinate bounding box
+-x, --xcl, exclude	Extract all variables EXCEPT those specified with -v
+    --s1d, --sparse	Unpack sparse-1D CLM/ELM variables
+    --xml		Print XML (NcML, netCDF Markup Language)
+    --xml_no_location	Omit NcML location element
+    --xml_spr_chr sng	Separator for NcML character types
+    --xml_spr_nmr sng	Separator for NcML numeric types
+    --xtn_var, extensive var	Extensive variables for regridding (summed not averaged)
+in.nc			Input file name (or use stdin)
+[out.nc]		Output file name (or use -o option)
+
+Eight ways to find more help on ncks and/or NCO:
+1. Examples:     http://nco.sf.net/nco.html#xmp_ncks
+2. Ref. manual:  http://nco.sf.net/nco.html#ncks
+3. User Guide:   http://nco.sf.net#RTFM
+4. Manual pages: 'man ncks', 'man nco', ...
+5. Homepage:     http://nco.sf.net
+6. Code:         http://github.com/nco/nco
+7. Help Forum:   http://sf.net/p/nco/discussion/9830
+8. Publications: http://nco.sf.net#pub
+Post questions, suggestions, patches at http://sf.net/projects/nco
+@@@ ncpdq
+ncpdq Command line options cheatsheet (full details at http://nco.sf.net/nco.html#ncpdq):
+ncpdq [-3] [-4] [-5] [-6] [-7] [-A] [-a ...] [--bfr byt] [-C] [-c] [--cmp sng] [--cnk_byt byt] [--cnk_csh byt] [--cnk_dmn nm,lmn] [--cnk_map map] [--cnk_min byt] [--cnk_plc plc] [--cnk_scl sz] [-D dbg_lvl] [-d ...] [-F] [--fl_fmt fmt] [-G grp:lvl] [-g ...] [--glb ...] [-H] [-h] [--hdf] [--hdr_pad nbr] [--hpss] [-L lvl] [-l path] [-M pck_map] [--mrd] [--msa] [--no_cll_msr] [--no_frm_trm] [--no_tmp_fl] [-O] [-o out.nc] [-P pck_plc] [-p path] [--ppc ...] [-R] [-r] [--ram_all] [-t thr_nbr] [--uio] [--unn] [-U] [-v ...] [-X box] [-x] in.nc [out.nc]
+
+-3, --3, classic	Output file in netCDF3 CLASSIC (32-bit offset) storage format
+-4, --4, netcdf4	Output file in netCDF4 (HDF5) storage format
+-5, --5, 64bit_data	Output file in netCDF3 64-bit data (i.e., CDF5, PnetCDF) storage format
+-6, --6, 64, 64bit_offset	Output file in netCDF3 64-bit offset storage format
+-7, --7, netcdf4_classic	Output file in netCDF4 CLASSIC format (3+4=7)
+-A, --apn, append	Append to existing output file, if any
+-a, --arrange, permute, reorder, rdr [-]rdr_dim1[,[-]rdr_dim2[...]] Re-order dimensions
+    --bfr_sz, buffer_size sz	Buffer size to open files with
+-C, --no_crd, xcl_ass_var	Exclude coordinates, CF-associated variables (ancillary, bounds, ...)
+-c, --crd, xtr_ass_var	Extract coordinates, CF-associated variables (ancillary, bounds, ...)
+    --cmp cmp_sng	Compression string (e.g., 'gbr,3|zstd,1')
+    --cnk_byt, chunk_byte sz_byt	Chunksize in bytes
+    --cnk_csh, chunk_cache sz_byt	Chunk cache size in bytes
+    --cnk_dmn, chunk_dimension nm,sz_lmn	Chunksize of dimension nm (in elements not bytes)
+    --cnk_map, chunk_map map	Chunking map [dmn,lfp,nc4,nco,prd,rd1,rew,scl,xpl,xst]
+    --cnk_min, chunk_min sz_byt	Minimum size [B] of variable to chunk
+    --cnk_plc, chunk_policy plc	Chunking policy [all,g2d,g3d,xpl,xst,uck]
+    --cnk_scl, chunk_scalar sz_lmn	Chunksize scalar (in elements not bytes) (for all dimensions)
+-D, --dbg_lvl, debug-level lvl	Debug-level is lvl
+-d, --dmn, dimension dim,[min][,[max]][,[stride]] Dimension's limits and stride in hyperslab
+-F, --ftn, fortran	Fortran indexing conventions (1-based) for I/O
+    --fl_fmt, file_format fmt	File format for output [classic,64bit_offset,64bit_data,netcdf4,netcdf4_classic]
+-G, --gpe [grp_nm][:[lvl]]	Group Path Editing path, levels to replace
+-g, --grp grp1[,grp2[...]] Group(s) to process (regular expressions supported)
+    --glb_att_add nm=val	Global attribute to add
+-H, --fl_lst_in, file_list	Do not create "input_file_list" global attribute that stores stdin filenames
+-h, --hst, history	Do not append to "history" global attribute
+    --hdf_upk, hdf_unpack	HDF unpack convention: unpacked=scale_factor*(packed-add_offset)
+    --hdr_pad, header_pad	Pad output header with nbr bytes
+    --hpss, hpss_try	Search for unfound files on HPSS with 'hsi get ...'
+-L, --dfl_lvl, deflate lvl	Lempel-Ziv deflation/compression (lvl=0..9) for netCDF4 output
+-l, --lcl, local path	Local storage path for remotely-retrieved files
+-M, --pck_map, pack_map, map pck_map	Pack map [flt_sht,flt_byt,hgh_sht,hgh_byt,nxt_lsr,dbl_flt,flt_dbl]
+    --msa, msa_usr_rdr	Multi-Slab-Algorithm output in User-Order
+    --no_cll_msr	Do not extract cell_measures variables
+    --no_frm_trm	Do not extract formula_terms variables
+    --no_tmp_fl		Do not write output to temporary file
+-O, --ovr, overwrite	Overwrite existing output file, if any
+-o, --output, fl_out 	Output file name (or use last positional argument)
+-P, --pck_plc, pack_policy pck_plc	Packing policy [all_new,all_xst,xst_new,upk]
+-p, --pth, path path	Path prefix for all input filenames
+    --ppc v1[,v2[,...]]=prc	Precision-Preserving Compression: Number of total or decimal significant digits
+-R, --rtn, retain	Retain remotely-retrieved files after use
+-r, --revision, version	Compile-time configuration and/or program version
+    --ram_all, diskless_all	Open netCDF3 files and create output files in RAM
+-t, --thr_nbr, threads, omp_num_threads thr_nbr	Thread number for OpenMP
+-U, --unpack	Unpack input file
+    --uio, share_all	Unbuffered I/O to read/write netCDF3 file(s)
+    --unn, union	Select union of specified groups and variables
+-v, --variable var1[,var2[...]] Variable(s) to process (regular expressions supported)
+-X, --auxiliary lon_min,lon_max,lat_min,lat_max	Auxiliary coordinate bounding box
+-x, --xcl, exclude	Extract all variables EXCEPT those specified with -v
+in.nc			Input file name (or use stdin)
+[out.nc]		Output file name (or use -o option)
+
+Eight ways to find more help on ncpdq and/or NCO:
+1. Examples:     http://nco.sf.net/nco.html#xmp_ncpdq
+2. Ref. manual:  http://nco.sf.net/nco.html#ncpdq
+3. User Guide:   http://nco.sf.net#RTFM
+4. Manual pages: 'man ncpdq', 'man nco', ...
+5. Homepage:     http://nco.sf.net
+6. Code:         http://github.com/nco/nco
+7. Help Forum:   http://sf.net/p/nco/discussion/9830
+8. Publications: http://nco.sf.net#pub
+Post questions, suggestions, patches at http://sf.net/projects/nco
+@@@ ncra
+ncra Command line options cheatsheet (full details at http://nco.sf.net/nco.html#ncra):
+ncra [-3] [-4] [-5] [-6] [-7] [-A] [--bfr byt] [-C] [-c] [--cb ...] [--cmp sng] [--cnk_byt byt] [--cnk_csh byt] [--cnk_dmn nm,lmn] [--cnk_map map] [--cnk_min byt] [--cnk_plc plc] [--cnk_scl sz] [-D dbg_lvl] [-d ...]  [--dbl|flt] [-F] [--fl_fmt fmt] [-G grp:lvl] [-g ...] [--glb ...] [-H] [-h] [--hdf] [--hdr_pad nbr] [--hpss] [-L lvl] [-l path] [--mro] [--msa] [-N] [-n ...] [--no_cll_msr] [--no_cll_mth] [--no_frm_trm] [--no_tmp_fl] [-O] [-o out.nc] [-p path] [--prm_ints] [--prw] [--ppc ...] [-R] [-r] [--ram_all] [--rec_apn] [-t thr_nbr] [--uio] [--unn] [-w wgt] [-v ...] [-X box] [-x] [-y op_typ] in1.nc in2.nc [...] [out.nc]
+
+-3, --3, classic	Output file in netCDF3 CLASSIC (32-bit offset) storage format
+-4, --4, netcdf4	Output file in netCDF4 (HDF5) storage format
+-5, --5, 64bit_data	Output file in netCDF3 64-bit data (i.e., CDF5, PnetCDF) storage format
+-6, --6, 64, 64bit_offset	Output file in netCDF3 64-bit offset storage format
+-7, --7, netcdf4_classic	Output file in netCDF4 CLASSIC format (3+4=7)
+-A, --apn, append	Append to existing output file, if any
+    --bfr_sz, buffer_size sz	Buffer size to open files with
+-C, --no_crd, xcl_ass_var	Exclude coordinates, CF-associated variables (ancillary, bounds, ...)
+-c, --crd, xtr_ass_var	Extract coordinates, CF-associated variables (ancillary, bounds, ...)
+    --cb, clm_bnd	CF Climatology and bounds information as yr_srt,yr_end,mth_srt,mth_end,tpd
+    --cmp cmp_sng	Compression string (e.g., 'gbr,3|zstd,1')
+    --cnk_byt, chunk_byte sz_byt	Chunksize in bytes
+    --cnk_csh, chunk_cache sz_byt	Chunk cache size in bytes
+    --cnk_dmn, chunk_dimension nm,sz_lmn	Chunksize of dimension nm (in elements not bytes)
+    --cnk_map, chunk_map map	Chunking map [dmn,lfp,nc4,nco,prd,rd1,rew,scl,xpl,xst]
+    --cnk_min, chunk_min sz_byt	Minimum size [B] of variable to chunk
+    --cnk_plc, chunk_policy plc	Chunking policy [all,g2d,g3d,xpl,xst,uck]
+    --cnk_scl, chunk_scalar sz_lmn	Chunksize scalar (in elements not bytes) (for all dimensions)
+-D, --dbg_lvl, debug-level lvl	Debug-level is lvl
+-d, --dmn, dimension dim,[min][,[max][[[,stride[,subcycle[,interleave]]]]]] Dimension's limits, stride, subcycle, interleave in hyperslab
+    --dbl, flt, rth_dbl|flt	dbl: Promote single- to double-precision b4 arithmetic (default). flt: Single-precision arithmetic is allowed.
+-F, --ftn, fortran	Fortran indexing conventions (1-based) for I/O
+    --fl_fmt, file_format fmt	File format for output [classic,64bit_offset,64bit_data,netcdf4,netcdf4_classic]
+-G, --gpe [grp_nm][:[lvl]]	Group Path Editing path, levels to replace
+-g, --grp grp1[,grp2[...]] Group(s) to process (regular expressions supported)
+    --glb_att_add nm=val	Global attribute to add
+-H, --fl_lst_in, file_list	Do not create "input_file_list" global attribute that stores stdin filenames
+-h, --hst, history	Do not append to "history" global attribute
+    --hdf_upk, hdf_unpack	HDF unpack convention: unpacked=scale_factor*(packed-add_offset)
+    --hdr_pad, header_pad	Pad output header with nbr bytes
+    --hpss, hpss_try	Search for unfound files on HPSS with 'hsi get ...'
+-L, --dfl_lvl, deflate lvl	Lempel-Ziv deflation/compression (lvl=0..9) for netCDF4 output
+-l, --lcl, local path	Local storage path for remotely-retrieved files
+    --mro		Multi-Record Output
+    --msa, msa_usr_rdr	Multi-Slab-Algorithm output in User-Order
+-N, --no_nrm_by_wgt	No normalization by weights
+-n, --nintap nbr_files,[nbr_numeric_chars[,increment]] NINTAP-style abbreviation of file list
+    --no_cll_msr	Do not extract cell_measures variables
+    --no_cll_mth	Do not add/modify cell_methods attributes
+    --no_frm_trm	Do not extract formula_terms variables
+    --no_tmp_fl		Do not write output to temporary file
+-O, --ovr, overwrite	Overwrite existing output file, if any
+-o, --output, fl_out 	Output file name (or use last positional argument)
+-p, --pth, path path	Path prefix for all input filenames
+    --ppc v1[,v2[,...]]=prc	Precision-Preserving Compression: Number of total or decimal significant digits
+    --prm_int, prm_ntg	Promote integers to floating-point in output
+    --prw, per_recor...	Per-Record Weights
+-R, --rtn, retain	Retain remotely-retrieved files after use
+-r, --revision, version	Compile-time configuration and/or program version
+    --ram_all, diskless_all	Open netCDF3 files and create output files in RAM
+    --rec_apn, record_append	Append records directly to output file
+-t, --thr_nbr, threads, omp_num_threads thr_nbr	Thread number for OpenMP
+    --uio, share_all	Unbuffered I/O to read/write netCDF3 file(s)
+    --unn, union	Select union of specified groups and variables
+-v, --variable var1[,var2[...]] Variable(s) to process (regular expressions supported)
+-w, --wgt_var, weight wgt	Per-file weights or variable name
+-X, --auxiliary lon_min,lon_max,lat_min,lat_max	Auxiliary coordinate bounding box
+-x, --xcl, exclude	Extract all variables EXCEPT those specified with -v
+-y, --op_typ, operation op_typ	Arithmetic operation: avg,mabs,mebs,mibs,min,max,tabs,ttl,sqravg,avgsqr,sqrt,rms,rmssdn
+in1.nc in2.nc [...]	Input file names (or use stdin)
+[out.nc]		Output file name (or use -o option)
+
+Eight ways to find more help on ncra and/or NCO:
+1. Examples:     http://nco.sf.net/nco.html#xmp_ncra
+2. Ref. manual:  http://nco.sf.net/nco.html#ncra
+3. User Guide:   http://nco.sf.net#RTFM
+4. Manual pages: 'man ncra', 'man nco', ...
+5. Homepage:     http://nco.sf.net
+6. Code:         http://github.com/nco/nco
+7. Help Forum:   http://sf.net/p/nco/discussion/9830
+8. Publications: http://nco.sf.net#pub
+Post questions, suggestions, patches at http://sf.net/projects/nco
+@@@ ncrcat
+ncrcat Command line options cheatsheet (full details at http://nco.sf.net/nco.html#ncrcat):
+ncrcat [-3] [-4] [-5] [-6] [-7] [-A] [--bfr byt] [-C] [-c] [--cb ...] [--cmp sng] [--cnk_byt byt] [--cnk_csh byt] [--cnk_dmn nm,lmn] [--cnk_map map] [--cnk_min byt] [--cnk_plc plc] [--cnk_scl sz] [-D dbg_lvl] [-d ...] [-F] [--fl_fmt fmt] [-G grp:lvl] [-g ...] [--glb ...] [-H] [-h] [--hdr_pad nbr] [--hpss] [-L lvl] [-l path] [--md5_dgs] [--msa] [-n ...] [--no_cll_msr] [--no_frm_trm] [--no_tmp_fl] [-O] [-o out.nc] [-p path] [--ppc ...] [-R] [-r] [--ram_all] [--rec_apn] [-t thr_nbr] [--uio] [--unn] [-v ...] [-X box] [-x] in1.nc in2.nc [...] [out.nc]
+
+-3, --3, classic	Output file in netCDF3 CLASSIC (32-bit offset) storage format
+-4, --4, netcdf4	Output file in netCDF4 (HDF5) storage format
+-5, --5, 64bit_data	Output file in netCDF3 64-bit data (i.e., CDF5, PnetCDF) storage format
+-6, --6, 64, 64bit_offset	Output file in netCDF3 64-bit offset storage format
+-7, --7, netcdf4_classic	Output file in netCDF4 CLASSIC format (3+4=7)
+-A, --apn, append	Append to existing output file, if any
+    --bfr_sz, buffer_size sz	Buffer size to open files with
+-C, --no_crd, xcl_ass_var	Exclude coordinates, CF-associated variables (ancillary, bounds, ...)
+-c, --crd, xtr_ass_var	Extract coordinates, CF-associated variables (ancillary, bounds, ...)
+    --cb, clm_bnd	CF Climatology and bounds information as yr_srt,yr_end,mth_srt,mth_end,tpd
+    --cmp cmp_sng	Compression string (e.g., 'gbr,3|zstd,1')
+    --cnk_byt, chunk_byte sz_byt	Chunksize in bytes
+    --cnk_csh, chunk_cache sz_byt	Chunk cache size in bytes
+    --cnk_dmn, chunk_dimension nm,sz_lmn	Chunksize of dimension nm (in elements not bytes)
+    --cnk_map, chunk_map map	Chunking map [dmn,lfp,nc4,nco,prd,rd1,rew,scl,xpl,xst]
+    --cnk_min, chunk_min sz_byt	Minimum size [B] of variable to chunk
+    --cnk_plc, chunk_policy plc	Chunking policy [all,g2d,g3d,xpl,xst,uck]
+    --cnk_scl, chunk_scalar sz_lmn	Chunksize scalar (in elements not bytes) (for all dimensions)
+-D, --dbg_lvl, debug-level lvl	Debug-level is lvl
+-d, --dmn, dimension dim,[min][,[max][[[,stride[,subcycle[,interleave]]]]]] Dimension's limits, stride, subcycle, interleave in hyperslab
+-F, --ftn, fortran	Fortran indexing conventions (1-based) for I/O
+    --fl_fmt, file_format fmt	File format for output [classic,64bit_offset,64bit_data,netcdf4,netcdf4_classic]
+-G, --gpe [grp_nm][:[lvl]]	Group Path Editing path, levels to replace
+-g, --grp grp1[,grp2[...]] Group(s) to process (regular expressions supported)
+    --glb_att_add nm=val	Global attribute to add
+-H, --fl_lst_in, file_list	Do not create "input_file_list" global attribute that stores stdin filenames
+-h, --hst, history	Do not append to "history" global attribute
+    --hdr_pad, header_pad	Pad output header with nbr bytes
+    --hpss, hpss_try	Search for unfound files on HPSS with 'hsi get ...'
+-L, --dfl_lvl, deflate lvl	Lempel-Ziv deflation/compression (lvl=0..9) for netCDF4 output
+-l, --lcl, local path	Local storage path for remotely-retrieved files
+    --md5_dgs, md5_digest	Perform MD5 digests
+    --msa, msa_usr_rdr	Multi-Slab-Algorithm output in User-Order
+-n, --nintap nbr_files,[nbr_numeric_chars[,increment]] NINTAP-style abbreviation of file list
+    --no_cll_msr	Do not extract cell_measures variables
+    --no_frm_trm	Do not extract formula_terms variables
+    --no_tmp_fl		Do not write output to temporary file
+-O, --ovr, overwrite	Overwrite existing output file, if any
+-o, --output, fl_out 	Output file name (or use last positional argument)
+-p, --pth, path path	Path prefix for all input filenames
+    --ppc v1[,v2[,...]]=prc	Precision-Preserving Compression: Number of total or decimal significant digits
+-R, --rtn, retain	Retain remotely-retrieved files after use
+-r, --revision, version	Compile-time configuration and/or program version
+    --ram_all, diskless_all	Open netCDF3 files and create output files in RAM
+    --rec_apn, record_append	Append records directly to output file
+-t, --thr_nbr, threads, omp_num_threads thr_nbr	Thread number for OpenMP
+    --uio, share_all	Unbuffered I/O to read/write netCDF3 file(s)
+    --unn, union	Select union of specified groups and variables
+-v, --variable var1[,var2[...]] Variable(s) to process (regular expressions supported)
+-X, --auxiliary lon_min,lon_max,lat_min,lat_max	Auxiliary coordinate bounding box
+-x, --xcl, exclude	Extract all variables EXCEPT those specified with -v
+in1.nc in2.nc [...]	Input file names (or use stdin)
+[out.nc]		Output file name (or use -o option)
+
+Eight ways to find more help on ncrcat and/or NCO:
+1. Examples:     http://nco.sf.net/nco.html#xmp_ncrcat
+2. Ref. manual:  http://nco.sf.net/nco.html#ncrcat
+3. User Guide:   http://nco.sf.net#RTFM
+4. Manual pages: 'man ncrcat', 'man nco', ...
+5. Homepage:     http://nco.sf.net
+6. Code:         http://github.com/nco/nco
+7. Help Forum:   http://sf.net/p/nco/discussion/9830
+8. Publications: http://nco.sf.net#pub
+Post questions, suggestions, patches at http://sf.net/projects/nco
+@@@ ncremap
+
+ERROR: Unrecognized option [1m--help[0m
+[07mBasic usage:
+[0m [1mncremap --map=map.nc in_fl out_fl[0m # Apply existing map from in->out
+[0m [1mncremap -d dst_fl in_fl out_fl[0m # Construct map in->dst, regrid to out
+[0m [1mncremap --destination=dst_fl --input_file=in_fl --output_file=out_fl[0m # As above, with long options
+
+Command-line options [long-option synonyms in \e[3mitalics\e[0m]:
+\e[07m-3\e[0m          Output file format CLASSIC (netCDF3 classic CDF1) [\e[3mfl_fmt, file_format=classic\e[0m]
+\e[07m-4\e[0m          Output file format NETCDF4 (netCDF4 extended HDF5) [\e[3mfl_fmt, file_format=netcdf4\e[0m]
+\e[07m-5\e[0m          Output file format 64BIT_DATA (netCDF3/pnetCDF CDF5) [\e[3mfl_fmt, file_format=64bit_data\e[0m]
+\e[07m-6\e[0m          Output file format 64BIT_OFFSET (netCDF3 64bit CDF2) [\e[3mfl_fmt, file_format=64bit_offset\e[0m]
+\e[07m-7\e[0m          Output file format NETCDF4_CLASSIC (netCDF4 classic HDF5) [\e[3mfl_fmt, file_format=netcdf4_classic\e[0m]
+\e[07m-a\e[0m \e[1malg_typ\e[0m  Algorithm for weight generation (default \e[1mnco_con\e[0m) [\e[3malg_typ, algorithm, regrid_algorithm\e[0m]
+            CDO algorithms: cdo_bilinear|cdo_conservative (same as ESMF)
+            ESMF algorithms: bilinear|conserve|conserve2nd|nearestdtos|neareststod|patch
+            NCO algorithms: nco, nco_con (1st order conservative algorithm similar to "conserve"), nco_idw, nco_dwe (inverse-distance-weighted interpolation/extrapolation)
+            Tempest (and MOAB-Tempest) algorithms: fv2fv|fv2fv_flx|fv2fv_stt|fv2se_flx|fv2se_stt|fv2se_alt|se2fv_flx|se2fv_stt|se2fv_alt|se2se|tempest
+ \e[1m--a2o\e[0m      Atmosphere-to-ocean remap (for Tempest only) (default \e[1mNo\e[0m) [\e[3ma2o, atm2ocn, b2l, big2ltl, l2s, lrg2sml\e[0m]
+ \e[1m--add_fll\e[0m  Add _FillValue to fields with empty destination cells (default \e[1mNo\e[0m) [\e[3madd_fll, add_fill_value, fll_mpt, fill_empty\e[0m]
+ \e[1m--area_dgn\e[0m Diagnose (rather than copy) grid_area to inferred grid-file (default \e[1mNo\e[0m) [\e[3marea_diagnose, dgn_area, diagnose_area\e[0m]
+ \e[1m--cmp_sng\e[0m  Compression string (empty means none) (default \e[1m\e[0m) [\e[3mcmp, cmp_sng, compress, compression, cpr, cdc, codec \e[0m]
+\e[07m-D\e[0m \e[1mdbg_lvl\e[0m  Debug level (default \e[1m0\e[0m) [\e[3mdbg_lvl, dbg, debug, debug_level\e[0m]
+\e[07m-d\e[0m \e[1mdst_fl\e[0m   Data file to infer destination grid from (empty means none, i.e., use grd_fl, grd_sng, or map_fl)) (default \e[1m\e[0m) [\e[3mdst_fl, destination_file, tpl, tpl_fl, template, template_file\e[0m]
+ \e[1m--d2f\e[0m      Convert double-precision fields to single-precision (default \e[1mNo\e[0m) [\e[3md2f | d2s | dbl_flt | dbl_sgl | double_float\e[0m]
+ \e[1m--devnull\e[0m  Send NCO weight-generator messages to /dev/null (default \e[1mYes\e[0m) [\e[3mdevnull, dev_nll, dvn_flg\e[0m]
+ \e[1m--dpt\e[0m      Add depth coordinate to MPAS files (default \e[1mNo\e[0m) [\e[3mdpt | depth | add_dpt | add_depth\e[0m]
+ \e[1m--dpt_fl\e[0m   Depth file with refBottomDepth for MPAS ocean (empty means none) (default \e[1m\e[0m) [\e[3mdpt_fl, mpas_fl, mpas_depth, depth_file\e[0m]
+ \e[1m--dpt_nm\e[0m   3D-Depth/height variable name (default \e[1m\e[0m) [\e[3mdpt_nm, depth_name, vrt_dpt\e[0m]
+ \e[1m--dt_sng\e[0m   Date string (for MWF map names) (default \e[1m20261011\e[0m) [\e[3mdt_sng, date_string\e[0m]
+ \e[1m--esmf_typ\e[0m ESMF Extrapolation type (empty means none) (default \e[1m\e[0m) [\e[3mesmf_typ, esmf_mth, esmf_extrap_type, esmf_extrap_method\e[0m] (nearestidavg|neareststod|none)
+ \e[1m--fl_fmt\e[0m   File format (empty is netCDF3 64bit CDF2) (default \e[1m\e[0m) [\e[3mfl_fmt, fmt_out, file_format, format_out\e[0m]
+\e[07m-G\e[0m \e[1mgrd_sng\e[0m  Grid generation arguments (empty means none) (default \e[1m\e[0m) [\e[3mgrd_sng, grid_generation, grid_gen, grid_string\e[0m]
+\e[07m-g\e[0m \e[1mgrd_dst\e[0m  Grid-file (destination) (empty means none, i.e., infer from dst_fl or use map_fl) (default \e[1m\e[0m) [\e[3mgrd_dst, grid_dest, dst_grd, dest_grid, destination_grid\e[0m]
+\e[07m-I\e[0m \e[1mdrc_in\e[0m   Input directory (empty means none) (default \e[1m\e[0m) [\e[3mdrc_in, in_drc, dir_in, in_dir, input\e[0m]
+\e[07m-i\e[0m \e[1min_fl\e[0m    Input file (empty means pipe to stdin or drc_in) (default \e[1m\e[0m) [\e[3min_fl, in_file, input_file\e[0m]
+\e[07m-j\e[0m \e[1mjob_nbr\e[0m  Job simultaneity for parallelism (default \e[1m2\e[0m) [\e[3mjob_nbr, job_number, jobs\e[0m]
+\e[07m-L\e[0m \e[1mdfl_lvl\e[0m  Deflate level (empty is none) (default \e[1m\e[0m) [\e[3mdfl_lvl, dfl, deflate\e[0m]
+\e[07m-M\e[0m          Multi-map-file toggle (unset means generate one map-file per input file) [\e[3mmlt_map, no_multimap\e[0m]
+\e[07m-m\e[0m \e[1mmap_fl\e[0m   Map-file (empty means generate internally) (default \e[1m\e[0m) [\e[3mmap_fl, map, map_file, rgr_map, regrid_map\e[0m]
+ \e[1m--mpi_nbr\e[0m  Number of tasks-per-node that MPI-enabled weight generators will request (default \e[1m1\e[0m) [\e[3mmpi_nbr, mpi_number, tsk_nbr, task_number\e[0m]
+ \e[1m--mpi_pfx\e[0m  Prefix for MPI-enabled weight generators (empty means weight generator is not MPI-enabled) (default \e[1m\e[0m) [\e[3mmpi_pfx, mpi_prefix, srun_cmd, srun_command\e[0m]
+ \e[1m--msh_fl\e[0m   Mesh-file for grid intersection (empty means generate internally or not at all) (default \e[1m\e[0m) [\e[3mmsh_fl, msh, mesh, mesh_file\e[0m]
+ \e[1m--msk_apl\e[0m  Apply msk_out to variables after regridding (default \e[1mNo\e[0m) [\e[3mmsk_apl, mask_apply, msk_app\e[0m]
+ \e[1m--msk_dst\e[0m  Mask-template variable in destination file (empty means none) (default \e[1m\e[0m) [\e[3mmsk_dst, dst_msk, mask_destination, mask_dst\e[0m]
+ \e[1m--msk_out\e[0m  Put mask variable in regridded file, argument is name (default \e[1mNo\e[0m) [\e[3mmsk_out, out_msk, mask_output, mask_rgr\e[0m]
+ \e[1m--msk_src\e[0m  Mask-template variable in source file (empty means none) (default \e[1m\e[0m) [\e[3mmsk_src, src_msk, mask_source, mask_src\e[0m]
+ \e[1m--mss_val\e[0m  Missing value for MPAS (empty means none) (default \e[1m-9.99999979021476795361e+33\e[0m) [\e[3mmss_val, fll_val, missing_value, fill_value\e[0m]
+\e[07m-n\e[0m \e[1mnco_opt\e[0m  NCO options (empty means none) (default \e[1m--no_tmp_fl\e[0m) [\e[3mnco_opt, nco_options\e[0m]
+ \e[1m--nm_dst\e[0m   Short name of destination grid (required for MWF, no default) [\e[3mnm_dst, name_dst, nm_sht_dst, short_name_destination\e[0m]
+ \e[1m--nm_src\e[0m   Short name of source grid (required for MWF, no default) [\e[3mnm_src, name_src, nm_sht_src, short_name_source\e[0m]
+ \e[1m--no_add_fll\e[0m  Do not add _FillValue to fields with empty destination cells [\e[3mno_add_fll, no_add_fill_value, no_fll_mpt, no_fill_empty\e[0m]
+ \e[1m--no_cll_msr\e[0m  Omit cell_measures variables (e.g., 'area') [\e[3mno_area, no_cll_msr, no_cell_measures\e[0m]
+ \e[1m--no_frm_trm\e[0m  Omit formula_terms variables (e.g., 'hyba', 'PS') [\e[3mno_frm_trm, no_formula_terms\e[0m]
+ \e[1m--no_permute\e[0m  Do not permute dimensions before regridding [\e[3mno_prm, no_pdq, no_ncpdq\e[0m]
+ \e[1m--no_stg_grd\e[0m  Omit staggered grid variables ('slat, slon, w_stag') (default \e[1mTrue\e[0m) [\e[3mno_stg_grd, no_stg, no_stagger, no_staggered_grid\e[0m]
+ \e[1m--no_stdin\e[0m Do not check stdin for input file list [\e[3mno_stdin, no_inp_std, no_redirect, no_standard_input\e[0m]
+ \e[1m--nsx_alg\e[0m  Intersection algorithm used by mbtempest (default \e[1mkdtree\e[0m) [\e[3mnsx_alg, intersection_algorithm\e[0m] (advfront|kdtree)
+\e[07m-O\e[0m \e[1mdrc_out\e[0m  Output directory (default \e[1m/\e[0m) [\e[3mdrc_out, out_drc, dir_out, out_dir, output\e[0m]
+\e[07m-o\e[0m \e[1mout_fl\e[0m   Output-file (regridded file) (empty copies Input filename) (default \e[1m\e[0m) [\e[3mout_fl, out_file, output_file\e[0m]
+\e[07m-P\e[0m \e[1mprc_typ\e[0m  Procedure type (empty means none) (default \e[1m\e[0m) [\e[3mprc_typ, prm_typ, procedure\e[0m]
+\e[07m-p\e[0m \e[1mpar_typ\e[0m  Parallelism type (default \e[1mserial\e[0m) [\e[3mpar_typ, par_md, parallel_type, parallel_mode, parallel\e[0m]
+ \e[1m--pdq_opt\e[0m  ncpdq dimension permutation string (empty means none) (default \e[1m\e[0m) [\e[3mpdq, pdq_opt, prm, prm_opt, permute\e[0m]
+ \e[1m--ppc_prc\e[0m  Precision-preserving compression (empty means none) (default \e[1m\e[0m) [\e[3mppc, ppc_prc, precision, quantize\e[0m]
+ \e[1m--preserve\e[0m Preserved statistic (empty preserves integral, except mean for MPAS) (default \e[1m\e[0m) [\e[3mpreserve, prs_stt, preserved_statistic\e[0m] (integral|mean)
+ \e[1m--prt_nbr\e[0m  Partition number for MOAB parallelism (default \e[1m8\e[0m) [\e[3mprt_nbr, prt, partition_number\e[0m]
+ \e[1m--ps_nm\e[0m    Surface pressure variable name (default \e[1m\e[0m) [\e[3mps_nm, ps_name, ps, vrt_ps\e[0m]
+\e[07m-R\e[0m \e[1mrgr_opt\e[0m  Regrid options (empty means none) (default \e[1m--rgr lat_nm_out=lat --rgr lon_nm_out=lon\e[0m) [\e[3mrgr_opt, regrid_options\e[0m]
+\e[07m-r\e[0m \e[1mrnr_thr\e[0m  Renormalization threshold (empty means none (except for MPAS, see documentation)) (default \e[1m\e[0m) [\e[3mrnr_thr, rnr, renormalize, renormalization_threshold\e[0m]
+ \e[1m--rgn_dst\e[0m  Regional destination grid [\e[3mrgn_dst, dst_rgn, regional_destination\e[0m]
+ \e[1m--rgn_src\e[0m  Regional source grid [\e[3mrgn_src, src_rgn, regional_source\e[0m]
+ \e[1m--rrg_bb_wesn\e[0m  Regional regridding bounding-box WESN order (empty means none) (default \e[1m\e[0m) [\e[3mrrg_bb_wesn, bb, bb_wesn, wesn_sng\e[0m]
+ \e[1m--rrg_dat_glb\e[0m  Regional regridding global data file (empty means none) (default \e[1m\e[0m) [\e[3mrrg_dat_glb, dat_glb, data_global, global_data\e[0m]
+ \e[1m--rrg_grd_glb\e[0m  Regional regridding global grid file (empty means none) (default \e[1m\e[0m) [\e[3mrrg_grd_glb, grd_glb, grid_global, global_grid\e[0m]
+ \e[1m--rrg_grd_rgn\e[0m  Regional regridding regional grid file (empty means none) (default \e[1m\e[0m) [\e[3mrrg_grd_rgn, grd_rgn, grid_regional, regional_grid\e[0m]
+ \e[1m--rrg_rnm_sng\e[0m  Regional regridding rename string (empty means none) (default \e[1m\e[0m) [\e[3mrrg_rnm_sng, rnm_sng, rename_string\e[0m]
+\e[07m-s\e[0m \e[1mgrd_src\e[0m  Grid-file (source) (empty means infer or use map_fl) (default \e[1m\e[0m) [\e[3mgrd_src, grid_source, source_grid, src_grd\e[0m]
+ \e[1m--sgs_frc\e[0m  Sub-grid fraction variable (empty means none) (default \e[1m\e[0m) [\e[3msgs_frc, ice_frc, lnd_frc, ocn_frc, subgrid_fraction\e[0m]
+ \e[1m--sgs_msk\e[0m  Sub-grid mask variable (empty means none) (default \e[1m\e[0m) [\e[3msgs_msk, ice_msk, lnd_msk, ocn_msk, subgrid_mask\e[0m]
+ \e[1m--sgs_nrm\e[0m  Sub-grid fraction normalization (empty means none) (default \e[1m1.0\e[0m) [\e[3msgs_nrm, subgrid_normalization\e[0m]
+ \e[1m--skl_fl\e[0m   Skeleton file (empty means none) (default \e[1m\e[0m) [\e[3mskl_fl, skl, skeleton, skeleton_file\e[0m]
+ \e[1m--std_flg\e[0m  Stdin used for input (default \e[1mNo\e[0m) [\e[3mstdin, std_flg, inp_std, redirect, standard_input\e[0m]
+ \e[1m--stg_grd\e[0m  Add staggered grid variables ('slat, slon, w_stag') (default \e[1mFalse\e[0m) [\e[3mstg_grd, stg, stagger, staggered_grid\e[0m]
+\e[07m-T\e[0m \e[1mdrc_tmp\e[0m  Temporary directory (for intermediate files) (default \e[1m/tmp\e[0m) [\e[3mdrc_tmp, tmp_drc, dir_tmp, tmp_dir, tmp\e[0m]
+\e[07m-t\e[0m \e[1mthr_nbr\e[0m  Thread number for regridder (default \e[1m2\e[0m) [\e[3mthr_nbr, thr, thread_number, thread, threads\e[0m]
+\e[07m-U\e[0m          Unpack input prior to regridding [\e[3munpack, upk, upk_inp\e[0m]
+\e[07m-u\e[0m \e[1munq_sfx\e[0m  Unique suffix (prevents intermediate files from sharing names) (default \e[1m.pid37\e[0m) [\e[3munq_sfx, unique_suffix, suffix\e[0m]
+ \e[1m--ugrid_fl\e[0m UGRID file (empty means none) (default \e[1m\e[0m) [\e[3mugrid_fl, ugrid, ugrid_file\e[0m]
+ \e[1m--uio\e[0m      Unbuffered I/O (NC_SHARE) for netCDF3 files [\e[3muio, unbuffered, share\e[0m]
+\e[07m-V\e[0m \e[1mvar_rgr\e[0m  CF template variable (empty means none) (default \e[1m\e[0m) [\e[3mvar_rgr, rgr_var, var_cf, cf_var, cf_variable\e[0m]
+\e[07m-v\e[0m \e[1mvar_lst\e[0m  Variable list (empty means all) (default \e[1m\e[0m) [\e[3mvar_lst, variable_list, var, vars, variable, variables\e[0m]
+ \e[1m--version\e[0m  Version and configuration information [\e[3mversion, vrs, config, configuration, cnf\e[0m]
+ \e[1m--vrb_lvl\e[0m  Verbosity level (default \e[1m2\e[0m) [\e[3mvrb_lvl, vrb, verbosity, print_verbosity\e[0m]
+ \e[1m--vrt_in\e[0m   Vertical grid file for input (empty means none) (default \e[1m\e[0m) [\e[3mvrt_in, vrt_grd_in\e[0m]
+ \e[1m--vrt_nm\e[0m   Vertical coordinate name (empty means "plev") (default \e[1m\e[0m) [\e[3mvrt_nm, plev_nm, vertical_coordinate_name\e[0m]
+ \e[1m--vrt_ntp\e[0m  Vertical interpolation type (empty means none) (default \e[1m\e[0m) [\e[3mvrt_ntp, ntp_mth, interpolation_type, interpolation_method\e[0m] (lin|log)
+ \e[1m--vrt_out\e[0m   Vertical grid file for output (empty means none) (default \e[1m\e[0m) [\e[3mvrt_out, vrt_fl, vrt, vrt_crd, vrt_grd_out\e[0m]
+ \e[1m--vrt_xtr\e[0m  Vertical extrapolation type (empty means none) (default \e[1m\e[0m) [\e[3mvrt_xtr, xtr_mth, extrapolation_type, extrapolation_method\e[0m] (linear|mss_val|nrs_ngh|zero)
+\e[07m-W\e[0m \e[1mwgt_opt\e[0m  Weight-generator options (default \e[1m--no_log --ignore_unmapped\e[0m) [\e[3mwgt_opt, esmf_opt, esmf_options, tempest_opt, tps_opt\e[0m]
+\e[07m-w\e[0m \e[1mwgt_cmd\e[0m  Weight-generator command (default \e[1mESMF_RegridWeightGen\e[0m) [\e[3mwgt_cmd, wgt_gnr, weight_command, weight_generator\e[0m]
+\e[07m-x\e[0m \e[1mxtn_var\e[0m  Extensive variables (empty means none) (default \e[1m\e[0m) [\e[3mxtn_var, xtn_lst, extensive, var_xtn, extensive_variables\e[0m]
+ \e[1m--xcl_var\e[0m  Exclude rather than extract var_lst [\e[3mxcl_var, xcl, exclude, exclude_variables\e[0m]
+ \e[1m--xtr_nsp\e[0m  Extrapolation number of source points (for ESMF & NCO only) (default \e[1m8\e[0m) [\e[3mxtr_nsp, xtr_pnt_src_nbr, extrap_num_src_pnts\e[0m]
+ \e[1m--xtr_xpn\e[0m  Extrapolation inverse-distance exponent (for ESMF & NCO only) (default \e[1m2.0\e[0m) [\e[3mxtr_xpn, xtr_dst_xpn, extrap_dist_exponent\e[0m]
+
+Examples: [1mncremap -m map.nc in.nc out.nc [0m
+          [1mncremap -d dst.nc in.nc out.nc [0m
+          [1mncremap -g grd_dst.nc in.nc out.nc [0m
+          [1mncremap -s grd_src.nc -g grd_dst.nc -m map.nc [0m
+          [1mncremap -a aave  -d dst.nc in.nc out.nc [0m
+          [1mncremap -a bilin -d dst.nc in.nc out.nc [0m
+          [1mncremap -a fv2fv -d dst.nc in.nc out.nc [0m
+          [1mncremap -a nco   -d dst.nc in.nc out.nc [0m
+          [1mncremap -v FSNT -m map.nc in.nc out.nc [0m
+          [1mncremap -m map.nc -I ~/drc_in -O ~/rgr [0m
+          [1mncremap -M -d dst.nc -I ~/drc_in -O ~/rgr [0m
+          [1mncremap -M -g grd_dst.nc -I ~/drc_in -O ~/rgr [0m
+          [1mncremap -s grd_src.nc -d dst.nc -I ~/drc_in -O ~/rgr [0m
+          [1mncremap -d dst.nc -I ~/drc_in -O ~/rgr [0m
+          [1mncremap -g grd_dst.nc -I ~/drc_in -O ~/rgr [0m
+          [1mncremap --vrt_out=grd_vrt.nc in.nc out.nc [0m
+          [1mncremap --vrt_out=grd_vrt.nc -m map.nc in.nc out.nc [0m
+          [1mls mdl*2005*nc | ncremap -m map.nc -O ~/rgr [0m
+          [1mls mdl*2005*nc | ncremap -d dst.nc -O ~/rgr [0m
+
+Complete documentation at http://nco.sf.net/nco.html#ncremap
+
+@@@ ncrename
+ncrename Command line options cheatsheet (full details at http://nco.sf.net/nco.html#ncrename):
+ncrename [-a ...] [--bfr byt] [-D dbg_lvl] [-d ...] [-g ...] [--glb ...] [-H] [-h] [--hdr_pad nbr] [--hpss] [-l path] [-O] [-o out.nc] [-p path] [-R] [-r] [--uio] [-v ...] in.nc [[out.nc]]
+
+-a, --attribute old_att,new_att Attribute's old and new names
+    --bfr_sz, buffer_size sz	Buffer size to open files with
+-D, --dbg_lvl, debug-level lvl	Debug-level is lvl
+-d, --dmn, dimension old_dim,new_dim Dimension's old and new names
+-g, --grp, group	old_grp,new_grp Group's old and new names
+    --glb_att_add nm=val	Global attribute to add
+-H, --fl_lst_in, file_list	Do not create "input_file_list" global attribute that stores stdin filenames
+-h, --hst, history	Do not append to "history" global attribute
+    --hdr_pad, header_pad	Pad output header with nbr bytes
+    --hpss, hpss_try	Search for unfound files on HPSS with 'hsi get ...'
+-l, --lcl, local path	Local storage path for remotely-retrieved files
+-O, --ovr, overwrite	Overwrite existing output file, if any
+-o, --output, fl_out 	Output file name (or use last positional argument)
+-p, --pth, path path	Path prefix for all input filenames
+-R, --rtn, retain	Retain remotely-retrieved files after use
+-r, --revision, version	Compile-time configuration and/or program version
+    --uio, share_all	Unbuffered I/O to read/write netCDF3 file(s)
+-v, --variable old_var,new_var Variable's old and new names
+in.nc			Input file name (or use stdin)
+[out.nc]		Output file name (or use -o option)
+
+Eight ways to find more help on ncrename and/or NCO:
+1. Examples:     http://nco.sf.net/nco.html#xmp_ncrename
+2. Ref. manual:  http://nco.sf.net/nco.html#ncrename
+3. User Guide:   http://nco.sf.net#RTFM
+4. Manual pages: 'man ncrename', 'man nco', ...
+5. Homepage:     http://nco.sf.net
+6. Code:         http://github.com/nco/nco
+7. Help Forum:   http://sf.net/p/nco/discussion/9830
+8. Publications: http://nco.sf.net#pub
+Post questions, suggestions, patches at http://sf.net/projects/nco
+@@@ ncwa
+ncwa Command line options cheatsheet (full details at http://nco.sf.net/nco.html#ncwa):
+ncwa [-3] [-4] [-5] [-6] [-7] [-A] [-a ...] [-B mask_cond] [-b] [--bfr byt] [-C] [-c] [--cmp sng] [--cnk_byt byt] [--cnk_csh byt] [--cnk_dmn nm,lmn] [--cnk_map map] [--cnk_min byt] [--cnk_plc plc] [--cnk_scl sz] [-D dbg_lvl] [-d ...] [--dbl|flt] [-F] [--fl_fmt fmt] [-G grp:lvl] [-g ...] [--glb ...] [-H] [-h] [--hdf] [--hdr_pad nbr] [--hpss] [-I] [-L lvl] [-l path] [-m mask] [-M mask_val] [-N] [--no_cll_msr] [--no_cll_mth] [--no_frm_trm] [--no_tmp_fl] [-O] [-o out.nc] [-p path] [--ppc ...] [-R] [-r] [--ram_all] [-T mask_comp] [-t thr_nbr] [--uio] [--unn] [-v ...] [-w wgt] [-x] [-y op_typ] in.nc [out.nc]
+
+-3, --3, classic	Output file in netCDF3 CLASSIC (32-bit offset) storage format
+-4, --4, netcdf4	Output file in netCDF4 (HDF5) storage format
+-5, --5, 64bit_data	Output file in netCDF3 64-bit data (i.e., CDF5, PnetCDF) storage format
+-6, --6, 64, 64bit_offset	Output file in netCDF3 64-bit offset storage format
+-7, --7, netcdf4_classic	Output file in netCDF4 CLASSIC format (3+4=7)
+-A, --apn, append	Append to existing output file, if any
+-a, --avg, average avg_dim1[,avg_dim2[...]] Averaging dimensions
+-B, --msk_cnd, mask_condition mask_cond	Mask condition (e.g., "ORO < 1")
+-b, --rdd, retain-degenerate-dimensions	Retain degenerate dimensions
+    --bfr_sz, buffer_size sz	Buffer size to open files with
+-C, --no_crd, xcl_ass_var	Exclude coordinates, CF-associated variables (ancillary, bounds, ...)
+-c, --crd, xtr_ass_var	Extract coordinates, CF-associated variables (ancillary, bounds, ...)
+    --cmp cmp_sng	Compression string (e.g., 'gbr,3|zstd,1')
+    --cnk_byt, chunk_byte sz_byt	Chunksize in bytes
+    --cnk_csh, chunk_cache sz_byt	Chunk cache size in bytes
+    --cnk_dmn, chunk_dimension nm,sz_lmn	Chunksize of dimension nm (in elements not bytes)
+    --cnk_map, chunk_map map	Chunking map [dmn,lfp,nc4,nco,prd,rd1,rew,scl,xpl,xst]
+    --cnk_min, chunk_min sz_byt	Minimum size [B] of variable to chunk
+    --cnk_plc, chunk_policy plc	Chunking policy [all,g2d,g3d,xpl,xst,uck]
+    --cnk_scl, chunk_scalar sz_lmn	Chunksize scalar (in elements not bytes) (for all dimensions)
+-D, --dbg_lvl, debug-level lvl	Debug-level is lvl
+-d, --dmn, dimension dim,[min][,[max]][,[stride]] Dimension's limits and stride in hyperslab
+    --dbl, flt, rth_dbl|flt	dbl: Promote single- to double-precision b4 arithmetic (default). flt: Single-precision arithmetic is allowed.
+-F, --ftn, fortran	Fortran indexing conventions (1-based) for I/O
+    --fl_fmt, file_format fmt	File format for output [classic,64bit_offset,64bit_data,netcdf4,netcdf4_classic]
+-G, --gpe [grp_nm][:[lvl]]	Group Path Editing path, levels to replace
+-g, --grp grp1[,grp2[...]] Group(s) to process (regular expressions supported)
+    --glb_att_add nm=val	Global attribute to add
+-H, --fl_lst_in, file_list	Do not create "input_file_list" global attribute that stores stdin filenames
+-h, --hst, history	Do not append to "history" global attribute
+    --hdf_upk, hdf_unpack	HDF unpack convention: unpacked=scale_factor*(packed-add_offset)
+    --hdr_pad, header_pad	Pad output header with nbr bytes
+    --hpss, hpss_try	Search for unfound files on HPSS with 'hsi get ...'
+-I, --wgt_msk_crd_var	Do not weight or mask coordinate variables
+-L, --dfl_lvl, deflate lvl	Lempel-Ziv deflation/compression (lvl=0..9) for netCDF4 output
+-l, --lcl, local path	Local storage path for remotely-retrieved files
+-M, --msk_val, mask-value, mask_value mask_val	Masking value (default is 1.0)
+-m, --msk_nm, msk_var, mask-variable, mask_variable mask_var	Masking variable name
+-N, --nmr, numerator	No normalization
+    --no_cll_msr	Do not extract cell_measures variables
+    --no_cll_mth	Do not add/modify cell_methods attributes
+    --no_frm_trm	Do not extract formula_terms variables
+    --no_tmp_fl		Do not write output to temporary file
+-O, --ovr, overwrite	Overwrite existing output file, if any
+-o, --output, fl_out 	Output file name (or use last positional argument)
+-p, --pth, path path	Path prefix for all input filenames
+    --ppc v1[,v2[,...]]=prc	Precision-Preserving Compression: Number of total or decimal significant digits
+-R, --rtn, retain	Retain remotely-retrieved files after use
+-r, --revision, version	Compile-time configuration and/or program version
+    --ram_all, diskless_all	Open netCDF3 files and create output files in RAM
+-T, --mask_comparator, msk_cmp_typ, op_rlt comparator	Comparator for mask condition: eq,ne,ge,le,gt,lt
+-t, --thr_nbr, threads, omp_num_threads thr_nbr	Thread number for OpenMP
+    --uio, share_all	Unbuffered I/O to read/write netCDF3 file(s)
+    --unn, union	Select union of specified groups and variables
+-v, --variable var1[,var2[...]] Variable(s) to process (regular expressions supported)
+-w, --wgt_var, weight wgt	Weighting variable name
+-x, --xcl, exclude	Extract all variables EXCEPT those specified with -v
+-y, --op_typ, operation op_typ	Arithmetic operation: avg,mabs,mebs,mibs,min,max,tabs,ttl,sqravg,avgsqr,sqrt,rms,rmssdn
+in.nc			Input file name (or use stdin)
+[out.nc]		Output file name (or use -o option)
+
+Eight ways to find more help on ncwa and/or NCO:
+1. Examples:     http://nco.sf.net/nco.html#xmp_ncwa
+2. Ref. manual:  http://nco.sf.net/nco.html#ncwa
+3. User Guide:   http://nco.sf.net#RTFM
+4. Manual pages: 'man ncwa', 'man nco', ...
+5. Homepage:     http://nco.sf.net
+6. Code:         http://github.com/nco/nco
+7. Help Forum:   http://sf.net/p/nco/discussion/9830
+8. Publications: http://nco.sf.net#pub
+Post questions, suggestions, patches at http://sf.net/projects/nco

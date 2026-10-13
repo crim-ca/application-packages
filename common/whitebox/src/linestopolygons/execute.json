@@ -1,0 +1,9 @@
+{
+  "inputs": {
+    "input_line_file": {
+      "href": "https://example.com/data"
+    },
+    "output_polygon_file": "value"
+  },
+  "outputs": {}
+}

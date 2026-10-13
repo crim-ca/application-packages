@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "input_d8_flow_accumulation_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "channelization_threshold": "value"
+  },
+  "outputs": {}
+}

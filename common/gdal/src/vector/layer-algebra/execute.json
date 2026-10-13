@@ -1,0 +1,17 @@
+{
+  "inputs": {
+    "operation": "value",
+    "input": {
+      "href": "https://example.com/data"
+    },
+    "method": {
+      "href": "https://example.com/data"
+    },
+    "output_name": "value"
+  },
+  "outputs": {
+    "output": {
+      "transmissionMode": "reference"
+    }
+  }
+}

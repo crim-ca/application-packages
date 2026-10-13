@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "input_vector_points_file": {
+      "href": "https://example.com/data"
+    },
+    "output_html_file": "value",
+    "number_of_steps": "value",
+    "step_nonlinearity": "value"
+  },
+  "outputs": {}
+}

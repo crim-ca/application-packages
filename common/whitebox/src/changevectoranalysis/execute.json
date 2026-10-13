@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "earlier_date_input_files": {
+      "href": "https://example.com/data"
+    },
+    "later_date_input_files": {
+      "href": "https://example.com/data"
+    },
+    "output_vector_magnitude_file": "value",
+    "output_vector_direction_file": "value"
+  },
+  "outputs": {}
+}

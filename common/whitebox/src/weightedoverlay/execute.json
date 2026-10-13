@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "input_factor_files": {
+      "href": "https://example.com/data"
+    },
+    "weight_values_e_g_1_7_3_5_1_2": "value",
+    "output_file": "value"
+  },
+  "outputs": {}
+}

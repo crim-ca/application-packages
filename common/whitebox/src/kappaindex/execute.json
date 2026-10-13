@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_classification_file": {
+      "href": "https://example.com/data"
+    },
+    "input_reference_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value"
+  },
+  "outputs": {}
+}

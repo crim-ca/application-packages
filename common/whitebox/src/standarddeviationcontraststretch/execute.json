@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "input_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "standard_deviation_threshold": "value",
+    "number_of_tones": "value"
+  },
+  "outputs": {}
+}

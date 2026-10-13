@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_base_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "gradient": "value",
+    "aspect": "value",
+    "constant": "value"
+  },
+  "outputs": {}
+}

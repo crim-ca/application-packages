@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "input_base_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "range_of_autocorrelation_map_units": "value"
+  },
+  "outputs": {}
+}

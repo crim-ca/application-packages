@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "input_local_scale_file": {
+      "href": "https://example.com/data"
+    },
+    "input_meso_scale_file": {
+      "href": "https://example.com/data"
+    },
+    "input_broad_scale_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value"
+  },
+  "outputs": {}
+}

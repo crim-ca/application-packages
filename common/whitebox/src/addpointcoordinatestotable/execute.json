@@ -1,0 +1,8 @@
+{
+  "inputs": {
+    "input_vector_points_file": {
+      "href": "https://example.com/data"
+    }
+  },
+  "outputs": {}
+}

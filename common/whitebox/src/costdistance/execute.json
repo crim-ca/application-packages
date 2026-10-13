@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "input_source_file": {
+      "href": "https://example.com/data"
+    },
+    "input_cost_friction_file": {
+      "href": "https://example.com/data"
+    },
+    "output_cost_accumulation_file": "value",
+    "output_backlink_file": "value"
+  },
+  "outputs": {}
+}

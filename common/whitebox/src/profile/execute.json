@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_vector_line_file": {
+      "href": "https://example.com/data"
+    },
+    "input_surface_file": {
+      "href": "https://example.com/data"
+    },
+    "output_html_file": "value"
+  },
+  "outputs": {}
+}

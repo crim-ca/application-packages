@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_lidar_file": {
+      "href": "https://example.com/data"
+    },
+    "input_colour_image_file": {
+      "href": "https://example.com/data"
+    },
+    "output_lidar_file": "value"
+  },
+  "outputs": {}
+}

@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "input_lidar_file_classification": {
+      "href": "https://example.com/data"
+    },
+    "input_lidar_file_reference": {
+      "href": "https://example.com/data"
+    },
+    "output_html_file": "value",
+    "output_class_accuracy_raster_file": "value"
+  },
+  "outputs": {}
+}

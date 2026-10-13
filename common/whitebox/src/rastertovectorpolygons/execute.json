@@ -1,0 +1,9 @@
+{
+  "inputs": {
+    "input_raster_file": {
+      "href": "https://example.com/data"
+    },
+    "output_polygons_file": "value"
+  },
+  "outputs": {}
+}

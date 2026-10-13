@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "output_diffmax_magnitude_file": "value",
+    "output_diffmax_scale_file": "value",
+    "minimum_search_neighbourhood_radius_grid_cells": "value",
+    "maximum_search_neighbourhood_radius_grid_cells": "value",
+    "step_size": "value"
+  },
+  "outputs": {}
+}

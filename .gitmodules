@@ -12,3 +12,7 @@
 [submodule "OGC/TB20"]
 	path = OGC/TB20
 	url = https://github.com/crim-ca/ogc-tb20
+[submodule "OGC/OSPD-2026"]
+	path = OGC/OSPD-2026
+	url = https://github.com/crim-ca/bblocks-process-profiles
+	branch = example-unet-workflow

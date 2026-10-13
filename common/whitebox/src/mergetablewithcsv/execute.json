@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "input_primary_vector_file": {
+      "href": "https://example.com/data"
+    },
+    "primary_key_field": "value",
+    "input_csv_file": {
+      "href": "https://example.com/data"
+    },
+    "foreign_key_field": "value"
+  },
+  "outputs": {}
+}

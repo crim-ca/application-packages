@@ -1,0 +1,8 @@
+{
+  "inputs": {
+    "input_colour_composite_image_file": {
+      "href": "https://example.com/data"
+    }
+  },
+  "outputs": {}
+}

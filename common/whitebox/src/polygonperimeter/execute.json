@@ -1,0 +1,8 @@
+{
+  "inputs": {
+    "input_vector_polygon_file": {
+      "href": "https://example.com/data"
+    }
+  },
+  "outputs": {}
+}

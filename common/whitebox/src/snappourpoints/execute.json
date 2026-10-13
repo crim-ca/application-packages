@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "input_pour_points_outlet_file": {
+      "href": "https://example.com/data"
+    },
+    "input_d8_flow_accumulation_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "maximum_snap_distance_map_units": "value"
+  },
+  "outputs": {}
+}

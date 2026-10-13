@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "input_base_file": {
+      "href": "https://example.com/data"
+    },
+    "output_polygon_file": "value",
+    "grid_cell_width": "value",
+    "grid_cell_height": "value"
+  },
+  "outputs": {}
+}

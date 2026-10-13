@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "input_vector_file": {
+      "href": "https://example.com/data"
+    },
+    "output_points_file": "value",
+    "distance_tolerance": "value"
+  },
+  "outputs": {}
+}

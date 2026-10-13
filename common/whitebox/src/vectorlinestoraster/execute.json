@@ -1,0 +1,9 @@
+{
+  "inputs": {
+    "input_vector_lines_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value"
+  },
+  "outputs": {}
+}

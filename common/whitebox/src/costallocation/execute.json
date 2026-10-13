@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_source_file": {
+      "href": "https://example.com/data"
+    },
+    "input_backlink_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value"
+  },
+  "outputs": {}
+}

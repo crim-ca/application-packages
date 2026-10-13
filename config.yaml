@@ -1,0 +1,6 @@
+# Generic configuration for scripts (deploy payload builder, profile annotation). Extend with further sections as needed.
+media-types:
+  # Extra media-types merged by Weaver at deploy (process payload) for formats lacking a registered IANA type.
+  raster: [image/tiff, image/png, image/jpeg, application/x-netcdf]
+  vector: [application/geo+json, application/geopackage+sqlite3, application/vnd.shp]
+  pointcloud: [application/vnd.las, application/vnd.laszip]

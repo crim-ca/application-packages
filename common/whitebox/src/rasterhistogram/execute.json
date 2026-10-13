@@ -1,0 +1,9 @@
+{
+  "inputs": {
+    "input_file": {
+      "href": "https://example.com/data"
+    },
+    "output_html_file": "value"
+  },
+  "outputs": {}
+}
