@@ -1,0 +1,7 @@
+identifier-prefix: ospd.process-profiles.app-packages.
+name: Application Packages
+abstract: Building Blocks bridging CRIM application packages with the OSPD process
+  profiles.
+baseURL: https://crim-ca.github.io/application-packages/
+imports:
+- https://crim-ca.github.io/bblocks-process-profiles/build/register.json

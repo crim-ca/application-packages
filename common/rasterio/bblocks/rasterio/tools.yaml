@@ -1,0 +1,233 @@
+rasterio.blocks:
+  processId: rasterio-blocks
+  cwl: blocks/rasterio.blocks.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+rasterio.bounds:
+  processId: rasterio-bounds
+  cwl: bounds/rasterio.bounds.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-extent
+  openeoEquivalents: []
+rasterio.calc:
+  processId: rasterio-calc
+  cwl: calc/rasterio.calc.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-band-math
+  openeoEquivalents: []
+rasterio.clip:
+  processId: rasterio-clip
+  cwl: clip/rasterio.clip.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  - http://www.opengis.net/def/process-type/clipping
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-crop
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.filter_spatial
+  - ogc.openeo.processes.cubes.mask
+rasterio.convert:
+  processId: rasterio-convert
+  cwl: convert/rasterio.convert.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  - http://www.opengis.net/def/process-type/format-conversion
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-format-conversion
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.save_result
+rasterio.create:
+  processId: rasterio-create
+  cwl: create/rasterio.create.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+rasterio.edit_info:
+  processId: rasterio-edit_info
+  cwl: edit_info/rasterio.edit_info.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  - http://www.opengis.net/def/process-type/metadata-inspection
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-extent
+  openeoEquivalents: []
+rasterio.gcps:
+  processId: rasterio-gcps
+  cwl: gcps/rasterio.gcps.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+rasterio.info:
+  processId: rasterio-info
+  cwl: info/rasterio.info.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  - http://www.opengis.net/def/process-type/metadata-inspection
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-extent
+  openeoEquivalents: []
+rasterio.mask:
+  processId: rasterio-mask
+  cwl: mask/rasterio.mask.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  - http://www.opengis.net/def/process-type/clipping
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.filter_spatial
+  - ogc.openeo.processes.cubes.mask
+rasterio.merge:
+  processId: rasterio-merge
+  cwl: merge/rasterio.merge.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  - http://www.opengis.net/def/process-type/mosaicking
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.merge_cubes
+rasterio.overview:
+  processId: rasterio-overview
+  cwl: overview/rasterio.overview.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+rasterio.rasterize:
+  processId: rasterio-rasterize
+  cwl: rasterize/rasterio.rasterize.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-rasterization
+  openeoEquivalents: []
+rasterio.rm:
+  processId: rasterio-rm
+  cwl: rm/rasterio.rm.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+rasterio.sample:
+  processId: rasterio-sample
+  cwl: sample/rasterio.sample.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-thinning
+  openeoEquivalents: []
+rasterio.shapes:
+  processId: rasterio-shapes
+  cwl: shapes/rasterio.shapes.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+rasterio.stack:
+  processId: rasterio-stack
+  cwl: stack/rasterio.stack.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+rasterio.transform:
+  processId: rasterio-transform
+  cwl: transform/rasterio.transform.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-reprojection
+  openeoEquivalents: []
+rasterio.warp:
+  processId: rasterio-warp
+  cwl: warp/rasterio.warp.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  - http://www.opengis.net/def/process-type/reprojection
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-reprojection
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.resample_spatial

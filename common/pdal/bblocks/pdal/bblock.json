@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
+  "name": "Application packages: pdal",
+  "abstract": "Profile of the OGC API - Processes descriptions of the 15 pdal CWL application packages, with activity types, process types and generic profiles per tool.",
+  "status": "under-development",
+  "version": "0.1",
+  "itemClass": "schema",
+  "register": "app-packages",
+  "dependsOn": [
+    "ogc.api.processes.v1.schemas.process",
+    "ogc.api.processes.v2.schemas.ogcapppkg",
+    "ogc.api.processes.v2.schemas.staticIndicator",
+    "eoap.cct.cwl-to-ogcprocess",
+    "ogc.bbr.provenance.provenance",
+    "ogc.bbr.wf4ever.wfprov.ProcessRun",
+    "ospd.process-profiles.process-type"
+  ],
+  "seeAlso": [
+    "generic-profiles.concept.point-cloud-processing"
+  ],
+  "conformanceClasses": [
+    "http://www.opengis.net/spec/ogcapi-processes-1/1.0/conf/core"
+  ],
+  "scope": "dev",
+  "tags": [
+    "application package",
+    "CWL",
+    "OGC API - Processes",
+    "pdal",
+    "geoprocessing",
+    "point-cloud-processing"
+  ],
+  "sourceSchema": "schema.yaml",
+  "maturity": "development",
+  "group": "Application Packages"
+}

@@ -1,0 +1,1282 @@
+gdal.dataset.copy:
+  processId: gdal-dataset-copy
+  cwl: dataset/copy/gdal.dataset.copy.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.dataset.delete:
+  processId: gdal-dataset-delete
+  cwl: dataset/delete/gdal.dataset.delete.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.dataset.identify:
+  processId: gdal-dataset-identify
+  cwl: dataset/identify/gdal.dataset.identify.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.dataset.rename:
+  processId: gdal-dataset-rename
+  cwl: dataset/rename/gdal.dataset.rename.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.driver.gpkg.repack:
+  processId: gdal-driver-gpkg-repack
+  cwl: driver/gpkg/repack/gdal.driver.gpkg.repack.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.driver.gti.create:
+  processId: gdal-driver-gti-create
+  cwl: driver/gti/create/gdal.driver.gti.create.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.driver.openfilegdb.repack:
+  processId: gdal-driver-openfilegdb-repack
+  cwl: driver/openfilegdb/repack/gdal.driver.openfilegdb.repack.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.driver.pdf.list-layers:
+  processId: gdal-driver-pdf-list-layers
+  cwl: driver/pdf/list-layers/gdal.driver.pdf.list-layers.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.mdim.convert:
+  processId: gdal-mdim-convert
+  cwl: mdim/convert/gdal.mdim.convert.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/format-conversion
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.save_result
+gdal.mdim.info:
+  processId: gdal-mdim-info
+  cwl: mdim/info/gdal.mdim.info.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/metadata-inspection
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.mdim.mosaic:
+  processId: gdal-mdim-mosaic
+  cwl: mdim/mosaic/gdal.mdim.mosaic.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/mosaicking
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.merge_cubes
+gdal.raster.as-features:
+  processId: gdal-raster-as-features
+  cwl: raster/as-features/gdal.raster.as-features.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.aspect:
+  processId: gdal-raster-aspect
+  cwl: raster/aspect/gdal.raster.aspect.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+gdal.raster.blend:
+  processId: gdal-raster-blend
+  cwl: raster/blend/gdal.raster.blend.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.calc:
+  processId: gdal-raster-calc
+  cwl: raster/calc/gdal.raster.calc.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-band-math
+  openeoEquivalents: []
+gdal.raster.clean-collar:
+  processId: gdal-raster-clean-collar
+  cwl: raster/clean-collar/gdal.raster.clean-collar.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.clip:
+  processId: gdal-raster-clip
+  cwl: raster/clip/gdal.raster.clip.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/clipping
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-crop
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.filter_spatial
+  - ogc.openeo.processes.cubes.mask
+gdal.raster.color-map:
+  processId: gdal-raster-color-map
+  cwl: raster/color-map/gdal.raster.color-map.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.compare:
+  processId: gdal-raster-compare
+  cwl: raster/compare/gdal.raster.compare.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.contour:
+  processId: gdal-raster-contour
+  cwl: raster/contour/gdal.raster.contour.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/contouring
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.convert:
+  processId: gdal-raster-convert
+  cwl: raster/convert/gdal.raster.convert.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/format-conversion
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-format-conversion
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.save_result
+gdal.raster.create:
+  processId: gdal-raster-create
+  cwl: raster/create/gdal.raster.create.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.edit:
+  processId: gdal-raster-edit
+  cwl: raster/edit/gdal.raster.edit.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.fill-nodata:
+  processId: gdal-raster-fill-nodata
+  cwl: raster/fill-nodata/gdal.raster.fill-nodata.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.footprint:
+  processId: gdal-raster-footprint
+  cwl: raster/footprint/gdal.raster.footprint.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.hillshade:
+  processId: gdal-raster-hillshade
+  cwl: raster/hillshade/gdal.raster.hillshade.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.analytical-hillshading
+  openeoEquivalents: []
+gdal.raster.index:
+  processId: gdal-raster-index
+  cwl: raster/index/gdal.raster.index.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+gdal.raster.info:
+  processId: gdal-raster-info
+  cwl: raster/info/gdal.raster.info.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/metadata-inspection
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-extent
+  openeoEquivalents: []
+gdal.raster.mosaic:
+  processId: gdal-raster-mosaic
+  cwl: raster/mosaic/gdal.raster.mosaic.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/mosaicking
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.merge_cubes
+gdal.raster.neighbors:
+  processId: gdal-raster-neighbors
+  cwl: raster/neighbors/gdal.raster.neighbors.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.nodata-to-alpha:
+  processId: gdal-raster-nodata-to-alpha
+  cwl: raster/nodata-to-alpha/gdal.raster.nodata-to-alpha.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.overview.add:
+  processId: gdal-raster-overview-add
+  cwl: raster/overview/add/gdal.raster.overview.add.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-band-math
+  openeoEquivalents: []
+gdal.raster.overview.delete:
+  processId: gdal-raster-overview-delete
+  cwl: raster/overview/delete/gdal.raster.overview.delete.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.overview.refresh:
+  processId: gdal-raster-overview-refresh
+  cwl: raster/overview/refresh/gdal.raster.overview.refresh.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.pansharpen:
+  processId: gdal-raster-pansharpen
+  cwl: raster/pansharpen/gdal.raster.pansharpen.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.pipeline:
+  processId: gdal-raster-pipeline
+  cwl: raster/pipeline/gdal.raster.pipeline.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.pixel-info:
+  processId: gdal-raster-pixel-info
+  cwl: raster/pixel-info/gdal.raster.pixel-info.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/metadata-inspection
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-extent
+  openeoEquivalents: []
+gdal.raster.polygonize:
+  processId: gdal-raster-polygonize
+  cwl: raster/polygonize/gdal.raster.polygonize.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  openeoEquivalents: []
+gdal.raster.proximity:
+  processId: gdal-raster-proximity
+  cwl: raster/proximity/gdal.raster.proximity.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.reclassify:
+  processId: gdal-raster-reclassify
+  cwl: raster/reclassify/gdal.raster.reclassify.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/classification
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.reproject:
+  processId: gdal-raster-reproject
+  cwl: raster/reproject/gdal.raster.reproject.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/reprojection
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-reprojection
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.resample_spatial
+gdal.raster.resize:
+  processId: gdal-raster-resize
+  cwl: raster/resize/gdal.raster.resize.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.rgb-to-palette:
+  processId: gdal-raster-rgb-to-palette
+  cwl: raster/rgb-to-palette/gdal.raster.rgb-to-palette.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.roughness:
+  processId: gdal-raster-roughness
+  cwl: raster/roughness/gdal.raster.roughness.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.scale:
+  processId: gdal-raster-scale
+  cwl: raster/scale/gdal.raster.scale.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.select:
+  processId: gdal-raster-select
+  cwl: raster/select/gdal.raster.select.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/subsetting
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-crop
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.filter_bands
+gdal.raster.set-type:
+  processId: gdal-raster-set-type
+  cwl: raster/set-type/gdal.raster.set-type.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.sieve:
+  processId: gdal-raster-sieve
+  cwl: raster/sieve/gdal.raster.sieve.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.slope:
+  processId: gdal-raster-slope
+  cwl: raster/slope/gdal.raster.slope.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+gdal.raster.stack:
+  processId: gdal-raster-stack
+  cwl: raster/stack/gdal.raster.stack.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.tile:
+  processId: gdal-raster-tile
+  cwl: raster/tile/gdal.raster.tile.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/tiling
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.tpi:
+  processId: gdal-raster-tpi
+  cwl: raster/tpi/gdal.raster.tpi.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+gdal.raster.tri:
+  processId: gdal-raster-tri
+  cwl: raster/tri/gdal.raster.tri.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.unscale:
+  processId: gdal-raster-unscale
+  cwl: raster/unscale/gdal.raster.unscale.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.update:
+  processId: gdal-raster-update
+  cwl: raster/update/gdal.raster.update.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.viewshed:
+  processId: gdal-raster-viewshed
+  cwl: raster/viewshed/gdal.raster.viewshed.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.raster.zonal-stats:
+  processId: gdal-raster-zonal-stats
+  cwl: raster/zonal-stats/gdal.raster.zonal-stats.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+gdal.vector.buffer:
+  processId: gdal-vector-buffer
+  cwl: vector/buffer/gdal.vector.buffer.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector-geoprocessing
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-buffer
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.aggregate_spatial
+gdal.vector.check-coverage:
+  processId: gdal-vector-check-coverage
+  cwl: vector/check-coverage/gdal.vector.check-coverage.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.check-geometry:
+  processId: gdal-vector-check-geometry
+  cwl: vector/check-geometry/gdal.vector.check-geometry.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.clean-coverage:
+  processId: gdal-vector-clean-coverage
+  cwl: vector/clean-coverage/gdal.vector.clean-coverage.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.clip:
+  processId: gdal-vector-clip
+  cwl: vector/clip/gdal.vector.clip.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/clipping
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.binary-spatial-operation
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.filter_spatial
+  - ogc.openeo.processes.cubes.mask
+gdal.vector.concat:
+  processId: gdal-vector-concat
+  cwl: vector/concat/gdal.vector.concat.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.convert:
+  processId: gdal-vector-convert
+  cwl: vector/convert/gdal.vector.convert.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/format-conversion
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.save_result
+gdal.vector.edit:
+  processId: gdal-vector-edit
+  cwl: vector/edit/gdal.vector.edit.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.explode-collections:
+  processId: gdal-vector-explode-collections
+  cwl: vector/explode-collections/gdal.vector.explode-collections.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.unary-geometry-operation
+  openeoEquivalents: []
+gdal.vector.filter:
+  processId: gdal-vector-filter
+  cwl: vector/filter/gdal.vector.filter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/filtering
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+gdal.vector.grid.average:
+  processId: gdal-vector-grid-average
+  cwl: vector/grid/average/gdal.vector.grid.average.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.grid.average-distance:
+  processId: gdal-vector-grid-average-distance
+  cwl: vector/grid/average-distance/gdal.vector.grid.average-distance.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.grid.average-distance-points:
+  processId: gdal-vector-grid-average-distance-points
+  cwl: vector/grid/average-distance-points/gdal.vector.grid.average-distance-points.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.grid.count:
+  processId: gdal-vector-grid-count
+  cwl: vector/grid/count/gdal.vector.grid.count.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.grid.invdist:
+  processId: gdal-vector-grid-invdist
+  cwl: vector/grid/invdist/gdal.vector.grid.invdist.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.grid.invdistnn:
+  processId: gdal-vector-grid-invdistnn
+  cwl: vector/grid/invdistnn/gdal.vector.grid.invdistnn.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.grid.linear:
+  processId: gdal-vector-grid-linear
+  cwl: vector/grid/linear/gdal.vector.grid.linear.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.grid.maximum:
+  processId: gdal-vector-grid-maximum
+  cwl: vector/grid/maximum/gdal.vector.grid.maximum.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.grid.minimum:
+  processId: gdal-vector-grid-minimum
+  cwl: vector/grid/minimum/gdal.vector.grid.minimum.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.grid.nearest:
+  processId: gdal-vector-grid-nearest
+  cwl: vector/grid/nearest/gdal.vector.grid.nearest.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.grid.range:
+  processId: gdal-vector-grid-range
+  cwl: vector/grid/range/gdal.vector.grid.range.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.index:
+  processId: gdal-vector-index
+  cwl: vector/index/gdal.vector.index.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.info:
+  processId: gdal-vector-info
+  cwl: vector/info/gdal.vector.info.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/metadata-inspection
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.layer-algebra:
+  processId: gdal-vector-layer-algebra
+  cwl: vector/layer-algebra/gdal.vector.layer-algebra.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.binary-spatial-operation
+  openeoEquivalents: []
+gdal.vector.make-point:
+  processId: gdal-vector-make-point
+  cwl: vector/make-point/gdal.vector.make-point.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.unary-geometry-operation
+  openeoEquivalents: []
+gdal.vector.make-valid:
+  processId: gdal-vector-make-valid
+  cwl: vector/make-valid/gdal.vector.make-valid.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.unary-geometry-operation
+  openeoEquivalents: []
+gdal.vector.partition:
+  processId: gdal-vector-partition
+  cwl: vector/partition/gdal.vector.partition.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.pipeline:
+  processId: gdal-vector-pipeline
+  cwl: vector/pipeline/gdal.vector.pipeline.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.rasterize:
+  processId: gdal-vector-rasterize
+  cwl: vector/rasterize/gdal.vector.rasterize.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.reproject:
+  processId: gdal-vector-reproject
+  cwl: vector/reproject/gdal.vector.reproject.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/reprojection
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.unary-geometry-operation
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.resample_spatial
+gdal.vector.segmentize:
+  processId: gdal-vector-segmentize
+  cwl: vector/segmentize/gdal.vector.segmentize.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.unary-geometry-operation
+  openeoEquivalents: []
+gdal.vector.select:
+  processId: gdal-vector-select
+  cwl: vector/select/gdal.vector.select.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/subsetting
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.binary-spatial-operation
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.filter_bands
+gdal.vector.set-field-type:
+  processId: gdal-vector-set-field-type
+  cwl: vector/set-field-type/gdal.vector.set-field-type.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.set-geom-type:
+  processId: gdal-vector-set-geom-type
+  cwl: vector/set-geom-type/gdal.vector.set-geom-type.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.simplify:
+  processId: gdal-vector-simplify
+  cwl: vector/simplify/gdal.vector.simplify.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.unary-geometry-operation
+  openeoEquivalents: []
+gdal.vector.simplify-coverage:
+  processId: gdal-vector-simplify-coverage
+  cwl: vector/simplify-coverage/gdal.vector.simplify-coverage.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.unary-geometry-operation
+  openeoEquivalents: []
+gdal.vector.sql:
+  processId: gdal-vector-sql
+  cwl: vector/sql/gdal.vector.sql.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vector.swap-xy:
+  processId: gdal-vector-swap-xy
+  cwl: vector/swap-xy/gdal.vector.swap-xy.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  - http://www.opengis.net/def/process-type/vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.vector-geometry-processing
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vsi.copy:
+  processId: gdal-vsi-copy
+  cwl: vsi/copy/gdal.vsi.copy.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vsi.delete:
+  processId: gdal-vsi-delete
+  cwl: vsi/delete/gdal.vsi.delete.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vsi.list:
+  processId: gdal-vsi-list
+  cwl: vsi/list/gdal.vsi.list.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vsi.move:
+  processId: gdal-vsi-move
+  cwl: vsi/move/gdal.vsi.move.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vsi.sozip.create:
+  processId: gdal-vsi-sozip-create
+  cwl: vsi/sozip/create/gdal.vsi.sozip.create.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vsi.sozip.list:
+  processId: gdal-vsi-sozip-list
+  cwl: vsi/sozip/list/gdal.vsi.sozip.list.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vsi.sozip.optimize:
+  processId: gdal-vsi-sozip-optimize
+  cwl: vsi/sozip/optimize/gdal.vsi.sozip.optimize.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vsi.sozip.validate:
+  processId: gdal-vsi-sozip-validate
+  cwl: vsi/sozip/validate/gdal.vsi.sozip.validate.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+gdal.vsi.sync:
+  processId: gdal-vsi-sync
+  cwl: vsi/sync/gdal.vsi.sync.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster-vector
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []

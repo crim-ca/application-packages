@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
+  "name": "Application packages: cdo",
+  "abstract": "Profile of the OGC API - Processes descriptions of the 844 cdo CWL application packages, with activity types, process types and generic profiles per tool.",
+  "status": "under-development",
+  "version": "0.1",
+  "itemClass": "schema",
+  "register": "app-packages",
+  "dependsOn": [
+    "ogc.api.processes.v1.schemas.process",
+    "ogc.api.processes.v2.schemas.ogcapppkg",
+    "ogc.api.processes.v2.schemas.staticIndicator",
+    "eoap.cct.cwl-to-ogcprocess",
+    "ogc.bbr.provenance.provenance",
+    "ogc.bbr.wf4ever.wfprov.ProcessRun",
+    "ospd.process-profiles.process-type"
+  ],
+  "seeAlso": [
+    "generic-profiles.concept.climate-data-processing",
+    "ogc.openeo.processes.cubes.filter_bands",
+    "ogc.openeo.processes.cubes.filter_spatial",
+    "ogc.openeo.processes.cubes.mask",
+    "ogc.openeo.processes.cubes.merge_cubes",
+    "ogc.openeo.processes.cubes.reduce_dimension"
+  ],
+  "conformanceClasses": [
+    "http://www.opengis.net/spec/ogcapi-processes-1/1.0/conf/core"
+  ],
+  "scope": "dev",
+  "tags": [
+    "application package",
+    "CWL",
+    "OGC API - Processes",
+    "cdo",
+    "climate-data-processing",
+    "geoprocessing"
+  ],
+  "sourceSchema": "schema.yaml",
+  "maturity": "development",
+  "group": "Application Packages"
+}

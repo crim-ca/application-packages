@@ -1,0 +1,155 @@
+nco.ncatted:
+  processId: nco-ncatted
+  cwl: ncatted/nco.ncatted.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+nco.ncbo:
+  processId: nco-ncbo
+  cwl: ncbo/nco.ncbo.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+nco.ncclimo:
+  processId: nco-ncclimo
+  cwl: ncclimo/nco.ncclimo.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+nco.ncdiff:
+  processId: nco-ncdiff
+  cwl: ncdiff/nco.ncdiff.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+nco.ncea:
+  processId: nco-ncea
+  cwl: ncea/nco.ncea.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+nco.ncecat:
+  processId: nco-ncecat
+  cwl: ncecat/nco.ncecat.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+nco.nces:
+  processId: nco-nces
+  cwl: nces/nco.nces.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+nco.ncflint:
+  processId: nco-ncflint
+  cwl: ncflint/nco.ncflint.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+nco.ncks:
+  processId: nco-ncks
+  cwl: ncks/nco.ncks.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/subsetting
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.filter_bands
+nco.ncpdq:
+  processId: nco-ncpdq
+  cwl: ncpdq/nco.ncpdq.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+nco.ncra:
+  processId: nco-ncra
+  cwl: ncra/nco.ncra.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/temporal-aggregation
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.aggregate_temporal
+nco.ncrcat:
+  processId: nco-ncrcat
+  cwl: ncrcat/nco.ncrcat.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+nco.ncremap:
+  processId: nco-ncremap
+  cwl: ncremap/nco.ncremap.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/regridding
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+nco.ncrename:
+  processId: nco-ncrename
+  cwl: ncrename/nco.ncrename.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+nco.ncwa:
+  processId: nco-ncwa
+  cwl: ncwa/nco.ncwa.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []

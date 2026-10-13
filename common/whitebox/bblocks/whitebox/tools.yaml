@@ -1,0 +1,5410 @@
+whitebox.absolutevalue:
+  processId: whitebox-absolutevalue
+  cwl: absolutevalue/whitebox.absolutevalue.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.adaptivefilter:
+  processId: whitebox-adaptivefilter
+  cwl: adaptivefilter/whitebox.adaptivefilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.add:
+  processId: whitebox-add
+  cwl: add/whitebox.add.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-band-math
+  openeoEquivalents: []
+whitebox.addpointcoordinatestotable:
+  processId: whitebox-addpointcoordinatestotable
+  cwl: addpointcoordinatestotable/whitebox.addpointcoordinatestotable.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-band-math
+  openeoEquivalents: []
+whitebox.aggregateraster:
+  processId: whitebox-aggregateraster
+  cwl: aggregateraster/whitebox.aggregateraster.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.and:
+  processId: whitebox-and
+  cwl: and/whitebox.and.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.anova:
+  processId: whitebox-anova
+  cwl: anova/whitebox.anova.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.arccos:
+  processId: whitebox-arccos
+  cwl: arccos/whitebox.arccos.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.arcosh:
+  processId: whitebox-arcosh
+  cwl: arcosh/whitebox.arcosh.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.arcsin:
+  processId: whitebox-arcsin
+  cwl: arcsin/whitebox.arcsin.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.arctan:
+  processId: whitebox-arctan
+  cwl: arctan/whitebox.arctan.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.arsinh:
+  processId: whitebox-arsinh
+  cwl: arsinh/whitebox.arsinh.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.artanh:
+  processId: whitebox-artanh
+  cwl: artanh/whitebox.artanh.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.asciitolas:
+  processId: whitebox-asciitolas
+  cwl: asciitolas/whitebox.asciitolas.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.aspect:
+  processId: whitebox-aspect
+  cwl: aspect/whitebox.aspect.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.atan2:
+  processId: whitebox-atan2
+  cwl: atan2/whitebox.atan2.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.attributecorrelation:
+  processId: whitebox-attributecorrelation
+  cwl: attributecorrelation/whitebox.attributecorrelation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.attributecorrelationneighbourhoodanalysis:
+  processId: whitebox-attributecorrelationneighbourhoodanalysis
+  cwl: attributecorrelationneighbourhoodanalysis/whitebox.attributecorrelationneighbourhoodanalysis.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.attributehistogram:
+  processId: whitebox-attributehistogram
+  cwl: attributehistogram/whitebox.attributehistogram.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.attributescattergram:
+  processId: whitebox-attributescattergram
+  cwl: attributescattergram/whitebox.attributescattergram.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.averageflowpathslope:
+  processId: whitebox-averageflowpathslope
+  cwl: averageflowpathslope/whitebox.averageflowpathslope.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.averagenormalvectorangulardeviation:
+  processId: whitebox-averagenormalvectorangulardeviation
+  cwl: averagenormalvectorangulardeviation/whitebox.averagenormalvectorangulardeviation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.averageoverlay:
+  processId: whitebox-averageoverlay
+  cwl: averageoverlay/whitebox.averageoverlay.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.averageupslopeflowpathlength:
+  processId: whitebox-averageupslopeflowpathlength
+  cwl: averageupslopeflowpathlength/whitebox.averageupslopeflowpathlength.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.balancecontrastenhancement:
+  processId: whitebox-balancecontrastenhancement
+  cwl: balancecontrastenhancement/whitebox.balancecontrastenhancement.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.basins:
+  processId: whitebox-basins
+  cwl: basins/whitebox.basins.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.bilateralfilter:
+  processId: whitebox-bilateralfilter
+  cwl: bilateralfilter/whitebox.bilateralfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.blockmaximumgridding:
+  processId: whitebox-blockmaximumgridding
+  cwl: blockmaximumgridding/whitebox.blockmaximumgridding.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.blockminimumgridding:
+  processId: whitebox-blockminimumgridding
+  cwl: blockminimumgridding/whitebox.blockminimumgridding.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.boundaryshapecomplexity:
+  processId: whitebox-boundaryshapecomplexity
+  cwl: boundaryshapecomplexity/whitebox.boundaryshapecomplexity.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.breachdepressions:
+  processId: whitebox-breachdepressions
+  cwl: breachdepressions/whitebox.breachdepressions.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.breachdepressionsleastcost:
+  processId: whitebox-breachdepressionsleastcost
+  cwl: breachdepressionsleastcost/whitebox.breachdepressionsleastcost.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.breachsinglecellpits:
+  processId: whitebox-breachsinglecellpits
+  cwl: breachsinglecellpits/whitebox.breachsinglecellpits.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.bufferraster:
+  processId: whitebox-bufferraster
+  cwl: bufferraster/whitebox.bufferraster.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/vector-geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-buffer
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.aggregate_spatial
+whitebox.burnstreamsatroads:
+  processId: whitebox-burnstreamsatroads
+  cwl: burnstreamsatroads/whitebox.burnstreamsatroads.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.ceil:
+  processId: whitebox-ceil
+  cwl: ceil/whitebox.ceil.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.centroid:
+  processId: whitebox-centroid
+  cwl: centroid/whitebox.centroid.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.centroidvector:
+  processId: whitebox-centroidvector
+  cwl: centroidvector/whitebox.centroidvector.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.changevectoranalysis:
+  processId: whitebox-changevectoranalysis
+  cwl: changevectoranalysis/whitebox.changevectoranalysis.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.circularvarianceofaspect:
+  processId: whitebox-circularvarianceofaspect
+  cwl: circularvarianceofaspect/whitebox.circularvarianceofaspect.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.classifybuildingsinlidar:
+  processId: whitebox-classifybuildingsinlidar
+  cwl: classifybuildingsinlidar/whitebox.classifybuildingsinlidar.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/classification
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.classifyoverlappoints:
+  processId: whitebox-classifyoverlappoints
+  cwl: classifyoverlappoints/whitebox.classifyoverlappoints.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/classification
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.cleanvector:
+  processId: whitebox-cleanvector
+  cwl: cleanvector/whitebox.cleanvector.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.clip:
+  processId: whitebox-clip
+  cwl: clip/whitebox.clip.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/clipping
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-crop
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.filter_spatial
+  - ogc.openeo.processes.cubes.mask
+whitebox.cliplidartopolygon:
+  processId: whitebox-cliplidartopolygon
+  cwl: cliplidartopolygon/whitebox.cliplidartopolygon.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/clipping
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  - generic-profiles.generic-profile.raster-crop
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.filter_spatial
+  - ogc.openeo.processes.cubes.mask
+whitebox.cliprastertopolygon:
+  processId: whitebox-cliprastertopolygon
+  cwl: cliprastertopolygon/whitebox.cliprastertopolygon.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/clipping
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  - generic-profiles.generic-profile.raster-crop
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.filter_spatial
+  - ogc.openeo.processes.cubes.mask
+whitebox.closing:
+  processId: whitebox-closing
+  cwl: closing/whitebox.closing.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.clump:
+  processId: whitebox-clump
+  cwl: clump/whitebox.clump.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.compactnessratio:
+  processId: whitebox-compactnessratio
+  cwl: compactnessratio/whitebox.compactnessratio.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.conservativesmoothingfilter:
+  processId: whitebox-conservativesmoothingfilter
+  cwl: conservativesmoothingfilter/whitebox.conservativesmoothingfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-thinning
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.constructvectortin:
+  processId: whitebox-constructvectortin
+  cwl: constructvectortin/whitebox.constructvectortin.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.contoursfrompoints:
+  processId: whitebox-contoursfrompoints
+  cwl: contoursfrompoints/whitebox.contoursfrompoints.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/contouring
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.contoursfromraster:
+  processId: whitebox-contoursfromraster
+  cwl: contoursfromraster/whitebox.contoursfromraster.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/contouring
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.convertnodatatozero:
+  processId: whitebox-convertnodatatozero
+  cwl: convertnodatatozero/whitebox.convertnodatatozero.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/format-conversion
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-format-conversion
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.save_result
+whitebox.convertrasterformat:
+  processId: whitebox-convertrasterformat
+  cwl: convertrasterformat/whitebox.convertrasterformat.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/format-conversion
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-format-conversion
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.save_result
+whitebox.cornerdetection:
+  processId: whitebox-cornerdetection
+  cwl: cornerdetection/whitebox.cornerdetection.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.correctvignetting:
+  processId: whitebox-correctvignetting
+  cwl: correctvignetting/whitebox.correctvignetting.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.cos:
+  processId: whitebox-cos
+  cwl: cos/whitebox.cos.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.cosh:
+  processId: whitebox-cosh
+  cwl: cosh/whitebox.cosh.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.costallocation:
+  processId: whitebox-costallocation
+  cwl: costallocation/whitebox.costallocation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.costdistance:
+  processId: whitebox-costdistance
+  cwl: costdistance/whitebox.costdistance.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.costpathway:
+  processId: whitebox-costpathway
+  cwl: costpathway/whitebox.costpathway.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.countif:
+  processId: whitebox-countif
+  cwl: countif/whitebox.countif.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.createcolourcomposite:
+  processId: whitebox-createcolourcomposite
+  cwl: createcolourcomposite/whitebox.createcolourcomposite.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.createhexagonalvectorgrid:
+  processId: whitebox-createhexagonalvectorgrid
+  cwl: createhexagonalvectorgrid/whitebox.createhexagonalvectorgrid.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.createplane:
+  processId: whitebox-createplane
+  cwl: createplane/whitebox.createplane.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.createrectangularvectorgrid:
+  processId: whitebox-createrectangularvectorgrid
+  cwl: createrectangularvectorgrid/whitebox.createrectangularvectorgrid.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.crispnessindex:
+  processId: whitebox-crispnessindex
+  cwl: crispnessindex/whitebox.crispnessindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.crosstabulation:
+  processId: whitebox-crosstabulation
+  cwl: crosstabulation/whitebox.crosstabulation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.csvpointstovector:
+  processId: whitebox-csvpointstovector
+  cwl: csvpointstovector/whitebox.csvpointstovector.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.cumulativedistribution:
+  processId: whitebox-cumulativedistribution
+  cwl: cumulativedistribution/whitebox.cumulativedistribution.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.d8flowaccumulation:
+  processId: whitebox-d8flowaccumulation
+  cwl: d8flowaccumulation/whitebox.d8flowaccumulation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.d8massflux:
+  processId: whitebox-d8massflux
+  cwl: d8massflux/whitebox.d8massflux.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.d8pointer:
+  processId: whitebox-d8pointer
+  cwl: d8pointer/whitebox.d8pointer.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.decrement:
+  processId: whitebox-decrement
+  cwl: decrement/whitebox.decrement.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.depthinsink:
+  processId: whitebox-depthinsink
+  cwl: depthinsink/whitebox.depthinsink.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-thinning
+  openeoEquivalents: []
+whitebox.devfrommeanelev:
+  processId: whitebox-devfrommeanelev
+  cwl: devfrommeanelev/whitebox.devfrommeanelev.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.deviationfromregionaldirection:
+  processId: whitebox-deviationfromregionaldirection
+  cwl: deviationfromregionaldirection/whitebox.deviationfromregionaldirection.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.difference:
+  processId: whitebox-difference
+  cwl: difference/whitebox.difference.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.difffrommeanelev:
+  processId: whitebox-difffrommeanelev
+  cwl: difffrommeanelev/whitebox.difffrommeanelev.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.diffofgaussianfilter:
+  processId: whitebox-diffofgaussianfilter
+  cwl: diffofgaussianfilter/whitebox.diffofgaussianfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.dinfflowaccumulation:
+  processId: whitebox-dinfflowaccumulation
+  cwl: dinfflowaccumulation/whitebox.dinfflowaccumulation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.dinfmassflux:
+  processId: whitebox-dinfmassflux
+  cwl: dinfmassflux/whitebox.dinfmassflux.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.dinfpointer:
+  processId: whitebox-dinfpointer
+  cwl: dinfpointer/whitebox.dinfpointer.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.directdecorrelationstretch:
+  processId: whitebox-directdecorrelationstretch
+  cwl: directdecorrelationstretch/whitebox.directdecorrelationstretch.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.directionalrelief:
+  processId: whitebox-directionalrelief
+  cwl: directionalrelief/whitebox.directionalrelief.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.dissolve:
+  processId: whitebox-dissolve
+  cwl: dissolve/whitebox.dissolve.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.distancetooutlet:
+  processId: whitebox-distancetooutlet
+  cwl: distancetooutlet/whitebox.distancetooutlet.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.diversityfilter:
+  processId: whitebox-diversityfilter
+  cwl: diversityfilter/whitebox.diversityfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.divide:
+  processId: whitebox-divide
+  cwl: divide/whitebox.divide.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-band-math
+  openeoEquivalents: []
+whitebox.downslopedistancetostream:
+  processId: whitebox-downslopedistancetostream
+  cwl: downslopedistancetostream/whitebox.downslopedistancetostream.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.downslopeflowpathlength:
+  processId: whitebox-downslopeflowpathlength
+  cwl: downslopeflowpathlength/whitebox.downslopeflowpathlength.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.downslopeindex:
+  processId: whitebox-downslopeindex
+  cwl: downslopeindex/whitebox.downslopeindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.edgedensity:
+  processId: whitebox-edgedensity
+  cwl: edgedensity/whitebox.edgedensity.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/ensemble
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.edgepreservingmeanfilter:
+  processId: whitebox-edgepreservingmeanfilter
+  cwl: edgepreservingmeanfilter/whitebox.edgepreservingmeanfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.edgeproportion:
+  processId: whitebox-edgeproportion
+  cwl: edgeproportion/whitebox.edgeproportion.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.elevabovepit:
+  processId: whitebox-elevabovepit
+  cwl: elevabovepit/whitebox.elevabovepit.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.elevationabovestream:
+  processId: whitebox-elevationabovestream
+  cwl: elevationabovestream/whitebox.elevationabovestream.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.elevationabovestreameuclidean:
+  processId: whitebox-elevationabovestreameuclidean
+  cwl: elevationabovestreameuclidean/whitebox.elevationabovestreameuclidean.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.elevpercentile:
+  processId: whitebox-elevpercentile
+  cwl: elevpercentile/whitebox.elevpercentile.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/tiling
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.elevrelativetominmax:
+  processId: whitebox-elevrelativetominmax
+  cwl: elevrelativetominmax/whitebox.elevrelativetominmax.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.elevrelativetowatershedminmax:
+  processId: whitebox-elevrelativetowatershedminmax
+  cwl: elevrelativetowatershedminmax/whitebox.elevrelativetowatershedminmax.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.eliminatecoincidentpoints:
+  processId: whitebox-eliminatecoincidentpoints
+  cwl: eliminatecoincidentpoints/whitebox.eliminatecoincidentpoints.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.elongationratio:
+  processId: whitebox-elongationratio
+  cwl: elongationratio/whitebox.elongationratio.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.embankmentmapping:
+  processId: whitebox-embankmentmapping
+  cwl: embankmentmapping/whitebox.embankmentmapping.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.embossfilter:
+  processId: whitebox-embossfilter
+  cwl: embossfilter/whitebox.embossfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.equalto:
+  processId: whitebox-equalto
+  cwl: equalto/whitebox.equalto.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.erase:
+  processId: whitebox-erase
+  cwl: erase/whitebox.erase.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.erasepolygonfromlidar:
+  processId: whitebox-erasepolygonfromlidar
+  cwl: erasepolygonfromlidar/whitebox.erasepolygonfromlidar.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  openeoEquivalents: []
+whitebox.erasepolygonfromraster:
+  processId: whitebox-erasepolygonfromraster
+  cwl: erasepolygonfromraster/whitebox.erasepolygonfromraster.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  openeoEquivalents: []
+whitebox.euclideanallocation:
+  processId: whitebox-euclideanallocation
+  cwl: euclideanallocation/whitebox.euclideanallocation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.euclideandistance:
+  processId: whitebox-euclideandistance
+  cwl: euclideandistance/whitebox.euclideandistance.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.exp:
+  processId: whitebox-exp
+  cwl: exp/whitebox.exp.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.exp2:
+  processId: whitebox-exp2
+  cwl: exp2/whitebox.exp2.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.exporttabletocsv:
+  processId: whitebox-exporttabletocsv
+  cwl: exporttabletocsv/whitebox.exporttabletocsv.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.extendvectorlines:
+  processId: whitebox-extendvectorlines
+  cwl: extendvectorlines/whitebox.extendvectorlines.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.extractnodes:
+  processId: whitebox-extractnodes
+  cwl: extractnodes/whitebox.extractnodes.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-crop
+  openeoEquivalents: []
+whitebox.extractrastervaluesatpoints:
+  processId: whitebox-extractrastervaluesatpoints
+  cwl: extractrastervaluesatpoints/whitebox.extractrastervaluesatpoints.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-crop
+  openeoEquivalents: []
+whitebox.extractstreams:
+  processId: whitebox-extractstreams
+  cwl: extractstreams/whitebox.extractstreams.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-crop
+  openeoEquivalents: []
+whitebox.extractvalleys:
+  processId: whitebox-extractvalleys
+  cwl: extractvalleys/whitebox.extractvalleys.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-crop
+  openeoEquivalents: []
+whitebox.farthestchannelhead:
+  processId: whitebox-farthestchannelhead
+  cwl: farthestchannelhead/whitebox.farthestchannelhead.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.fastalmostgaussianfilter:
+  processId: whitebox-fastalmostgaussianfilter
+  cwl: fastalmostgaussianfilter/whitebox.fastalmostgaussianfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.fd8flowaccumulation:
+  processId: whitebox-fd8flowaccumulation
+  cwl: fd8flowaccumulation/whitebox.fd8flowaccumulation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.fd8pointer:
+  processId: whitebox-fd8pointer
+  cwl: fd8pointer/whitebox.fd8pointer.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.featurepreservingsmoothing:
+  processId: whitebox-featurepreservingsmoothing
+  cwl: featurepreservingsmoothing/whitebox.featurepreservingsmoothing.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-thinning
+  openeoEquivalents: []
+whitebox.fetchanalysis:
+  processId: whitebox-fetchanalysis
+  cwl: fetchanalysis/whitebox.fetchanalysis.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.fillburn:
+  processId: whitebox-fillburn
+  cwl: fillburn/whitebox.fillburn.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.filldepressions:
+  processId: whitebox-filldepressions
+  cwl: filldepressions/whitebox.filldepressions.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.filldepressionsplanchonanddarboux:
+  processId: whitebox-filldepressionsplanchonanddarboux
+  cwl: filldepressionsplanchonanddarboux/whitebox.filldepressionsplanchonanddarboux.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.filldepressionswangandliu:
+  processId: whitebox-filldepressionswangandliu
+  cwl: filldepressionswangandliu/whitebox.filldepressionswangandliu.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.fillmissingdata:
+  processId: whitebox-fillmissingdata
+  cwl: fillmissingdata/whitebox.fillmissingdata.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.fillsinglecellpits:
+  processId: whitebox-fillsinglecellpits
+  cwl: fillsinglecellpits/whitebox.fillsinglecellpits.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.filterlidarclasses:
+  processId: whitebox-filterlidarclasses
+  cwl: filterlidarclasses/whitebox.filterlidarclasses.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.filterlidarscanangles:
+  processId: whitebox-filterlidarscanangles
+  cwl: filterlidarscanangles/whitebox.filterlidarscanangles.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.filterrasterfeaturesbyarea:
+  processId: whitebox-filterrasterfeaturesbyarea
+  cwl: filterrasterfeaturesbyarea/whitebox.filterrasterfeaturesbyarea.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.findflightlineedgepoints:
+  processId: whitebox-findflightlineedgepoints
+  cwl: findflightlineedgepoints/whitebox.findflightlineedgepoints.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.findlowestorhighestpoints:
+  processId: whitebox-findlowestorhighestpoints
+  cwl: findlowestorhighestpoints/whitebox.findlowestorhighestpoints.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.findmainstem:
+  processId: whitebox-findmainstem
+  cwl: findmainstem/whitebox.findmainstem.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.findnoflowcells:
+  processId: whitebox-findnoflowcells
+  cwl: findnoflowcells/whitebox.findnoflowcells.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.findparallelflow:
+  processId: whitebox-findparallelflow
+  cwl: findparallelflow/whitebox.findparallelflow.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.findpatchorclassedgecells:
+  processId: whitebox-findpatchorclassedgecells
+  cwl: findpatchorclassedgecells/whitebox.findpatchorclassedgecells.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.findridges:
+  processId: whitebox-findridges
+  cwl: findridges/whitebox.findridges.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.flattenlakes:
+  processId: whitebox-flattenlakes
+  cwl: flattenlakes/whitebox.flattenlakes.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.flightlineoverlap:
+  processId: whitebox-flightlineoverlap
+  cwl: flightlineoverlap/whitebox.flightlineoverlap.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.flipimage:
+  processId: whitebox-flipimage
+  cwl: flipimage/whitebox.flipimage.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.floodorder:
+  processId: whitebox-floodorder
+  cwl: floodorder/whitebox.floodorder.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.floor:
+  processId: whitebox-floor
+  cwl: floor/whitebox.floor.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.flowaccumulationfullworkflow:
+  processId: whitebox-flowaccumulationfullworkflow
+  cwl: flowaccumulationfullworkflow/whitebox.flowaccumulationfullworkflow.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.flowlengthdiff:
+  processId: whitebox-flowlengthdiff
+  cwl: flowlengthdiff/whitebox.flowlengthdiff.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  openeoEquivalents: []
+whitebox.gammacorrection:
+  processId: whitebox-gammacorrection
+  cwl: gammacorrection/whitebox.gammacorrection.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.gaussiancontraststretch:
+  processId: whitebox-gaussiancontraststretch
+  cwl: gaussiancontraststretch/whitebox.gaussiancontraststretch.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.gaussiancurvature:
+  processId: whitebox-gaussiancurvature
+  cwl: gaussiancurvature/whitebox.gaussiancurvature.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.gaussianfilter:
+  processId: whitebox-gaussianfilter
+  cwl: gaussianfilter/whitebox.gaussianfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.geomorphons:
+  processId: whitebox-geomorphons
+  cwl: geomorphons/whitebox.geomorphons.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.greaterthan:
+  processId: whitebox-greaterthan
+  cwl: greaterthan/whitebox.greaterthan.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.hackstreamorder:
+  processId: whitebox-hackstreamorder
+  cwl: hackstreamorder/whitebox.hackstreamorder.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.heightaboveground:
+  processId: whitebox-heightaboveground
+  cwl: heightaboveground/whitebox.heightaboveground.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.highestposition:
+  processId: whitebox-highestposition
+  cwl: highestposition/whitebox.highestposition.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.highpassbilateralfilter:
+  processId: whitebox-highpassbilateralfilter
+  cwl: highpassbilateralfilter/whitebox.highpassbilateralfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.highpassfilter:
+  processId: whitebox-highpassfilter
+  cwl: highpassfilter/whitebox.highpassfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.highpassmedianfilter:
+  processId: whitebox-highpassmedianfilter
+  cwl: highpassmedianfilter/whitebox.highpassmedianfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.hillshade:
+  processId: whitebox-hillshade
+  cwl: hillshade/whitebox.hillshade.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.analytical-hillshading
+  openeoEquivalents: []
+whitebox.hillslopes:
+  processId: whitebox-hillslopes
+  cwl: hillslopes/whitebox.hillslopes.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.histogramequalization:
+  processId: whitebox-histogramequalization
+  cwl: histogramequalization/whitebox.histogramequalization.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.histogrammatching:
+  processId: whitebox-histogrammatching
+  cwl: histogrammatching/whitebox.histogrammatching.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.histogrammatchingtwoimages:
+  processId: whitebox-histogrammatchingtwoimages
+  cwl: histogrammatchingtwoimages/whitebox.histogrammatchingtwoimages.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.holeproportion:
+  processId: whitebox-holeproportion
+  cwl: holeproportion/whitebox.holeproportion.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.horizonangle:
+  processId: whitebox-horizonangle
+  cwl: horizonangle/whitebox.horizonangle.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.hortonstreamorder:
+  processId: whitebox-hortonstreamorder
+  cwl: hortonstreamorder/whitebox.hortonstreamorder.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.hypsometricallytintedhillshade:
+  processId: whitebox-hypsometricallytintedhillshade
+  cwl: hypsometricallytintedhillshade/whitebox.hypsometricallytintedhillshade.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.analytical-hillshading
+  openeoEquivalents: []
+whitebox.hypsometricanalysis:
+  processId: whitebox-hypsometricanalysis
+  cwl: hypsometricanalysis/whitebox.hypsometricanalysis.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.idwinterpolation:
+  processId: whitebox-idwinterpolation
+  cwl: idwinterpolation/whitebox.idwinterpolation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.ihstorgb:
+  processId: whitebox-ihstorgb
+  cwl: ihstorgb/whitebox.ihstorgb.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.imageautocorrelation:
+  processId: whitebox-imageautocorrelation
+  cwl: imageautocorrelation/whitebox.imageautocorrelation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.imagecorrelation:
+  processId: whitebox-imagecorrelation
+  cwl: imagecorrelation/whitebox.imagecorrelation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.imagecorrelationneighbourhoodanalysis:
+  processId: whitebox-imagecorrelationneighbourhoodanalysis
+  cwl: imagecorrelationneighbourhoodanalysis/whitebox.imagecorrelationneighbourhoodanalysis.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.imageregression:
+  processId: whitebox-imageregression
+  cwl: imageregression/whitebox.imageregression.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.imagestackprofile:
+  processId: whitebox-imagestackprofile
+  cwl: imagestackprofile/whitebox.imagestackprofile.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.impoundmentsizeindex:
+  processId: whitebox-impoundmentsizeindex
+  cwl: impoundmentsizeindex/whitebox.impoundmentsizeindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.increment:
+  processId: whitebox-increment
+  cwl: increment/whitebox.increment.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.inplaceadd:
+  processId: whitebox-inplaceadd
+  cwl: inplaceadd/whitebox.inplaceadd.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-band-math
+  openeoEquivalents: []
+whitebox.inplacedivide:
+  processId: whitebox-inplacedivide
+  cwl: inplacedivide/whitebox.inplacedivide.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-band-math
+  openeoEquivalents: []
+whitebox.inplacemultiply:
+  processId: whitebox-inplacemultiply
+  cwl: inplacemultiply/whitebox.inplacemultiply.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-band-math
+  openeoEquivalents: []
+whitebox.inplacesubtract:
+  processId: whitebox-inplacesubtract
+  cwl: inplacesubtract/whitebox.inplacesubtract.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-band-math
+  openeoEquivalents: []
+whitebox.insertdams:
+  processId: whitebox-insertdams
+  cwl: insertdams/whitebox.insertdams.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.integerdivision:
+  processId: whitebox-integerdivision
+  cwl: integerdivision/whitebox.integerdivision.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.integralimage:
+  processId: whitebox-integralimage
+  cwl: integralimage/whitebox.integralimage.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.intersect:
+  processId: whitebox-intersect
+  cwl: intersect/whitebox.intersect.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.isnodata:
+  processId: whitebox-isnodata
+  cwl: isnodata/whitebox.isnodata.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.isobasins:
+  processId: whitebox-isobasins
+  cwl: isobasins/whitebox.isobasins.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.jensonsnappourpoints:
+  processId: whitebox-jensonsnappourpoints
+  cwl: jensonsnappourpoints/whitebox.jensonsnappourpoints.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/ensemble
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.jointables:
+  processId: whitebox-jointables
+  cwl: jointables/whitebox.jointables.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.kappaindex:
+  processId: whitebox-kappaindex
+  cwl: kappaindex/whitebox.kappaindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.kmeansclustering:
+  processId: whitebox-kmeansclustering
+  cwl: kmeansclustering/whitebox.kmeansclustering.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.knearestmeanfilter:
+  processId: whitebox-knearestmeanfilter
+  cwl: knearestmeanfilter/whitebox.knearestmeanfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.kstestfornormality:
+  processId: whitebox-kstestfornormality
+  cwl: kstestfornormality/whitebox.kstestfornormality.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.laplacianfilter:
+  processId: whitebox-laplacianfilter
+  cwl: laplacianfilter/whitebox.laplacianfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.laplacianofgaussianfilter:
+  processId: whitebox-laplacianofgaussianfilter
+  cwl: laplacianofgaussianfilter/whitebox.laplacianofgaussianfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.lastoascii:
+  processId: whitebox-lastoascii
+  cwl: lastoascii/whitebox.lastoascii.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lastomultipointshapefile:
+  processId: whitebox-lastomultipointshapefile
+  cwl: lastomultipointshapefile/whitebox.lastomultipointshapefile.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lastoshapefile:
+  processId: whitebox-lastoshapefile
+  cwl: lastoshapefile/whitebox.lastoshapefile.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lastozlidar:
+  processId: whitebox-lastozlidar
+  cwl: lastozlidar/whitebox.lastozlidar.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.layerfootprint:
+  processId: whitebox-layerfootprint
+  cwl: layerfootprint/whitebox.layerfootprint.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.leesigmafilter:
+  processId: whitebox-leesigmafilter
+  cwl: leesigmafilter/whitebox.leesigmafilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.lengthofupstreamchannels:
+  processId: whitebox-lengthofupstreamchannels
+  cwl: lengthofupstreamchannels/whitebox.lengthofupstreamchannels.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  openeoEquivalents: []
+whitebox.lessthan:
+  processId: whitebox-lessthan
+  cwl: lessthan/whitebox.lessthan.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarblockmaximum:
+  processId: whitebox-lidarblockmaximum
+  cwl: lidarblockmaximum/whitebox.lidarblockmaximum.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarblockminimum:
+  processId: whitebox-lidarblockminimum
+  cwl: lidarblockminimum/whitebox.lidarblockminimum.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarclassifysubset:
+  processId: whitebox-lidarclassifysubset
+  cwl: lidarclassifysubset/whitebox.lidarclassifysubset.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/classification
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-crop
+  openeoEquivalents: []
+whitebox.lidarcolourize:
+  processId: whitebox-lidarcolourize
+  cwl: lidarcolourize/whitebox.lidarcolourize.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidardigitalsurfacemodel:
+  processId: whitebox-lidardigitalsurfacemodel
+  cwl: lidardigitalsurfacemodel/whitebox.lidardigitalsurfacemodel.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarelevationslice:
+  processId: whitebox-lidarelevationslice
+  cwl: lidarelevationslice/whitebox.lidarelevationslice.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.lidargroundpointfilter:
+  processId: whitebox-lidargroundpointfilter
+  cwl: lidargroundpointfilter/whitebox.lidargroundpointfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.lidarhexbinning:
+  processId: whitebox-lidarhexbinning
+  cwl: lidarhexbinning/whitebox.lidarhexbinning.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarhillshade:
+  processId: whitebox-lidarhillshade
+  cwl: lidarhillshade/whitebox.lidarhillshade.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.analytical-hillshading
+  openeoEquivalents: []
+whitebox.lidarhistogram:
+  processId: whitebox-lidarhistogram
+  cwl: lidarhistogram/whitebox.lidarhistogram.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidaridwinterpolation:
+  processId: whitebox-lidaridwinterpolation
+  cwl: lidaridwinterpolation/whitebox.lidaridwinterpolation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarinfo:
+  processId: whitebox-lidarinfo
+  cwl: lidarinfo/whitebox.lidarinfo.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/metadata-inspection
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-extent
+  openeoEquivalents: []
+whitebox.lidarjoin:
+  processId: whitebox-lidarjoin
+  cwl: lidarjoin/whitebox.lidarjoin.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarkappaindex:
+  processId: whitebox-lidarkappaindex
+  cwl: lidarkappaindex/whitebox.lidarkappaindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.lidarnearestneighbourgridding:
+  processId: whitebox-lidarnearestneighbourgridding
+  cwl: lidarnearestneighbourgridding/whitebox.lidarnearestneighbourgridding.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarpointdensity:
+  processId: whitebox-lidarpointdensity
+  cwl: lidarpointdensity/whitebox.lidarpointdensity.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/ensemble
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarpointstats:
+  processId: whitebox-lidarpointstats
+  cwl: lidarpointstats/whitebox.lidarpointstats.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.lidarransacplanes:
+  processId: whitebox-lidarransacplanes
+  cwl: lidarransacplanes/whitebox.lidarransacplanes.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarrbfinterpolation:
+  processId: whitebox-lidarrbfinterpolation
+  cwl: lidarrbfinterpolation/whitebox.lidarrbfinterpolation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarremoveduplicates:
+  processId: whitebox-lidarremoveduplicates
+  cwl: lidarremoveduplicates/whitebox.lidarremoveduplicates.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarremoveoutliers:
+  processId: whitebox-lidarremoveoutliers
+  cwl: lidarremoveoutliers/whitebox.lidarremoveoutliers.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarrooftopanalysis:
+  processId: whitebox-lidarrooftopanalysis
+  cwl: lidarrooftopanalysis/whitebox.lidarrooftopanalysis.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarsegmentation:
+  processId: whitebox-lidarsegmentation
+  cwl: lidarsegmentation/whitebox.lidarsegmentation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidarsegmentationbasedfilter:
+  processId: whitebox-lidarsegmentationbasedfilter
+  cwl: lidarsegmentationbasedfilter/whitebox.lidarsegmentationbasedfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.lidarthin:
+  processId: whitebox-lidarthin
+  cwl: lidarthin/whitebox.lidarthin.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-thinning
+  openeoEquivalents: []
+whitebox.lidarthinhighdensity:
+  processId: whitebox-lidarthinhighdensity
+  cwl: lidarthinhighdensity/whitebox.lidarthinhighdensity.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/ensemble
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-thinning
+  openeoEquivalents: []
+whitebox.lidartile:
+  processId: whitebox-lidartile
+  cwl: lidartile/whitebox.lidartile.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/tiling
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidartilefootprint:
+  processId: whitebox-lidartilefootprint
+  cwl: lidartilefootprint/whitebox.lidartilefootprint.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/tiling
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidartingridding:
+  processId: whitebox-lidartingridding
+  cwl: lidartingridding/whitebox.lidartingridding.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lidartophattransform:
+  processId: whitebox-lidartophattransform
+  cwl: lidartophattransform/whitebox.lidartophattransform.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-reprojection
+  openeoEquivalents: []
+whitebox.linearityindex:
+  processId: whitebox-linearityindex
+  cwl: linearityindex/whitebox.linearityindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.linedetectionfilter:
+  processId: whitebox-linedetectionfilter
+  cwl: linedetectionfilter/whitebox.linedetectionfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.lineintersections:
+  processId: whitebox-lineintersections
+  cwl: lineintersections/whitebox.lineintersections.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.linestopolygons:
+  processId: whitebox-linestopolygons
+  cwl: linestopolygons/whitebox.linestopolygons.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  openeoEquivalents: []
+whitebox.linethinning:
+  processId: whitebox-linethinning
+  cwl: linethinning/whitebox.linethinning.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-thinning
+  openeoEquivalents: []
+whitebox.listuniquevalues:
+  processId: whitebox-listuniquevalues
+  cwl: listuniquevalues/whitebox.listuniquevalues.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.listuniquevaluesraster:
+  processId: whitebox-listuniquevaluesraster
+  cwl: listuniquevaluesraster/whitebox.listuniquevaluesraster.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.ln:
+  processId: whitebox-ln
+  cwl: ln/whitebox.ln.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.log10:
+  processId: whitebox-log10
+  cwl: log10/whitebox.log10.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.log2:
+  processId: whitebox-log2
+  cwl: log2/whitebox.log2.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.longestflowpath:
+  processId: whitebox-longestflowpath
+  cwl: longestflowpath/whitebox.longestflowpath.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.longprofile:
+  processId: whitebox-longprofile
+  cwl: longprofile/whitebox.longprofile.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.longprofilefrompoints:
+  processId: whitebox-longprofilefrompoints
+  cwl: longprofilefrompoints/whitebox.longprofilefrompoints.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.lowestposition:
+  processId: whitebox-lowestposition
+  cwl: lowestposition/whitebox.lowestposition.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.majorityfilter:
+  processId: whitebox-majorityfilter
+  cwl: majorityfilter/whitebox.majorityfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.mapoffterrainobjects:
+  processId: whitebox-mapoffterrainobjects
+  cwl: mapoffterrainobjects/whitebox.mapoffterrainobjects.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.max:
+  processId: whitebox-max
+  cwl: max/whitebox.max.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.maxabsoluteoverlay:
+  processId: whitebox-maxabsoluteoverlay
+  cwl: maxabsoluteoverlay/whitebox.maxabsoluteoverlay.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.maxanisotropydev:
+  processId: whitebox-maxanisotropydev
+  cwl: maxanisotropydev/whitebox.maxanisotropydev.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.maxanisotropydevsignature:
+  processId: whitebox-maxanisotropydevsignature
+  cwl: maxanisotropydevsignature/whitebox.maxanisotropydevsignature.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.maxbranchlength:
+  processId: whitebox-maxbranchlength
+  cwl: maxbranchlength/whitebox.maxbranchlength.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  openeoEquivalents: []
+whitebox.maxdifferencefrommean:
+  processId: whitebox-maxdifferencefrommean
+  cwl: maxdifferencefrommean/whitebox.maxdifferencefrommean.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.maxdownslopeelevchange:
+  processId: whitebox-maxdownslopeelevchange
+  cwl: maxdownslopeelevchange/whitebox.maxdownslopeelevchange.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.maxelevationdeviation:
+  processId: whitebox-maxelevationdeviation
+  cwl: maxelevationdeviation/whitebox.maxelevationdeviation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.maxelevdevsignature:
+  processId: whitebox-maxelevdevsignature
+  cwl: maxelevdevsignature/whitebox.maxelevdevsignature.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.maximalcurvature:
+  processId: whitebox-maximalcurvature
+  cwl: maximalcurvature/whitebox.maximalcurvature.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.maximumfilter:
+  processId: whitebox-maximumfilter
+  cwl: maximumfilter/whitebox.maximumfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.maxoverlay:
+  processId: whitebox-maxoverlay
+  cwl: maxoverlay/whitebox.maxoverlay.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.maxupslopeelevchange:
+  processId: whitebox-maxupslopeelevchange
+  cwl: maxupslopeelevchange/whitebox.maxupslopeelevchange.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.maxupslopeflowpathlength:
+  processId: whitebox-maxupslopeflowpathlength
+  cwl: maxupslopeflowpathlength/whitebox.maxupslopeflowpathlength.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.mdinfflowaccumulation:
+  processId: whitebox-mdinfflowaccumulation
+  cwl: mdinfflowaccumulation/whitebox.mdinfflowaccumulation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.meancurvature:
+  processId: whitebox-meancurvature
+  cwl: meancurvature/whitebox.meancurvature.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.meanfilter:
+  processId: whitebox-meanfilter
+  cwl: meanfilter/whitebox.meanfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.medianfilter:
+  processId: whitebox-medianfilter
+  cwl: medianfilter/whitebox.medianfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.medoid:
+  processId: whitebox-medoid
+  cwl: medoid/whitebox.medoid.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.mergelinesegments:
+  processId: whitebox-mergelinesegments
+  cwl: mergelinesegments/whitebox.mergelinesegments.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/mosaicking
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.merge_cubes
+whitebox.mergetablewithcsv:
+  processId: whitebox-mergetablewithcsv
+  cwl: mergetablewithcsv/whitebox.mergetablewithcsv.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/mosaicking
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.merge_cubes
+whitebox.mergevectors:
+  processId: whitebox-mergevectors
+  cwl: mergevectors/whitebox.mergevectors.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/mosaicking
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.merge_cubes
+whitebox.min:
+  processId: whitebox-min
+  cwl: min/whitebox.min.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.minabsoluteoverlay:
+  processId: whitebox-minabsoluteoverlay
+  cwl: minabsoluteoverlay/whitebox.minabsoluteoverlay.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.mindownslopeelevchange:
+  processId: whitebox-mindownslopeelevchange
+  cwl: mindownslopeelevchange/whitebox.mindownslopeelevchange.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.minimalcurvature:
+  processId: whitebox-minimalcurvature
+  cwl: minimalcurvature/whitebox.minimalcurvature.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.minimumboundingbox:
+  processId: whitebox-minimumboundingbox
+  cwl: minimumboundingbox/whitebox.minimumboundingbox.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.minimumboundingcircle:
+  processId: whitebox-minimumboundingcircle
+  cwl: minimumboundingcircle/whitebox.minimumboundingcircle.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.minimumboundingenvelope:
+  processId: whitebox-minimumboundingenvelope
+  cwl: minimumboundingenvelope/whitebox.minimumboundingenvelope.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.minimumconvexhull:
+  processId: whitebox-minimumconvexhull
+  cwl: minimumconvexhull/whitebox.minimumconvexhull.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.minimumfilter:
+  processId: whitebox-minimumfilter
+  cwl: minimumfilter/whitebox.minimumfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.minmaxcontraststretch:
+  processId: whitebox-minmaxcontraststretch
+  cwl: minmaxcontraststretch/whitebox.minmaxcontraststretch.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.minoverlay:
+  processId: whitebox-minoverlay
+  cwl: minoverlay/whitebox.minoverlay.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.modifiedkmeansclustering:
+  processId: whitebox-modifiedkmeansclustering
+  cwl: modifiedkmeansclustering/whitebox.modifiedkmeansclustering.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.modifynodatavalue:
+  processId: whitebox-modifynodatavalue
+  cwl: modifynodatavalue/whitebox.modifynodatavalue.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.modulo:
+  processId: whitebox-modulo
+  cwl: modulo/whitebox.modulo.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.mosaic:
+  processId: whitebox-mosaic
+  cwl: mosaic/whitebox.mosaic.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/mosaicking
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.merge_cubes
+whitebox.mosaicwithfeathering:
+  processId: whitebox-mosaicwithfeathering
+  cwl: mosaicwithfeathering/whitebox.mosaicwithfeathering.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/mosaicking
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.merge_cubes
+whitebox.multidirectionalhillshade:
+  processId: whitebox-multidirectionalhillshade
+  cwl: multidirectionalhillshade/whitebox.multidirectionalhillshade.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.analytical-hillshading
+  openeoEquivalents: []
+whitebox.multiparttosinglepart:
+  processId: whitebox-multiparttosinglepart
+  cwl: multiparttosinglepart/whitebox.multiparttosinglepart.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.multiply:
+  processId: whitebox-multiply
+  cwl: multiply/whitebox.multiply.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-band-math
+  openeoEquivalents: []
+whitebox.multiplyoverlay:
+  processId: whitebox-multiplyoverlay
+  cwl: multiplyoverlay/whitebox.multiplyoverlay.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-band-math
+  openeoEquivalents: []
+whitebox.multiscaleelevationpercentile:
+  processId: whitebox-multiscaleelevationpercentile
+  cwl: multiscaleelevationpercentile/whitebox.multiscaleelevationpercentile.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/tiling
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.multiscaleroughness:
+  processId: whitebox-multiscaleroughness
+  cwl: multiscaleroughness/whitebox.multiscaleroughness.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.multiscaleroughnesssignature:
+  processId: whitebox-multiscaleroughnesssignature
+  cwl: multiscaleroughnesssignature/whitebox.multiscaleroughnesssignature.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.multiscalestddevnormals:
+  processId: whitebox-multiscalestddevnormals
+  cwl: multiscalestddevnormals/whitebox.multiscalestddevnormals.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.multiscalestddevnormalssignature:
+  processId: whitebox-multiscalestddevnormalssignature
+  cwl: multiscalestddevnormalssignature/whitebox.multiscalestddevnormalssignature.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.multiscaletopographicpositionimage:
+  processId: whitebox-multiscaletopographicpositionimage
+  cwl: multiscaletopographicpositionimage/whitebox.multiscaletopographicpositionimage.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.narrownessindex:
+  processId: whitebox-narrownessindex
+  cwl: narrownessindex/whitebox.narrownessindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.naturalneighbourinterpolation:
+  processId: whitebox-naturalneighbourinterpolation
+  cwl: naturalneighbourinterpolation/whitebox.naturalneighbourinterpolation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.nearestneighbourgridding:
+  processId: whitebox-nearestneighbourgridding
+  cwl: nearestneighbourgridding/whitebox.nearestneighbourgridding.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.negate:
+  processId: whitebox-negate
+  cwl: negate/whitebox.negate.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.newrasterfrombase:
+  processId: whitebox-newrasterfrombase
+  cwl: newrasterfrombase/whitebox.newrasterfrombase.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.normalizeddifferenceindex:
+  processId: whitebox-normalizeddifferenceindex
+  cwl: normalizeddifferenceindex/whitebox.normalizeddifferenceindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.normalvectors:
+  processId: whitebox-normalvectors
+  cwl: normalvectors/whitebox.normalvectors.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.not:
+  processId: whitebox-not
+  cwl: not/whitebox.not.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.notequalto:
+  processId: whitebox-notequalto
+  cwl: notequalto/whitebox.notequalto.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.numdownslopeneighbours:
+  processId: whitebox-numdownslopeneighbours
+  cwl: numdownslopeneighbours/whitebox.numdownslopeneighbours.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.numinflowingneighbours:
+  processId: whitebox-numinflowingneighbours
+  cwl: numinflowingneighbours/whitebox.numinflowingneighbours.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.numupslopeneighbours:
+  processId: whitebox-numupslopeneighbours
+  cwl: numupslopeneighbours/whitebox.numupslopeneighbours.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.olympicfilter:
+  processId: whitebox-olympicfilter
+  cwl: olympicfilter/whitebox.olympicfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.opening:
+  processId: whitebox-opening
+  cwl: opening/whitebox.opening.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.or:
+  processId: whitebox-or
+  cwl: or/whitebox.or.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.pairedsamplettest:
+  processId: whitebox-pairedsamplettest
+  cwl: pairedsamplettest/whitebox.pairedsamplettest.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-thinning
+  openeoEquivalents: []
+whitebox.panchromaticsharpening:
+  processId: whitebox-panchromaticsharpening
+  cwl: panchromaticsharpening/whitebox.panchromaticsharpening.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.patchorientation:
+  processId: whitebox-patchorientation
+  cwl: patchorientation/whitebox.patchorientation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.pennocklandformclass:
+  processId: whitebox-pennocklandformclass
+  cwl: pennocklandformclass/whitebox.pennocklandformclass.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.percentagecontraststretch:
+  processId: whitebox-percentagecontraststretch
+  cwl: percentagecontraststretch/whitebox.percentagecontraststretch.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.percentelevrange:
+  processId: whitebox-percentelevrange
+  cwl: percentelevrange/whitebox.percentelevrange.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.percentequalto:
+  processId: whitebox-percentequalto
+  cwl: percentequalto/whitebox.percentequalto.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.percentgreaterthan:
+  processId: whitebox-percentgreaterthan
+  cwl: percentgreaterthan/whitebox.percentgreaterthan.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.percentilefilter:
+  processId: whitebox-percentilefilter
+  cwl: percentilefilter/whitebox.percentilefilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/tiling
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.percentlessthan:
+  processId: whitebox-percentlessthan
+  cwl: percentlessthan/whitebox.percentlessthan.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.perimeterarearatio:
+  processId: whitebox-perimeterarearatio
+  cwl: perimeterarearatio/whitebox.perimeterarearatio.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  openeoEquivalents: []
+whitebox.pickfromlist:
+  processId: whitebox-pickfromlist
+  cwl: pickfromlist/whitebox.pickfromlist.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.plancurvature:
+  processId: whitebox-plancurvature
+  cwl: plancurvature/whitebox.plancurvature.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.polygonarea:
+  processId: whitebox-polygonarea
+  cwl: polygonarea/whitebox.polygonarea.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  - generic-profiles.generic-profile.point-cloud-to-features
+  openeoEquivalents: []
+whitebox.polygonize:
+  processId: whitebox-polygonize
+  cwl: polygonize/whitebox.polygonize.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  openeoEquivalents: []
+whitebox.polygonlongaxis:
+  processId: whitebox-polygonlongaxis
+  cwl: polygonlongaxis/whitebox.polygonlongaxis.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  openeoEquivalents: []
+whitebox.polygonperimeter:
+  processId: whitebox-polygonperimeter
+  cwl: polygonperimeter/whitebox.polygonperimeter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  - generic-profiles.generic-profile.point-cloud-to-features
+  openeoEquivalents: []
+whitebox.polygonshortaxis:
+  processId: whitebox-polygonshortaxis
+  cwl: polygonshortaxis/whitebox.polygonshortaxis.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  openeoEquivalents: []
+whitebox.polygonstolines:
+  processId: whitebox-polygonstolines
+  cwl: polygonstolines/whitebox.polygonstolines.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  openeoEquivalents: []
+whitebox.power:
+  processId: whitebox-power
+  cwl: power/whitebox.power.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.prewittfilter:
+  processId: whitebox-prewittfilter
+  cwl: prewittfilter/whitebox.prewittfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.principalcomponentanalysis:
+  processId: whitebox-principalcomponentanalysis
+  cwl: principalcomponentanalysis/whitebox.principalcomponentanalysis.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.printgeotifftags:
+  processId: whitebox-printgeotifftags
+  cwl: printgeotifftags/whitebox.printgeotifftags.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.profile:
+  processId: whitebox-profile
+  cwl: profile/whitebox.profile.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.profilecurvature:
+  processId: whitebox-profilecurvature
+  cwl: profilecurvature/whitebox.profilecurvature.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.quantiles:
+  processId: whitebox-quantiles
+  cwl: quantiles/whitebox.quantiles.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/tiling
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.radialbasisfunctioninterpolation:
+  processId: whitebox-radialbasisfunctioninterpolation
+  cwl: radialbasisfunctioninterpolation/whitebox.radialbasisfunctioninterpolation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.radiusofgyration:
+  processId: whitebox-radiusofgyration
+  cwl: radiusofgyration/whitebox.radiusofgyration.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.raisewalls:
+  processId: whitebox-raisewalls
+  cwl: raisewalls/whitebox.raisewalls.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.randomfield:
+  processId: whitebox-randomfield
+  cwl: randomfield/whitebox.randomfield.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.randomsample:
+  processId: whitebox-randomsample
+  cwl: randomsample/whitebox.randomsample.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-thinning
+  openeoEquivalents: []
+whitebox.rangefilter:
+  processId: whitebox-rangefilter
+  cwl: rangefilter/whitebox.rangefilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.rasterarea:
+  processId: whitebox-rasterarea
+  cwl: rasterarea/whitebox.rasterarea.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  openeoEquivalents: []
+whitebox.rastercellassignment:
+  processId: whitebox-rastercellassignment
+  cwl: rastercellassignment/whitebox.rastercellassignment.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.rasterhistogram:
+  processId: whitebox-rasterhistogram
+  cwl: rasterhistogram/whitebox.rasterhistogram.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.rasterizestreams:
+  processId: whitebox-rasterizestreams
+  cwl: rasterizestreams/whitebox.rasterizestreams.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-rasterization
+  openeoEquivalents: []
+whitebox.rasterperimeter:
+  processId: whitebox-rasterperimeter
+  cwl: rasterperimeter/whitebox.rasterperimeter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  openeoEquivalents: []
+whitebox.rasterstreamstovector:
+  processId: whitebox-rasterstreamstovector
+  cwl: rasterstreamstovector/whitebox.rasterstreamstovector.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.rastersummarystats:
+  processId: whitebox-rastersummarystats
+  cwl: rastersummarystats/whitebox.rastersummarystats.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.rastertovectorlines:
+  processId: whitebox-rastertovectorlines
+  cwl: rastertovectorlines/whitebox.rastertovectorlines.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.rastertovectorpoints:
+  processId: whitebox-rastertovectorpoints
+  cwl: rastertovectorpoints/whitebox.rastertovectorpoints.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.rastertovectorpolygons:
+  processId: whitebox-rastertovectorpolygons
+  cwl: rastertovectorpolygons/whitebox.rastertovectorpolygons.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  openeoEquivalents: []
+whitebox.reciprocal:
+  processId: whitebox-reciprocal
+  cwl: reciprocal/whitebox.reciprocal.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.reclass:
+  processId: whitebox-reclass
+  cwl: reclass/whitebox.reclass.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.reclassequalinterval:
+  processId: whitebox-reclassequalinterval
+  cwl: reclassequalinterval/whitebox.reclassequalinterval.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.reclassfromfile:
+  processId: whitebox-reclassfromfile
+  cwl: reclassfromfile/whitebox.reclassfromfile.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.reinitializeattributetable:
+  processId: whitebox-reinitializeattributetable
+  cwl: reinitializeattributetable/whitebox.reinitializeattributetable.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.relatedcircumscribingcircle:
+  processId: whitebox-relatedcircumscribingcircle
+  cwl: relatedcircumscribingcircle/whitebox.relatedcircumscribingcircle.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.relativeaspect:
+  processId: whitebox-relativeaspect
+  cwl: relativeaspect/whitebox.relativeaspect.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.relativetopographicposition:
+  processId: whitebox-relativetopographicposition
+  cwl: relativetopographicposition/whitebox.relativetopographicposition.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.removeoffterrainobjects:
+  processId: whitebox-removeoffterrainobjects
+  cwl: removeoffterrainobjects/whitebox.removeoffterrainobjects.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.removepolygonholes:
+  processId: whitebox-removepolygonholes
+  cwl: removepolygonholes/whitebox.removepolygonholes.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  openeoEquivalents: []
+whitebox.removeshortstreams:
+  processId: whitebox-removeshortstreams
+  cwl: removeshortstreams/whitebox.removeshortstreams.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.removespurs:
+  processId: whitebox-removespurs
+  cwl: removespurs/whitebox.removespurs.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.resample:
+  processId: whitebox-resample
+  cwl: resample/whitebox.resample.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/resampling
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-thinning
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.resample_spatial
+whitebox.rescalevaluerange:
+  processId: whitebox-rescalevaluerange
+  cwl: rescalevaluerange/whitebox.rescalevaluerange.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.rgbtoihs:
+  processId: whitebox-rgbtoihs
+  cwl: rgbtoihs/whitebox.rgbtoihs.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.rho8pointer:
+  processId: whitebox-rho8pointer
+  cwl: rho8pointer/whitebox.rho8pointer.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.robertscrossfilter:
+  processId: whitebox-robertscrossfilter
+  cwl: robertscrossfilter/whitebox.robertscrossfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.rootmeansquareerror:
+  processId: whitebox-rootmeansquareerror
+  cwl: rootmeansquareerror/whitebox.rootmeansquareerror.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.round:
+  processId: whitebox-round
+  cwl: round/whitebox.round.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.ruggednessindex:
+  processId: whitebox-ruggednessindex
+  cwl: ruggednessindex/whitebox.ruggednessindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.scharrfilter:
+  processId: whitebox-scharrfilter
+  cwl: scharrfilter/whitebox.scharrfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.sedimenttransportindex:
+  processId: whitebox-sedimenttransportindex
+  cwl: sedimenttransportindex/whitebox.sedimenttransportindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.selecttilesbypolygon:
+  processId: whitebox-selecttilesbypolygon
+  cwl: selecttilesbypolygon/whitebox.selecttilesbypolygon.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/tiling
+  - http://www.opengis.net/def/process-type/subsetting
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  - generic-profiles.generic-profile.raster-crop
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.filter_bands
+whitebox.setnodatavalue:
+  processId: whitebox-setnodatavalue
+  cwl: setnodatavalue/whitebox.setnodatavalue.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.shapecomplexityindex:
+  processId: whitebox-shapecomplexityindex
+  cwl: shapecomplexityindex/whitebox.shapecomplexityindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.shapecomplexityindexraster:
+  processId: whitebox-shapecomplexityindexraster
+  cwl: shapecomplexityindexraster/whitebox.shapecomplexityindexraster.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.shrevestreammagnitude:
+  processId: whitebox-shrevestreammagnitude
+  cwl: shrevestreammagnitude/whitebox.shrevestreammagnitude.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.sigmoidalcontraststretch:
+  processId: whitebox-sigmoidalcontraststretch
+  cwl: sigmoidalcontraststretch/whitebox.sigmoidalcontraststretch.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.sin:
+  processId: whitebox-sin
+  cwl: sin/whitebox.sin.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.singleparttomultipart:
+  processId: whitebox-singleparttomultipart
+  cwl: singleparttomultipart/whitebox.singleparttomultipart.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.sinh:
+  processId: whitebox-sinh
+  cwl: sinh/whitebox.sinh.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.sink:
+  processId: whitebox-sink
+  cwl: sink/whitebox.sink.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.slope:
+  processId: whitebox-slope
+  cwl: slope/whitebox.slope.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.slopevselevationplot:
+  processId: whitebox-slopevselevationplot
+  cwl: slopevselevationplot/whitebox.slopevselevationplot.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  - http://www.opengis.net/def/process-type/subsetting
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-crop
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.filter_bands
+whitebox.smoothvectors:
+  processId: whitebox-smoothvectors
+  cwl: smoothvectors/whitebox.smoothvectors.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.snappourpoints:
+  processId: whitebox-snappourpoints
+  cwl: snappourpoints/whitebox.snappourpoints.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.sobelfilter:
+  processId: whitebox-sobelfilter
+  cwl: sobelfilter/whitebox.sobelfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.sphericalstddevofnormals:
+  processId: whitebox-sphericalstddevofnormals
+  cwl: sphericalstddevofnormals/whitebox.sphericalstddevofnormals.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.splitcolourcomposite:
+  processId: whitebox-splitcolourcomposite
+  cwl: splitcolourcomposite/whitebox.splitcolourcomposite.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.splitwithlines:
+  processId: whitebox-splitwithlines
+  cwl: splitwithlines/whitebox.splitwithlines.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.square:
+  processId: whitebox-square
+  cwl: square/whitebox.square.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.squareroot:
+  processId: whitebox-squareroot
+  cwl: squareroot/whitebox.squareroot.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.standarddeviationcontraststretch:
+  processId: whitebox-standarddeviationcontraststretch
+  cwl: standarddeviationcontraststretch/whitebox.standarddeviationcontraststretch.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.standarddeviationfilter:
+  processId: whitebox-standarddeviationfilter
+  cwl: standarddeviationfilter/whitebox.standarddeviationfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.standarddeviationofslope:
+  processId: whitebox-standarddeviationofslope
+  cwl: standarddeviationofslope/whitebox.standarddeviationofslope.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.stochasticdepressionanalysis:
+  processId: whitebox-stochasticdepressionanalysis
+  cwl: stochasticdepressionanalysis/whitebox.stochasticdepressionanalysis.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.strahlerorderbasins:
+  processId: whitebox-strahlerorderbasins
+  cwl: strahlerorderbasins/whitebox.strahlerorderbasins.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.strahlerstreamorder:
+  processId: whitebox-strahlerstreamorder
+  cwl: strahlerstreamorder/whitebox.strahlerstreamorder.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.streamlinkclass:
+  processId: whitebox-streamlinkclass
+  cwl: streamlinkclass/whitebox.streamlinkclass.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.streamlinkidentifier:
+  processId: whitebox-streamlinkidentifier
+  cwl: streamlinkidentifier/whitebox.streamlinkidentifier.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.streamlinklength:
+  processId: whitebox-streamlinklength
+  cwl: streamlinklength/whitebox.streamlinklength.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  openeoEquivalents: []
+whitebox.streamlinkslope:
+  processId: whitebox-streamlinkslope
+  cwl: streamlinkslope/whitebox.streamlinkslope.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.streampowerindex:
+  processId: whitebox-streampowerindex
+  cwl: streampowerindex/whitebox.streampowerindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.streamslopecontinuous:
+  processId: whitebox-streamslopecontinuous
+  cwl: streamslopecontinuous/whitebox.streamslopecontinuous.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.subbasins:
+  processId: whitebox-subbasins
+  cwl: subbasins/whitebox.subbasins.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.subtract:
+  processId: whitebox-subtract
+  cwl: subtract/whitebox.subtract.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-band-math
+  openeoEquivalents: []
+whitebox.sumoverlay:
+  processId: whitebox-sumoverlay
+  cwl: sumoverlay/whitebox.sumoverlay.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.surfacearearatio:
+  processId: whitebox-surfacearearatio
+  cwl: surfacearearatio/whitebox.surfacearearatio.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.geometry-measure
+  openeoEquivalents: []
+whitebox.symmetricaldifference:
+  processId: whitebox-symmetricaldifference
+  cwl: symmetricaldifference/whitebox.symmetricaldifference.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.tan:
+  processId: whitebox-tan
+  cwl: tan/whitebox.tan.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.tangentialcurvature:
+  processId: whitebox-tangentialcurvature
+  cwl: tangentialcurvature/whitebox.tangentialcurvature.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.tanh:
+  processId: whitebox-tanh
+  cwl: tanh/whitebox.tanh.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.thickenrasterline:
+  processId: whitebox-thickenrasterline
+  cwl: thickenrasterline/whitebox.thickenrasterline.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.timeindaylight:
+  processId: whitebox-timeindaylight
+  cwl: timeindaylight/whitebox.timeindaylight.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.tingridding:
+  processId: whitebox-tingridding
+  cwl: tingridding/whitebox.tingridding.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.todegrees:
+  processId: whitebox-todegrees
+  cwl: todegrees/whitebox.todegrees.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.tophattransform:
+  processId: whitebox-tophattransform
+  cwl: tophattransform/whitebox.tophattransform.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.raster-reprojection
+  openeoEquivalents: []
+whitebox.topographichachures:
+  processId: whitebox-topographichachures
+  cwl: topographichachures/whitebox.topographichachures.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.topologicalstreamorder:
+  processId: whitebox-topologicalstreamorder
+  cwl: topologicalstreamorder/whitebox.topologicalstreamorder.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.toradians:
+  processId: whitebox-toradians
+  cwl: toradians/whitebox.toradians.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.totalcurvature:
+  processId: whitebox-totalcurvature
+  cwl: totalcurvature/whitebox.totalcurvature.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.totalfilter:
+  processId: whitebox-totalfilter
+  cwl: totalfilter/whitebox.totalfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.tracedownslopeflowpaths:
+  processId: whitebox-tracedownslopeflowpaths
+  cwl: tracedownslopeflowpaths/whitebox.tracedownslopeflowpaths.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.trendsurface:
+  processId: whitebox-trendsurface
+  cwl: trendsurface/whitebox.trendsurface.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.trendsurfacevectorpoints:
+  processId: whitebox-trendsurfacevectorpoints
+  cwl: trendsurfacevectorpoints/whitebox.trendsurfacevectorpoints.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.tributaryidentifier:
+  processId: whitebox-tributaryidentifier
+  cwl: tributaryidentifier/whitebox.tributaryidentifier.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.truncate:
+  processId: whitebox-truncate
+  cwl: truncate/whitebox.truncate.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.turningbandssimulation:
+  processId: whitebox-turningbandssimulation
+  cwl: turningbandssimulation/whitebox.turningbandssimulation.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.twosamplekstest:
+  processId: whitebox-twosamplekstest
+  cwl: twosamplekstest/whitebox.twosamplekstest.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-thinning
+  openeoEquivalents: []
+whitebox.union:
+  processId: whitebox-union
+  cwl: union/whitebox.union.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.unnestbasins:
+  processId: whitebox-unnestbasins
+  cwl: unnestbasins/whitebox.unnestbasins.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.unsharpmasking:
+  processId: whitebox-unsharpmasking
+  cwl: unsharpmasking/whitebox.unsharpmasking.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/clipping
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.filter_spatial
+  - ogc.openeo.processes.cubes.mask
+whitebox.updatenodatacells:
+  processId: whitebox-updatenodatacells
+  cwl: updatenodatacells/whitebox.updatenodatacells.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.upslopedepressionstorage:
+  processId: whitebox-upslopedepressionstorage
+  cwl: upslopedepressionstorage/whitebox.upslopedepressionstorage.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles:
+  - generic-profiles.generic-profile.terrain-derivative
+  openeoEquivalents: []
+whitebox.userdefinedweightsfilter:
+  processId: whitebox-userdefinedweightsfilter
+  cwl: userdefinedweightsfilter/whitebox.userdefinedweightsfilter.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/filtering
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.apply_kernel
+whitebox.vectorhexbinning:
+  processId: whitebox-vectorhexbinning
+  cwl: vectorhexbinning/whitebox.vectorhexbinning.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.vectorlinestoraster:
+  processId: whitebox-vectorlinestoraster
+  cwl: vectorlinestoraster/whitebox.vectorlinestoraster.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.vectorpointstoraster:
+  processId: whitebox-vectorpointstoraster
+  cwl: vectorpointstoraster/whitebox.vectorpointstoraster.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.vectorpolygonstoraster:
+  processId: whitebox-vectorpolygonstoraster
+  cwl: vectorpolygonstoraster/whitebox.vectorpolygonstoraster.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.point-cloud-to-features
+  openeoEquivalents: []
+whitebox.viewshed:
+  processId: whitebox-viewshed
+  cwl: viewshed/whitebox.viewshed.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.visibilityindex:
+  processId: whitebox-visibilityindex
+  cwl: visibilityindex/whitebox.visibilityindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.voronoidiagram:
+  processId: whitebox-voronoidiagram
+  cwl: voronoidiagram/whitebox.voronoidiagram.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.watershed:
+  processId: whitebox-watershed
+  cwl: watershed/whitebox.watershed.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/hydrology
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.weightedoverlay:
+  processId: whitebox-weightedoverlay
+  cwl: weightedoverlay/whitebox.weightedoverlay.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.weightedsum:
+  processId: whitebox-weightedsum
+  cwl: weightedsum/whitebox.weightedsum.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  - http://www.opengis.net/def/process-type/statistics
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+whitebox.wetnessindex:
+  processId: whitebox-wetnessindex
+  cwl: wetnessindex/whitebox.wetnessindex.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles:
+  - generic-profiles.generic-profile.radiometric-index
+  openeoEquivalents: []
+whitebox.wilcoxonsignedranktest:
+  processId: whitebox-wilcoxonsignedranktest
+  cwl: wilcoxonsignedranktest/whitebox.wilcoxonsignedranktest.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.writefunctionmemoryinsertion:
+  processId: whitebox-writefunctionmemoryinsertion
+  cwl: writefunctionmemoryinsertion/whitebox.writefunctionmemoryinsertion.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.xor:
+  processId: whitebox-xor
+  cwl: xor/whitebox.xor.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.zlidartolas:
+  processId: whitebox-zlidartolas
+  cwl: zlidartolas/whitebox.zlidartolas.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.zonalstatistics:
+  processId: whitebox-zonalstatistics
+  cwl: zonalstatistics/whitebox.zonalstatistics.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []
+whitebox.zscores:
+  processId: whitebox-zscores
+  cwl: zscores/whitebox.zscores.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/geoprocessing
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.terrain-analysis
+  genericProfiles: []
+  openeoEquivalents: []

@@ -1,0 +1,31 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+description: OGC API - Processes process description of a rasterio application package.
+allOf:
+- $ref: bblocks://ogc.api.processes.v1.schemas.process
+- $ref: bblocks://ogc.api.processes.v2.schemas.staticIndicator
+- type: object
+  required:
+  - id
+  - version
+  properties:
+    id:
+      enum:
+      - rasterio-blocks
+      - rasterio-bounds
+      - rasterio-calc
+      - rasterio-clip
+      - rasterio-convert
+      - rasterio-create
+      - rasterio-edit_info
+      - rasterio-gcps
+      - rasterio-info
+      - rasterio-mask
+      - rasterio-merge
+      - rasterio-overview
+      - rasterio-rasterize
+      - rasterio-rm
+      - rasterio-sample
+      - rasterio-shapes
+      - rasterio-stack
+      - rasterio-transform
+      - rasterio-warp

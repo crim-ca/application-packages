@@ -1,0 +1,150 @@
+pdal.chamfer:
+  processId: pdal-chamfer
+  cwl: chamfer/pdal.chamfer.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.delta:
+  processId: pdal-delta
+  cwl: delta/pdal.delta.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.density:
+  processId: pdal-density
+  cwl: density/pdal.density.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.eval:
+  processId: pdal-eval
+  cwl: eval/pdal.eval.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.ground:
+  processId: pdal-ground
+  cwl: ground/pdal.ground.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.hausdorff:
+  processId: pdal-hausdorff
+  cwl: hausdorff/pdal.hausdorff.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.info:
+  processId: pdal-info
+  cwl: info/pdal.info.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.merge:
+  processId: pdal-merge
+  cwl: merge/pdal.merge.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.pipeline:
+  processId: pdal-pipeline
+  cwl: pipeline/pdal.pipeline.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.random:
+  processId: pdal-random
+  cwl: random/pdal.random.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.sort:
+  processId: pdal-sort
+  cwl: sort/pdal.sort.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.split:
+  processId: pdal-split
+  cwl: split/pdal.split.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.tile:
+  processId: pdal-tile
+  cwl: tile/pdal.tile.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.tindex:
+  processId: pdal-tindex
+  cwl: tindex/pdal.tindex.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []
+pdal.translate:
+  processId: pdal-translate
+  cwl: translate/pdal.translate.cwl
+  processTypes: []
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.point-cloud-processing
+  genericProfiles: []
+  openeoEquivalents: []

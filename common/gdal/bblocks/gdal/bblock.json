@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
+  "name": "Application packages: gdal",
+  "abstract": "Profile of the OGC API - Processes descriptions of the 104 gdal CWL application packages, with activity types, process types and generic profiles per tool.",
+  "status": "under-development",
+  "version": "0.1",
+  "itemClass": "schema",
+  "register": "app-packages",
+  "dependsOn": [
+    "ogc.api.processes.v1.schemas.process",
+    "ogc.api.processes.v2.schemas.ogcapppkg",
+    "ogc.api.processes.v2.schemas.staticIndicator",
+    "eoap.cct.cwl-to-ogcprocess",
+    "ogc.bbr.provenance.provenance",
+    "ogc.bbr.wf4ever.wfprov.ProcessRun",
+    "ospd.process-profiles.process-type",
+    "eoap.cct.geojson"
+  ],
+  "seeAlso": [
+    "generic-profiles.concept.raster-coverage-processing",
+    "generic-profiles.concept.vector-geometry-processing",
+    "generic-profiles.generic-profile.analytical-hillshading",
+    "generic-profiles.generic-profile.binary-spatial-operation",
+    "generic-profiles.generic-profile.geometry-buffer",
+    "generic-profiles.generic-profile.point-cloud-to-features",
+    "generic-profiles.generic-profile.radiometric-index",
+    "generic-profiles.generic-profile.raster-band-math",
+    "generic-profiles.generic-profile.raster-crop",
+    "generic-profiles.generic-profile.raster-extent",
+    "generic-profiles.generic-profile.raster-format-conversion",
+    "generic-profiles.generic-profile.raster-reprojection",
+    "generic-profiles.generic-profile.terrain-derivative",
+    "generic-profiles.generic-profile.unary-geometry-operation",
+    "ogc.openeo.processes.cubes.aggregate_spatial",
+    "ogc.openeo.processes.cubes.apply_kernel",
+    "ogc.openeo.processes.cubes.filter_bands",
+    "ogc.openeo.processes.cubes.filter_spatial",
+    "ogc.openeo.processes.cubes.mask",
+    "ogc.openeo.processes.cubes.merge_cubes",
+    "ogc.openeo.processes.cubes.reduce_dimension",
+    "ogc.openeo.processes.cubes.resample_spatial",
+    "ogc.openeo.processes.cubes.save_result"
+  ],
+  "conformanceClasses": [
+    "http://www.opengis.net/spec/ogcapi-processes-1/1.0/conf/core"
+  ],
+  "scope": "dev",
+  "tags": [
+    "application package",
+    "CWL",
+    "OGC API - Processes",
+    "gdal",
+    "geoprocessing",
+    "raster-processing",
+    "vector-processing"
+  ],
+  "sourceSchema": "schema.yaml",
+  "maturity": "development",
+  "group": "Application Packages"
+}

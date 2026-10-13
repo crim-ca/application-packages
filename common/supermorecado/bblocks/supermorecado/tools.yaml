@@ -1,0 +1,41 @@
+supermorecado.burn:
+  processId: supermorecado-burn
+  cwl: burn/supermorecado.burn.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+supermorecado.edges:
+  processId: supermorecado-edges
+  cwl: edges/supermorecado.edges.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+supermorecado.heatmap:
+  processId: supermorecado-heatmap
+  cwl: heatmap/supermorecado.heatmap.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles: []
+  openeoEquivalents: []
+supermorecado.union:
+  processId: supermorecado-union
+  cwl: union/supermorecado.union.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts: []
+  genericProfiles:
+  - generic-profiles.generic-profile.binary-spatial-operation
+  openeoEquivalents: []
