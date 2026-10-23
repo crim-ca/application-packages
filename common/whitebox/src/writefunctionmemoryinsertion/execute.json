@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "first_date_input_file": {
+      "href": "https://example.com/data"
+    },
+    "second_date_input_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value"
+  },
+  "outputs": {}
+}

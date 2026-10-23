@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_files": {
+      "href": "https://example.com/data"
+    },
+    "input_position_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value"
+  },
+  "outputs": {}
+}

@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "output_dem_file": "value",
+    "output_flow_pointer_file": "value",
+    "output_flow_accumulation_file": "value"
+  },
+  "outputs": {}
+}

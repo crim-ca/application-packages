@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_vector_streams_file": {
+      "href": "https://example.com/data"
+    },
+    "input_base_raster_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value"
+  },
+  "outputs": {}
+}

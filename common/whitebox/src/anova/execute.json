@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_file": {
+      "href": "https://example.com/data"
+    },
+    "feature_definition_class_file": {
+      "href": "https://example.com/data"
+    },
+    "output_html_file": "value"
+  },
+  "outputs": {}
+}

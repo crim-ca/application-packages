@@ -1,0 +1,13 @@
+s2mosaic.mosaic:
+  processId: s2mosaic-mosaic
+  cwl: s2mosaic.mosaic.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/raster
+  - http://www.opengis.net/def/process-type/mosaicking
+  activityTypes:
+  - ogc.model.registered-item.register-item-classes.geoprocessing
+  concepts:
+  - generic-profiles.concept.raster-coverage-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.merge_cubes

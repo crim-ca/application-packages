@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "input": "value"
+  },
+  "outputs": {
+    "output": {
+      "transmissionMode": "reference"
+    }
+  }
+}

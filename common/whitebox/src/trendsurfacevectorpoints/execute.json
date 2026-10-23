@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "input_vector_points_file": {
+      "href": "https://example.com/data"
+    },
+    "field_name": "value",
+    "output_file": "value",
+    "cell_size": "value"
+  },
+  "outputs": {}
+}

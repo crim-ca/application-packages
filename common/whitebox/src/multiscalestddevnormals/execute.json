@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "output_roughness_magnitude_file": "value",
+    "output_roughness_scale_file": "value",
+    "number_of_steps": "value",
+    "step_nonlinearity": "value"
+  },
+  "outputs": {}
+}

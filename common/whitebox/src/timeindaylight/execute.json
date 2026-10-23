@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "azimuth_fraction": "value",
+    "maximum_search_distance": "value",
+    "centre_point_latitude": "value",
+    "centre_point_longitude": "value"
+  },
+  "outputs": {}
+}

@@ -1,0 +1,17 @@
+identifier-prefix: ospd.process-profiles.app-packages.
+name: Application Packages
+abstract: Building Blocks bridging CRIM application packages with the OSPD process
+  profiles.
+baseURL: https://crim-ca.github.io/application-packages/
+gitHubBaseURL: https://github.com/crim-ca/application-packages/
+license: Apache-2.0
+schema-oas30-downcompile: false
+imports:
+- default
+- https://crim-ca.github.io/bblocks-process-profiles/build/register.json
+- https://geolabs.github.io/bblocks-generic-provenance-profile/build/register.json
+- https://geolabs.github.io/bblocks-eoap-cct/build/register.json
+- https://geolabs.github.io/bblocks-openeo/build/register.json
+- https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+- https://geolabs.github.io/bblock-ogcapi-processes-part2/build/register.json
+- https://geolabs.github.io/bblocks-generic-profiles/build/register.json

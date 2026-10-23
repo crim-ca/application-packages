@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "input": {
+      "href": "https://example.com/data"
+    },
+    "output_data_type": "value",
+    "output_name": "value"
+  },
+  "outputs": {
+    "output": {
+      "transmissionMode": "reference"
+    }
+  }
+}

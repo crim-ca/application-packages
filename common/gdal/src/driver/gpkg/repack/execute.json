@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "dataset": {
+      "href": "https://example.com/data"
+    }
+  },
+  "outputs": {
+    "output": {
+      "transmissionMode": "reference"
+    }
+  }
+}

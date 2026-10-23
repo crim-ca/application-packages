@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "target_basin_size_grid_cells": "value"
+  },
+  "outputs": {}
+}

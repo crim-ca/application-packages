@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "dem_root_mean_square_error_z_units": "value",
+    "range_of_autocorrelation_map_units": "value"
+  },
+  "outputs": {}
+}

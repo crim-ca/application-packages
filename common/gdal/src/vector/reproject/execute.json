@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "input": {
+      "href": "https://example.com/data"
+    },
+    "dst_crs": "value",
+    "output_name": "value"
+  },
+  "outputs": {
+    "output": {
+      "transmissionMode": "reference"
+    }
+  }
+}

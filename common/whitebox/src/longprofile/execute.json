@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "input_d8_pointer_file": {
+      "href": "https://example.com/data"
+    },
+    "input_streams_file": {
+      "href": "https://example.com/data"
+    },
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "output_html_file": "value"
+  },
+  "outputs": {}
+}

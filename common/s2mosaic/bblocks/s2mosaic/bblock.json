@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
+  "name": "Application packages: s2mosaic",
+  "abstract": "Profile of the OGC API - Processes descriptions of the 1 s2mosaic CWL application packages, with activity types, process types and generic profiles per tool.",
+  "status": "under-development",
+  "version": "0.1",
+  "dateTimeAddition": "2026-10-15T00:00:00Z",
+  "dateOfLastChange": "2026-10-15",
+  "itemClass": "schema",
+  "register": "app-packages",
+  "dependsOn": [
+    "ogc.api.processes.v1.schemas.process",
+    "ogc.api.processes.v2.schemas.ogcapppkg",
+    "ogc.api.processes.v2.schemas.staticIndicator",
+    "eoap.cct.cwl-to-ogcprocess",
+    "ogc.bbr.provenance.provenance",
+    "ogc.bbr.wf4ever.wfprov.ProcessRun",
+    "ospd.process-profiles.process-type",
+    "eoap.cct.bbox",
+    "eoap.cct.stac"
+  ],
+  "seeAlso": [
+    "generic-profiles.concept.raster-coverage-processing",
+    "ogc.openeo.processes.cubes.merge_cubes"
+  ],
+  "conformanceClasses": [
+    "http://www.opengis.net/spec/ogcapi-processes-1/1.0/conf/core"
+  ],
+  "scope": "dev",
+  "tags": [
+    "application package",
+    "CWL",
+    "OGC API - Processes",
+    "s2mosaic",
+    "geoprocessing",
+    "mosaicking"
+  ],
+  "sourceSchema": "schema.yaml",
+  "maturity": "development",
+  "group": "Application Packages"
+}

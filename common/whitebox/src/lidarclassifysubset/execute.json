@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "input_base_lidar_file": {
+      "href": "https://example.com/data"
+    },
+    "input_subset_lidar_file": {
+      "href": "https://example.com/data"
+    },
+    "output_lidar_file": "value",
+    "subset_point_class_value": "value"
+  },
+  "outputs": {}
+}

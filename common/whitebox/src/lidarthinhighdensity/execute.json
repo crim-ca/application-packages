@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "input_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "max_point_density_pts_m_2": "value"
+  },
+  "outputs": {}
+}

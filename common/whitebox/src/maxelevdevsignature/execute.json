@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "input_vector_points_file": {
+      "href": "https://example.com/data"
+    },
+    "output_html_file": "value",
+    "minimum_search_neighbourhood_radius_grid_cells": "value",
+    "maximum_search_neighbourhood_radius_grid_cells": "value",
+    "step_size": "value"
+  },
+  "outputs": {}
+}

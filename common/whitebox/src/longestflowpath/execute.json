@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "basins_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value"
+  },
+  "outputs": {}
+}

@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "input_raster_surface_file": {
+      "href": "https://example.com/data"
+    },
+    "output_contour_file": "value",
+    "contour_interval": "value"
+  },
+  "outputs": {}
+}

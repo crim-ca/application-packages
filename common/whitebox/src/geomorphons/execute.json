@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "search_distance_cells": "value",
+    "flatness_threshold_degrees": "value",
+    "flatness_distance_cells": "value",
+    "skip_distance_cells": "value"
+  },
+  "outputs": {}
+}

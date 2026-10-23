@@ -1,0 +1,8 @@
+{
+  "inputs": {
+    "input_geotiff_raster_file": {
+      "href": "https://example.com/data"
+    }
+  },
+  "outputs": {}
+}

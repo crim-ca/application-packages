@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "input_intensity_file": {
+      "href": "https://example.com/data"
+    },
+    "input_hue_file": {
+      "href": "https://example.com/data"
+    },
+    "input_saturation_file": {
+      "href": "https://example.com/data"
+    }
+  },
+  "outputs": {}
+}

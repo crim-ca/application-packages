@@ -1,0 +1,8 @@
+{
+  "inputs": {
+    "output_intensity_file": "value",
+    "output_hue_file": "value",
+    "output_saturation_file": "value"
+  },
+  "outputs": {}
+}

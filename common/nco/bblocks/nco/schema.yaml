@@ -1,0 +1,27 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+description: OGC API - Processes process description of a nco application package.
+allOf:
+- $ref: bblocks://ogc.api.processes.v1.schemas.process
+- $ref: bblocks://ogc.api.processes.v2.schemas.staticIndicator
+- type: object
+  required:
+  - id
+  - version
+  properties:
+    id:
+      enum:
+      - nco-ncatted
+      - nco-ncbo
+      - nco-ncclimo
+      - nco-ncdiff
+      - nco-ncea
+      - nco-ncecat
+      - nco-nces
+      - nco-ncflint
+      - nco-ncks
+      - nco-ncpdq
+      - nco-ncra
+      - nco-ncrcat
+      - nco-ncremap
+      - nco-ncrename
+      - nco-ncwa

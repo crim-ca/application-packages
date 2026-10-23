@@ -1,0 +1,9 @@
+{
+  "inputs": {
+    "input_lidar_point_ascii_files_csv": {
+      "href": "https://example.com/data"
+    },
+    "pattern": "value"
+  },
+  "outputs": {}
+}

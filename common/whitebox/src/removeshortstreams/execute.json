@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "input_d8_pointer_file": {
+      "href": "https://example.com/data"
+    },
+    "input_streams_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "minimum_tributary_length_map_units": "value"
+  },
+  "outputs": {}
+}

@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "lower_tail_clip_value": "value",
+    "upper_tail_clip_value": "value",
+    "number_of_tones": "value"
+  },
+  "outputs": {}
+}

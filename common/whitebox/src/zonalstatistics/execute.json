@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "input_data_file": {
+      "href": "https://example.com/data"
+    },
+    "input_feature_definition_file": {
+      "href": "https://example.com/data"
+    }
+  },
+  "outputs": {}
+}

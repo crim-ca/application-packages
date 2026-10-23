@@ -1,0 +1,3785 @@
+xclim.anuclim.P10_MEANTEMPWARMESTQUARTER:
+  processId: xclim-anuclim-P10_MEANTEMPWARMESTQUARTER
+  cwl: anuclim.p10_meantempwarmestquarter/xclim.anuclim.P10_MEANTEMPWARMESTQUARTER.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.anuclim.P11_MEANTEMPCOLDESTQUARTER:
+  processId: xclim-anuclim-P11_MEANTEMPCOLDESTQUARTER
+  cwl: anuclim.p11_meantempcoldestquarter/xclim.anuclim.P11_MEANTEMPCOLDESTQUARTER.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.anuclim.P12_ANNUALPRECIP:
+  processId: xclim-anuclim-P12_ANNUALPRECIP
+  cwl: anuclim.p12_annualprecip/xclim.anuclim.P12_ANNUALPRECIP.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.anuclim.P13_PRECIPWETTESTPERIOD:
+  processId: xclim-anuclim-P13_PRECIPWETTESTPERIOD
+  cwl: anuclim.p13_precipwettestperiod/xclim.anuclim.P13_PRECIPWETTESTPERIOD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.anuclim.P14_PRECIPDRIESTPERIOD:
+  processId: xclim-anuclim-P14_PRECIPDRIESTPERIOD
+  cwl: anuclim.p14_precipdriestperiod/xclim.anuclim.P14_PRECIPDRIESTPERIOD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.anuclim.P15_PRECIPSEASONALITY:
+  processId: xclim-anuclim-P15_PRECIPSEASONALITY
+  cwl: anuclim.p15_precipseasonality/xclim.anuclim.P15_PRECIPSEASONALITY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.anuclim.P16_PRECIPWETTESTQUARTER:
+  processId: xclim-anuclim-P16_PRECIPWETTESTQUARTER
+  cwl: anuclim.p16_precipwettestquarter/xclim.anuclim.P16_PRECIPWETTESTQUARTER.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.anuclim.P17_PRECIPDRIESTQUARTER:
+  processId: xclim-anuclim-P17_PRECIPDRIESTQUARTER
+  cwl: anuclim.p17_precipdriestquarter/xclim.anuclim.P17_PRECIPDRIESTQUARTER.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.anuclim.P18_PRECIPWARMESTQUARTER:
+  processId: xclim-anuclim-P18_PRECIPWARMESTQUARTER
+  cwl: anuclim.p18_precipwarmestquarter/xclim.anuclim.P18_PRECIPWARMESTQUARTER.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.anuclim.P19_PRECIPCOLDESTQUARTER:
+  processId: xclim-anuclim-P19_PRECIPCOLDESTQUARTER
+  cwl: anuclim.p19_precipcoldestquarter/xclim.anuclim.P19_PRECIPCOLDESTQUARTER.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.anuclim.P1_ANNMEANTEMP:
+  processId: xclim-anuclim-P1_ANNMEANTEMP
+  cwl: anuclim.p1_annmeantemp/xclim.anuclim.P1_ANNMEANTEMP.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.anuclim.P2_MEANDIURNALRANGE:
+  processId: xclim-anuclim-P2_MEANDIURNALRANGE
+  cwl: anuclim.p2_meandiurnalrange/xclim.anuclim.P2_MEANDIURNALRANGE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.anuclim.P3_ISOTHERMALITY:
+  processId: xclim-anuclim-P3_ISOTHERMALITY
+  cwl: anuclim.p3_isothermality/xclim.anuclim.P3_ISOTHERMALITY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.anuclim.P4_TEMPSEASONALITY:
+  processId: xclim-anuclim-P4_TEMPSEASONALITY
+  cwl: anuclim.p4_tempseasonality/xclim.anuclim.P4_TEMPSEASONALITY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.anuclim.P5_MAXTEMPWARMESTPERIOD:
+  processId: xclim-anuclim-P5_MAXTEMPWARMESTPERIOD
+  cwl: anuclim.p5_maxtempwarmestperiod/xclim.anuclim.P5_MAXTEMPWARMESTPERIOD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.anuclim.P6_MINTEMPCOLDESTPERIOD:
+  processId: xclim-anuclim-P6_MINTEMPCOLDESTPERIOD
+  cwl: anuclim.p6_mintempcoldestperiod/xclim.anuclim.P6_MINTEMPCOLDESTPERIOD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.anuclim.P7_TEMPANNUALRANGE:
+  processId: xclim-anuclim-P7_TEMPANNUALRANGE
+  cwl: anuclim.p7_tempannualrange/xclim.anuclim.P7_TEMPANNUALRANGE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.anuclim.P8_MEANTEMPWETTESTQUARTER:
+  processId: xclim-anuclim-P8_MEANTEMPWETTESTQUARTER
+  cwl: anuclim.p8_meantempwettestquarter/xclim.anuclim.P8_MEANTEMPWETTESTQUARTER.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.anuclim.P9_MEANTEMPDRIESTQUARTER:
+  processId: xclim-anuclim-P9_MEANTEMPDRIESTQUARTER
+  cwl: anuclim.p9_meantempdriestquarter/xclim.anuclim.P9_MEANTEMPDRIESTQUARTER.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.API:
+  processId: xclim-API
+  cwl: api/xclim.API.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.ARIDITY_INDEX:
+  processId: xclim-ARIDITY_INDEX
+  cwl: aridity_index/xclim.ARIDITY_INDEX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.AUSTRALIAN_HARDINESS_ZONES:
+  processId: xclim-AUSTRALIAN_HARDINESS_ZONES
+  cwl: australian_hardiness_zones/xclim.AUSTRALIAN_HARDINESS_ZONES.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.BASE_FLOW_INDEX:
+  processId: xclim-BASE_FLOW_INDEX
+  cwl: base_flow_index/xclim.BASE_FLOW_INDEX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/hydrology
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.BASE_FLOW_INDEX_SEASONAL_RATIO:
+  processId: xclim-BASE_FLOW_INDEX_SEASONAL_RATIO
+  cwl: base_flow_index_seasonal_ratio/xclim.BASE_FLOW_INDEX_SEASONAL_RATIO.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/hydrology
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.BIOLOGICALLY_EFFECTIVE_DEGREE_DAYS:
+  processId: xclim-BIOLOGICALLY_EFFECTIVE_DEGREE_DAYS
+  cwl: biologically_effective_degree_days/xclim.BIOLOGICALLY_EFFECTIVE_DEGREE_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.BLOWING_SNOW:
+  processId: xclim-BLOWING_SNOW
+  cwl: blowing_snow/xclim.BLOWING_SNOW.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.CALM_DAYS:
+  processId: xclim-CALM_DAYS
+  cwl: calm_days/xclim.CALM_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.CDD:
+  processId: xclim-CDD
+  cwl: cdd/xclim.CDD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CDD:
+  processId: xclim-cf-CDD
+  cwl: cf.cdd/xclim.cf.CDD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CDDCOLDTT:
+  processId: xclim-cf-CDDCOLDTT
+  cwl: cf.cddcoldtt/xclim.cf.CDDCOLDTT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CFD:
+  processId: xclim-cf-CFD
+  cwl: cf.cfd/xclim.cf.CFD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CSU:
+  processId: xclim-cf-CSU
+  cwl: cf.csu/xclim.cf.CSU.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CTMGETT:
+  processId: xclim-cf-CTMGETT
+  cwl: cf.ctmgett/xclim.cf.CTMGETT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CTMGTTT:
+  processId: xclim-cf-CTMGTTT
+  cwl: cf.ctmgttt/xclim.cf.CTMGTTT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CTMLETT:
+  processId: xclim-cf-CTMLETT
+  cwl: cf.ctmlett/xclim.cf.CTMLETT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CTMLTTT:
+  processId: xclim-cf-CTMLTTT
+  cwl: cf.ctmlttt/xclim.cf.CTMLTTT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CTNGETT:
+  processId: xclim-cf-CTNGETT
+  cwl: cf.ctngett/xclim.cf.CTNGETT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CTNGTTT:
+  processId: xclim-cf-CTNGTTT
+  cwl: cf.ctngttt/xclim.cf.CTNGTTT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CTNLETT:
+  processId: xclim-cf-CTNLETT
+  cwl: cf.ctnlett/xclim.cf.CTNLETT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CTNLTTT:
+  processId: xclim-cf-CTNLTTT
+  cwl: cf.ctnlttt/xclim.cf.CTNLTTT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CTXGETT:
+  processId: xclim-cf-CTXGETT
+  cwl: cf.ctxgett/xclim.cf.CTXGETT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CTXGTTT:
+  processId: xclim-cf-CTXGTTT
+  cwl: cf.ctxgttt/xclim.cf.CTXGTTT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CTXLETT:
+  processId: xclim-cf-CTXLETT
+  cwl: cf.ctxlett/xclim.cf.CTXLETT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CTXLTTT:
+  processId: xclim-cf-CTXLTTT
+  cwl: cf.ctxlttt/xclim.cf.CTXLTTT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.CWD:
+  processId: xclim-cf-CWD
+  cwl: cf.cwd/xclim.cf.CWD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.DDGTTT:
+  processId: xclim-cf-DDGTTT
+  cwl: cf.ddgttt/xclim.cf.DDGTTT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.DDLTTT:
+  processId: xclim-cf-DDLTTT
+  cwl: cf.ddlttt/xclim.cf.DDLTTT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.DTR:
+  processId: xclim-cf-DTR
+  cwl: cf.dtr/xclim.cf.DTR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.ETR:
+  processId: xclim-cf-ETR
+  cwl: cf.etr/xclim.cf.ETR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.FG:
+  processId: xclim-cf-FG
+  cwl: cf.fg/xclim.cf.FG.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.FXX:
+  processId: xclim-cf-FXX
+  cwl: cf.fxx/xclim.cf.FXX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.GD4:
+  processId: xclim-cf-GD4
+  cwl: cf.gd4/xclim.cf.GD4.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.GDDGROWTT:
+  processId: xclim-cf-GDDGROWTT
+  cwl: cf.gddgrowtt/xclim.cf.GDDGROWTT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.HD17:
+  processId: xclim-cf-HD17
+  cwl: cf.hd17/xclim.cf.HD17.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.HDDHEATTT:
+  processId: xclim-cf-HDDHEATTT
+  cwl: cf.hddheattt/xclim.cf.HDDHEATTT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.MAXDTR:
+  processId: xclim-cf-MAXDTR
+  cwl: cf.maxdtr/xclim.cf.MAXDTR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.PP:
+  processId: xclim-cf-PP
+  cwl: cf.pp/xclim.cf.PP.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.RH:
+  processId: xclim-cf-RH
+  cwl: cf.rh/xclim.cf.RH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.SD:
+  processId: xclim-cf-SD
+  cwl: cf.sd/xclim.cf.SD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.SDII:
+  processId: xclim-cf-SDII
+  cwl: cf.sdii/xclim.cf.SDII.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.SS:
+  processId: xclim-cf-SS
+  cwl: cf.ss/xclim.cf.SS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TG:
+  processId: xclim-cf-TG
+  cwl: cf.tg/xclim.cf.TG.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TMM:
+  processId: xclim-cf-TMM
+  cwl: cf.tmm/xclim.cf.TMM.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TMMAX:
+  processId: xclim-cf-TMMAX
+  cwl: cf.tmmax/xclim.cf.TMMAX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TMMEAN:
+  processId: xclim-cf-TMMEAN
+  cwl: cf.tmmean/xclim.cf.TMMEAN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.cf.TMMIN:
+  processId: xclim-cf-TMMIN
+  cwl: cf.tmmin/xclim.cf.TMMIN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TMN:
+  processId: xclim-cf-TMN
+  cwl: cf.tmn/xclim.cf.TMN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TMX:
+  processId: xclim-cf-TMX
+  cwl: cf.tmx/xclim.cf.TMX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TN:
+  processId: xclim-cf-TN
+  cwl: cf.tn/xclim.cf.TN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TNM:
+  processId: xclim-cf-TNM
+  cwl: cf.tnm/xclim.cf.TNM.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TNMAX:
+  processId: xclim-cf-TNMAX
+  cwl: cf.tnmax/xclim.cf.TNMAX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TNMEAN:
+  processId: xclim-cf-TNMEAN
+  cwl: cf.tnmean/xclim.cf.TNMEAN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.cf.TNMIN:
+  processId: xclim-cf-TNMIN
+  cwl: cf.tnmin/xclim.cf.TNMIN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TNN:
+  processId: xclim-cf-TNN
+  cwl: cf.tnn/xclim.cf.TNN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TNX:
+  processId: xclim-cf-TNX
+  cwl: cf.tnx/xclim.cf.TNX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TX:
+  processId: xclim-cf-TX
+  cwl: cf.tx/xclim.cf.TX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TXM:
+  processId: xclim-cf-TXM
+  cwl: cf.txm/xclim.cf.TXM.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TXMAX:
+  processId: xclim-cf-TXMAX
+  cwl: cf.txmax/xclim.cf.TXMAX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TXMEAN:
+  processId: xclim-cf-TXMEAN
+  cwl: cf.txmean/xclim.cf.TXMEAN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.cf.TXMIN:
+  processId: xclim-cf-TXMIN
+  cwl: cf.txmin/xclim.cf.TXMIN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TXN:
+  processId: xclim-cf-TXN
+  cwl: cf.txn/xclim.cf.TXN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.TXX:
+  processId: xclim-cf-TXX
+  cwl: cf.txx/xclim.cf.TXX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.cf.VDTR:
+  processId: xclim-cf-VDTR
+  cwl: cf.vdtr/xclim.cf.VDTR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.CFFWIS:
+  processId: xclim-CFFWIS
+  cwl: cffwis/xclim.CFFWIS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.CLEARNESS_INDEX:
+  processId: xclim-CLEARNESS_INDEX
+  cwl: clearness_index/xclim.CLEARNESS_INDEX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.COLD_AND_DRY_DAYS:
+  processId: xclim-COLD_AND_DRY_DAYS
+  cwl: cold_and_dry_days/xclim.COLD_AND_DRY_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.COLD_AND_WET_DAYS:
+  processId: xclim-COLD_AND_WET_DAYS
+  cwl: cold_and_wet_days/xclim.COLD_AND_WET_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.COLD_SPELL_DAYS:
+  processId: xclim-COLD_SPELL_DAYS
+  cwl: cold_spell_days/xclim.COLD_SPELL_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.COLD_SPELL_DURATION_INDEX:
+  processId: xclim-COLD_SPELL_DURATION_INDEX
+  cwl: cold_spell_duration_index/xclim.COLD_SPELL_DURATION_INDEX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.COLD_SPELL_FREQUENCY:
+  processId: xclim-COLD_SPELL_FREQUENCY
+  cwl: cold_spell_frequency/xclim.COLD_SPELL_FREQUENCY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.COLD_SPELL_MAX_LENGTH:
+  processId: xclim-COLD_SPELL_MAX_LENGTH
+  cwl: cold_spell_max_length/xclim.COLD_SPELL_MAX_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.COLD_SPELL_TOTAL_LENGTH:
+  processId: xclim-COLD_SPELL_TOTAL_LENGTH
+  cwl: cold_spell_total_length/xclim.COLD_SPELL_TOTAL_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.CONSECUTIVE_FROST_DAYS:
+  processId: xclim-CONSECUTIVE_FROST_DAYS
+  cwl: consecutive_frost_days/xclim.CONSECUTIVE_FROST_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.CONSECUTIVE_FROST_FREE_DAYS:
+  processId: xclim-CONSECUTIVE_FROST_FREE_DAYS
+  cwl: consecutive_frost_free_days/xclim.CONSECUTIVE_FROST_FREE_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.COOL_NIGHT_INDEX:
+  processId: xclim-COOL_NIGHT_INDEX
+  cwl: cool_night_index/xclim.COOL_NIGHT_INDEX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.COOLING_DEGREE_DAYS:
+  processId: xclim-COOLING_DEGREE_DAYS
+  cwl: cooling_degree_days/xclim.COOLING_DEGREE_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.COOLING_DEGREE_DAYS_APPROXIMATION:
+  processId: xclim-COOLING_DEGREE_DAYS_APPROXIMATION
+  cwl: cooling_degree_days_approximation/xclim.COOLING_DEGREE_DAYS_APPROXIMATION.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.CORN_HEAT_UNITS:
+  processId: xclim-CORN_HEAT_UNITS
+  cwl: corn_heat_units/xclim.CORN_HEAT_UNITS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.CP:
+  processId: xclim-CP
+  cwl: cp/xclim.CP.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.CU:
+  processId: xclim-CU
+  cwl: cu/xclim.CU.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.CWD:
+  processId: xclim-CWD
+  cwl: cwd/xclim.CWD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DAYS_OVER_PRECIP_DOY_THRESH:
+  processId: xclim-DAYS_OVER_PRECIP_DOY_THRESH
+  cwl: days_over_precip_doy_thresh/xclim.DAYS_OVER_PRECIP_DOY_THRESH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DAYS_OVER_PRECIP_THRESH:
+  processId: xclim-DAYS_OVER_PRECIP_THRESH
+  cwl: days_over_precip_thresh/xclim.DAYS_OVER_PRECIP_THRESH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DAYS_WITH_SNOW:
+  processId: xclim-DAYS_WITH_SNOW
+  cwl: days_with_snow/xclim.DAYS_WITH_SNOW.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DC:
+  processId: xclim-DC
+  cwl: dc/xclim.DC.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DEGREE_DAYS_EXCEEDANCE_DATE:
+  processId: xclim-DEGREE_DAYS_EXCEEDANCE_DATE
+  cwl: degree_days_exceedance_date/xclim.DEGREE_DAYS_EXCEEDANCE_DATE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DF:
+  processId: xclim-DF
+  cwl: df/xclim.DF.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DLYFRZTHW:
+  processId: xclim-DLYFRZTHW
+  cwl: dlyfrzthw/xclim.DLYFRZTHW.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DMC:
+  processId: xclim-DMC
+  cwl: dmc/xclim.DMC.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DOY_QMAX:
+  processId: xclim-DOY_QMAX
+  cwl: doy_qmax/xclim.DOY_QMAX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DOY_QMIN:
+  processId: xclim-DOY_QMIN
+  cwl: doy_qmin/xclim.DOY_QMIN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DRY_DAYS:
+  processId: xclim-DRY_DAYS
+  cwl: dry_days/xclim.DRY_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DRY_SPELL_FREQUENCY:
+  processId: xclim-DRY_SPELL_FREQUENCY
+  cwl: dry_spell_frequency/xclim.DRY_SPELL_FREQUENCY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DRY_SPELL_MAX_LENGTH:
+  processId: xclim-DRY_SPELL_MAX_LENGTH
+  cwl: dry_spell_max_length/xclim.DRY_SPELL_MAX_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DRY_SPELL_TOTAL_LENGTH:
+  processId: xclim-DRY_SPELL_TOTAL_LENGTH
+  cwl: dry_spell_total_length/xclim.DRY_SPELL_TOTAL_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DRYNESS_INDEX:
+  processId: xclim-DRYNESS_INDEX
+  cwl: dryness_index/xclim.DRYNESS_INDEX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DTR:
+  processId: xclim-DTR
+  cwl: dtr/xclim.DTR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DTRMAX:
+  processId: xclim-DTRMAX
+  cwl: dtrmax/xclim.DTRMAX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.DTRVAR:
+  processId: xclim-DTRVAR
+  cwl: dtrvar/xclim.DTRVAR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.E_SAT:
+  processId: xclim-E_SAT
+  cwl: e_sat/xclim.E_SAT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.EFFECTIVE_GROWING_DEGREE_DAYS:
+  processId: xclim-EFFECTIVE_GROWING_DEGREE_DAYS
+  cwl: effective_growing_degree_days/xclim.EFFECTIVE_GROWING_DEGREE_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.ETR:
+  processId: xclim-ETR
+  cwl: etr/xclim.ETR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FFDI:
+  processId: xclim-FFDI
+  cwl: ffdi/xclim.FFDI.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FIRE_SEASON:
+  processId: xclim-FIRE_SEASON
+  cwl: fire_season/xclim.FIRE_SEASON.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FIRST_DAY_TG_ABOVE:
+  processId: xclim-FIRST_DAY_TG_ABOVE
+  cwl: first_day_tg_above/xclim.FIRST_DAY_TG_ABOVE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FIRST_DAY_TG_BELOW:
+  processId: xclim-FIRST_DAY_TG_BELOW
+  cwl: first_day_tg_below/xclim.FIRST_DAY_TG_BELOW.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FIRST_DAY_TN_ABOVE:
+  processId: xclim-FIRST_DAY_TN_ABOVE
+  cwl: first_day_tn_above/xclim.FIRST_DAY_TN_ABOVE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FIRST_DAY_TN_BELOW:
+  processId: xclim-FIRST_DAY_TN_BELOW
+  cwl: first_day_tn_below/xclim.FIRST_DAY_TN_BELOW.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FIRST_DAY_TX_ABOVE:
+  processId: xclim-FIRST_DAY_TX_ABOVE
+  cwl: first_day_tx_above/xclim.FIRST_DAY_TX_ABOVE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FIRST_DAY_TX_BELOW:
+  processId: xclim-FIRST_DAY_TX_BELOW
+  cwl: first_day_tx_below/xclim.FIRST_DAY_TX_BELOW.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FIRST_SNOWFALL:
+  processId: xclim-FIRST_SNOWFALL
+  cwl: first_snowfall/xclim.FIRST_SNOWFALL.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FIT:
+  processId: xclim-FIT
+  cwl: fit/xclim.FIT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FRACTION_OVER_PRECIP_DOY_THRESH:
+  processId: xclim-FRACTION_OVER_PRECIP_DOY_THRESH
+  cwl: fraction_over_precip_doy_thresh/xclim.FRACTION_OVER_PRECIP_DOY_THRESH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FRACTION_OVER_PRECIP_THRESH:
+  processId: xclim-FRACTION_OVER_PRECIP_THRESH
+  cwl: fraction_over_precip_thresh/xclim.FRACTION_OVER_PRECIP_THRESH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FREEZETHAW_SPELL_FREQUENCY:
+  processId: xclim-FREEZETHAW_SPELL_FREQUENCY
+  cwl: freezethaw_spell_frequency/xclim.FREEZETHAW_SPELL_FREQUENCY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FREEZETHAW_SPELL_MAX_LENGTH:
+  processId: xclim-FREEZETHAW_SPELL_MAX_LENGTH
+  cwl: freezethaw_spell_max_length/xclim.FREEZETHAW_SPELL_MAX_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FREEZETHAW_SPELL_MEAN_LENGTH:
+  processId: xclim-FREEZETHAW_SPELL_MEAN_LENGTH
+  cwl: freezethaw_spell_mean_length/xclim.FREEZETHAW_SPELL_MEAN_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.FREEZING_DEGREE_DAYS:
+  processId: xclim-FREEZING_DEGREE_DAYS
+  cwl: freezing_degree_days/xclim.FREEZING_DEGREE_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FRESHET_START:
+  processId: xclim-FRESHET_START
+  cwl: freshet_start/xclim.FRESHET_START.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FROST_DAYS:
+  processId: xclim-FROST_DAYS
+  cwl: frost_days/xclim.FROST_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FROST_FREE_SEASON_END:
+  processId: xclim-FROST_FREE_SEASON_END
+  cwl: frost_free_season_end/xclim.FROST_FREE_SEASON_END.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FROST_FREE_SEASON_LENGTH:
+  processId: xclim-FROST_FREE_SEASON_LENGTH
+  cwl: frost_free_season_length/xclim.FROST_FREE_SEASON_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FROST_FREE_SEASON_START:
+  processId: xclim-FROST_FREE_SEASON_START
+  cwl: frost_free_season_start/xclim.FROST_FREE_SEASON_START.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FROST_FREE_SPELL_MAX_LENGTH:
+  processId: xclim-FROST_FREE_SPELL_MAX_LENGTH
+  cwl: frost_free_spell_max_length/xclim.FROST_FREE_SPELL_MAX_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.FROST_SEASON_LENGTH:
+  processId: xclim-FROST_SEASON_LENGTH
+  cwl: frost_season_length/xclim.FROST_SEASON_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.GROWING_DEGREE_DAYS:
+  processId: xclim-GROWING_DEGREE_DAYS
+  cwl: growing_degree_days/xclim.GROWING_DEGREE_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.GROWING_SEASON_END:
+  processId: xclim-GROWING_SEASON_END
+  cwl: growing_season_end/xclim.GROWING_SEASON_END.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.GROWING_SEASON_LENGTH:
+  processId: xclim-GROWING_SEASON_LENGTH
+  cwl: growing_season_length/xclim.GROWING_SEASON_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.GROWING_SEASON_START:
+  processId: xclim-GROWING_SEASON_START
+  cwl: growing_season_start/xclim.GROWING_SEASON_START.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HEAT_INDEX:
+  processId: xclim-HEAT_INDEX
+  cwl: heat_index/xclim.HEAT_INDEX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HEAT_SPELL_FREQUENCY:
+  processId: xclim-HEAT_SPELL_FREQUENCY
+  cwl: heat_spell_frequency/xclim.HEAT_SPELL_FREQUENCY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HEAT_SPELL_MAX_LENGTH:
+  processId: xclim-HEAT_SPELL_MAX_LENGTH
+  cwl: heat_spell_max_length/xclim.HEAT_SPELL_MAX_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HEAT_SPELL_TOTAL_LENGTH:
+  processId: xclim-HEAT_SPELL_TOTAL_LENGTH
+  cwl: heat_spell_total_length/xclim.HEAT_SPELL_TOTAL_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HEAT_WAVE_FREQUENCY:
+  processId: xclim-HEAT_WAVE_FREQUENCY
+  cwl: heat_wave_frequency/xclim.HEAT_WAVE_FREQUENCY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HEAT_WAVE_INDEX:
+  processId: xclim-HEAT_WAVE_INDEX
+  cwl: heat_wave_index/xclim.HEAT_WAVE_INDEX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HEAT_WAVE_MAX_LENGTH:
+  processId: xclim-HEAT_WAVE_MAX_LENGTH
+  cwl: heat_wave_max_length/xclim.HEAT_WAVE_MAX_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HEAT_WAVE_TOTAL_LENGTH:
+  processId: xclim-HEAT_WAVE_TOTAL_LENGTH
+  cwl: heat_wave_total_length/xclim.HEAT_WAVE_TOTAL_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HEATING_DEGREE_DAYS:
+  processId: xclim-HEATING_DEGREE_DAYS
+  cwl: heating_degree_days/xclim.HEATING_DEGREE_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HEATING_DEGREE_DAYS_APPROXIMATION:
+  processId: xclim-HEATING_DEGREE_DAYS_APPROXIMATION
+  cwl: heating_degree_days_approximation/xclim.HEATING_DEGREE_DAYS_APPROXIMATION.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HIGH_FLOW_FREQUENCY:
+  processId: xclim-HIGH_FLOW_FREQUENCY
+  cwl: high_flow_frequency/xclim.HIGH_FLOW_FREQUENCY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/hydrology
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HIGH_PRECIP_LOW_TEMP:
+  processId: xclim-HIGH_PRECIP_LOW_TEMP
+  cwl: high_precip_low_temp/xclim.HIGH_PRECIP_LOW_TEMP.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HOLIDAY_SNOW_AND_SNOWFALL_DAYS:
+  processId: xclim-HOLIDAY_SNOW_AND_SNOWFALL_DAYS
+  cwl: holiday_snow_and_snowfall_days/xclim.HOLIDAY_SNOW_AND_SNOWFALL_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HOLIDAY_SNOW_DAYS:
+  processId: xclim-HOLIDAY_SNOW_DAYS
+  cwl: holiday_snow_days/xclim.HOLIDAY_SNOW_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HOT_DAYS:
+  processId: xclim-HOT_DAYS
+  cwl: hot_days/xclim.HOT_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HOT_SPELL_FREQUENCY:
+  processId: xclim-HOT_SPELL_FREQUENCY
+  cwl: hot_spell_frequency/xclim.HOT_SPELL_FREQUENCY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HOT_SPELL_MAX_LENGTH:
+  processId: xclim-HOT_SPELL_MAX_LENGTH
+  cwl: hot_spell_max_length/xclim.HOT_SPELL_MAX_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HOT_SPELL_MAX_MAGNITUDE:
+  processId: xclim-HOT_SPELL_MAX_MAGNITUDE
+  cwl: hot_spell_max_magnitude/xclim.HOT_SPELL_MAX_MAGNITUDE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HOT_SPELL_TOTAL_LENGTH:
+  processId: xclim-HOT_SPELL_TOTAL_LENGTH
+  cwl: hot_spell_total_length/xclim.HOT_SPELL_TOTAL_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HUGLIN_INDEX:
+  processId: xclim-HUGLIN_INDEX
+  cwl: huglin_index/xclim.HUGLIN_INDEX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HUMIDEX:
+  processId: xclim-HUMIDEX
+  cwl: humidex/xclim.HUMIDEX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HURS:
+  processId: xclim-HURS
+  cwl: hurs/xclim.HURS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HURS_FROMDEWPOINT:
+  processId: xclim-HURS_FROMDEWPOINT
+  cwl: hurs_fromdewpoint/xclim.HURS_FROMDEWPOINT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HUSS:
+  processId: xclim-HUSS
+  cwl: huss/xclim.HUSS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.HUSS_FROMDEWPOINT:
+  processId: xclim-HUSS_FROMDEWPOINT
+  cwl: huss_fromdewpoint/xclim.HUSS_FROMDEWPOINT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.BEDD:
+  processId: xclim-icclim-BEDD
+  cwl: icclim.bedd/xclim.icclim.BEDD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.CD:
+  processId: xclim-icclim-CD
+  cwl: icclim.cd/xclim.icclim.CD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.CDD:
+  processId: xclim-icclim-CDD
+  cwl: icclim.cdd/xclim.icclim.CDD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.CFD:
+  processId: xclim-icclim-CFD
+  cwl: icclim.cfd/xclim.icclim.CFD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.CSDI:
+  processId: xclim-icclim-CSDI
+  cwl: icclim.csdi/xclim.icclim.CSDI.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.CSU:
+  processId: xclim-icclim-CSU
+  cwl: icclim.csu/xclim.icclim.CSU.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.CW:
+  processId: xclim-icclim-CW
+  cwl: icclim.cw/xclim.icclim.CW.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.CWD:
+  processId: xclim-icclim-CWD
+  cwl: icclim.cwd/xclim.icclim.CWD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.DTR:
+  processId: xclim-icclim-DTR
+  cwl: icclim.dtr/xclim.icclim.DTR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.ETR:
+  processId: xclim-icclim-ETR
+  cwl: icclim.etr/xclim.icclim.ETR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.FD:
+  processId: xclim-icclim-FD
+  cwl: icclim.fd/xclim.icclim.FD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.GD4:
+  processId: xclim-icclim-GD4
+  cwl: icclim.gd4/xclim.icclim.GD4.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.GSL:
+  processId: xclim-icclim-GSL
+  cwl: icclim.gsl/xclim.icclim.GSL.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.HD17:
+  processId: xclim-icclim-HD17
+  cwl: icclim.hd17/xclim.icclim.HD17.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.HI:
+  processId: xclim-icclim-HI
+  cwl: icclim.hi/xclim.icclim.HI.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.ID:
+  processId: xclim-icclim-ID
+  cwl: icclim.id/xclim.icclim.ID.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.PRCPTOT:
+  processId: xclim-icclim-PRCPTOT
+  cwl: icclim.prcptot/xclim.icclim.PRCPTOT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.R10MM:
+  processId: xclim-icclim-R10MM
+  cwl: icclim.r10mm/xclim.icclim.R10MM.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.R20MM:
+  processId: xclim-icclim-R20MM
+  cwl: icclim.r20mm/xclim.icclim.R20MM.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.R75P:
+  processId: xclim-icclim-R75P
+  cwl: icclim.r75p/xclim.icclim.R75P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.R75PTOT:
+  processId: xclim-icclim-R75PTOT
+  cwl: icclim.r75ptot/xclim.icclim.R75PTOT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.R95P:
+  processId: xclim-icclim-R95P
+  cwl: icclim.r95p/xclim.icclim.R95P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.R95PTOT:
+  processId: xclim-icclim-R95PTOT
+  cwl: icclim.r95ptot/xclim.icclim.R95PTOT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.R99P:
+  processId: xclim-icclim-R99P
+  cwl: icclim.r99p/xclim.icclim.R99P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.R99PTOT:
+  processId: xclim-icclim-R99PTOT
+  cwl: icclim.r99ptot/xclim.icclim.R99PTOT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.RR:
+  processId: xclim-icclim-RR
+  cwl: icclim.rr/xclim.icclim.RR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.RR1:
+  processId: xclim-icclim-RR1
+  cwl: icclim.rr1/xclim.icclim.RR1.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.RX1DAY:
+  processId: xclim-icclim-RX1DAY
+  cwl: icclim.rx1day/xclim.icclim.RX1DAY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.RX5DAY:
+  processId: xclim-icclim-RX5DAY
+  cwl: icclim.rx5day/xclim.icclim.RX5DAY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.SD:
+  processId: xclim-icclim-SD
+  cwl: icclim.sd/xclim.icclim.SD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.SD1:
+  processId: xclim-icclim-SD1
+  cwl: icclim.sd1/xclim.icclim.SD1.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.SD50CM:
+  processId: xclim-icclim-SD50CM
+  cwl: icclim.sd50cm/xclim.icclim.SD50CM.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.SD5CM:
+  processId: xclim-icclim-SD5CM
+  cwl: icclim.sd5cm/xclim.icclim.SD5CM.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.SDII:
+  processId: xclim-icclim-SDII
+  cwl: icclim.sdii/xclim.icclim.SDII.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.SU:
+  processId: xclim-icclim-SU
+  cwl: icclim.su/xclim.icclim.SU.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TG:
+  processId: xclim-icclim-TG
+  cwl: icclim.tg/xclim.icclim.TG.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TG10P:
+  processId: xclim-icclim-TG10P
+  cwl: icclim.tg10p/xclim.icclim.TG10P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TG90P:
+  processId: xclim-icclim-TG90P
+  cwl: icclim.tg90p/xclim.icclim.TG90P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TGN:
+  processId: xclim-icclim-TGN
+  cwl: icclim.tgn/xclim.icclim.TGN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TGX:
+  processId: xclim-icclim-TGX
+  cwl: icclim.tgx/xclim.icclim.TGX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TN:
+  processId: xclim-icclim-TN
+  cwl: icclim.tn/xclim.icclim.TN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TN10P:
+  processId: xclim-icclim-TN10P
+  cwl: icclim.tn10p/xclim.icclim.TN10P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TN90P:
+  processId: xclim-icclim-TN90P
+  cwl: icclim.tn90p/xclim.icclim.TN90P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TNN:
+  processId: xclim-icclim-TNN
+  cwl: icclim.tnn/xclim.icclim.TNN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TNX:
+  processId: xclim-icclim-TNX
+  cwl: icclim.tnx/xclim.icclim.TNX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TR:
+  processId: xclim-icclim-TR
+  cwl: icclim.tr/xclim.icclim.TR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TX:
+  processId: xclim-icclim-TX
+  cwl: icclim.tx/xclim.icclim.TX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TX10P:
+  processId: xclim-icclim-TX10P
+  cwl: icclim.tx10p/xclim.icclim.TX10P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TX90P:
+  processId: xclim-icclim-TX90P
+  cwl: icclim.tx90p/xclim.icclim.TX90P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TXN:
+  processId: xclim-icclim-TXN
+  cwl: icclim.txn/xclim.icclim.TXN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.TXX:
+  processId: xclim-icclim-TXX
+  cwl: icclim.txx/xclim.icclim.TXX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.VDTR:
+  processId: xclim-icclim-VDTR
+  cwl: icclim.vdtr/xclim.icclim.VDTR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.WD:
+  processId: xclim-icclim-WD
+  cwl: icclim.wd/xclim.icclim.WD.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.WSDI:
+  processId: xclim-icclim-WSDI
+  cwl: icclim.wsdi/xclim.icclim.WSDI.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.icclim.WW:
+  processId: xclim-icclim-WW
+  cwl: icclim.ww/xclim.icclim.WW.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.ICE_DAYS:
+  processId: xclim-ICE_DAYS
+  cwl: ice_days/xclim.ICE_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.JETSTREAM_METRIC_WOOLLINGS:
+  processId: xclim-JETSTREAM_METRIC_WOOLLINGS
+  cwl: jetstream_metric_woollings/xclim.JETSTREAM_METRIC_WOOLLINGS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.KBDI:
+  processId: xclim-KBDI
+  cwl: kbdi/xclim.KBDI.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.LAG_SNOWPACK_FLOW_PEAKS:
+  processId: xclim-LAG_SNOWPACK_FLOW_PEAKS
+  cwl: lag_snowpack_flow_peaks/xclim.LAG_SNOWPACK_FLOW_PEAKS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/hydrology
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.LAST_SNOWFALL:
+  processId: xclim-LAST_SNOWFALL
+  cwl: last_snowfall/xclim.LAST_SNOWFALL.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.LAST_SPRING_FROST:
+  processId: xclim-LAST_SPRING_FROST
+  cwl: last_spring_frost/xclim.LAST_SPRING_FROST.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.LATE_FROST_DAYS:
+  processId: xclim-LATE_FROST_DAYS
+  cwl: late_frost_days/xclim.LATE_FROST_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.LATITUDE_TEMPERATURE_INDEX:
+  processId: xclim-LATITUDE_TEMPERATURE_INDEX
+  cwl: latitude_temperature_index/xclim.LATITUDE_TEMPERATURE_INDEX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.LIQUID_PRECIP_RATIO:
+  processId: xclim-LIQUID_PRECIP_RATIO
+  cwl: liquid_precip_ratio/xclim.LIQUID_PRECIP_RATIO.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.LIQUIDPRCPAVG:
+  processId: xclim-LIQUIDPRCPAVG
+  cwl: liquidprcpavg/xclim.LIQUIDPRCPAVG.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.LIQUIDPRCPTOT:
+  processId: xclim-LIQUIDPRCPTOT
+  cwl: liquidprcptot/xclim.LIQUIDPRCPTOT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.LONGWAVE_UPWELLING_RADIATION_FROM_NET_DOWNWELLING:
+  processId: xclim-LONGWAVE_UPWELLING_RADIATION_FROM_NET_DOWNWELLING
+  cwl: longwave_upwelling_radiation_from_net_downwelling/xclim.LONGWAVE_UPWELLING_RADIATION_FROM_NET_DOWNWELLING.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.LOW_FLOW_FREQUENCY:
+  processId: xclim-LOW_FLOW_FREQUENCY
+  cwl: low_flow_frequency/xclim.LOW_FLOW_FREQUENCY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/hydrology
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.MAX_N_DAY_PRECIPITATION_AMOUNT:
+  processId: xclim-MAX_N_DAY_PRECIPITATION_AMOUNT
+  cwl: max_n_day_precipitation_amount/xclim.MAX_N_DAY_PRECIPITATION_AMOUNT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.MAX_PR_INTENSITY:
+  processId: xclim-MAX_PR_INTENSITY
+  cwl: max_pr_intensity/xclim.MAX_PR_INTENSITY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/ensemble
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.MAXIMUM_CONSECUTIVE_WARM_DAYS:
+  processId: xclim-MAXIMUM_CONSECUTIVE_WARM_DAYS
+  cwl: maximum_consecutive_warm_days/xclim.MAXIMUM_CONSECUTIVE_WARM_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.MEAN_RADIANT_TEMPERATURE:
+  processId: xclim-MEAN_RADIANT_TEMPERATURE
+  cwl: mean_radiant_temperature/xclim.MEAN_RADIANT_TEMPERATURE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.MEAN_TEMPERATURE_FROM_MAX_AND_MIN:
+  processId: xclim-MEAN_TEMPERATURE_FROM_MAX_AND_MIN
+  cwl: mean_temperature_from_max_and_min/xclim.MEAN_TEMPERATURE_FROM_MAX_AND_MIN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.MELT_AND_PRECIP_MAX:
+  processId: xclim-MELT_AND_PRECIP_MAX
+  cwl: melt_and_precip_max/xclim.MELT_AND_PRECIP_MAX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.POTENTIAL_EVAPOTRANSPIRATION:
+  processId: xclim-POTENTIAL_EVAPOTRANSPIRATION
+  cwl: potential_evapotranspiration/xclim.POTENTIAL_EVAPOTRANSPIRATION.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.PRCPAVG:
+  processId: xclim-PRCPAVG
+  cwl: prcpavg/xclim.PRCPAVG.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.PRCPTOT:
+  processId: xclim-PRCPTOT
+  cwl: prcptot/xclim.PRCPTOT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.PRLP:
+  processId: xclim-PRLP
+  cwl: prlp/xclim.PRLP.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.PRSN:
+  processId: xclim-PRSN
+  cwl: prsn/xclim.PRSN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.RAIN_FRZGR:
+  processId: xclim-RAIN_FRZGR
+  cwl: rain_frzgr/xclim.RAIN_FRZGR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.RAIN_SEASON:
+  processId: xclim-RAIN_SEASON
+  cwl: rain_season/xclim.RAIN_SEASON.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.RB_FLASHINESS_INDEX:
+  processId: xclim-RB_FLASHINESS_INDEX
+  cwl: rb_flashiness_index/xclim.RB_FLASHINESS_INDEX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.RETURN_LEVEL:
+  processId: xclim-RETURN_LEVEL
+  cwl: return_level/xclim.RETURN_LEVEL.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.RPRCTOT:
+  processId: xclim-RPRCTOT
+  cwl: rprctot/xclim.RPRCTOT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.RUNOFF_RATIO:
+  processId: xclim-RUNOFF_RATIO
+  cwl: runoff_ratio/xclim.RUNOFF_RATIO.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.RX1DAY:
+  processId: xclim-RX1DAY
+  cwl: rx1day/xclim.RX1DAY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SDII:
+  processId: xclim-SDII
+  cwl: sdii/xclim.SDII.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SEA_ICE_AREA:
+  processId: xclim-SEA_ICE_AREA
+  cwl: sea_ice_area/xclim.SEA_ICE_AREA.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SEA_ICE_EXTENT:
+  processId: xclim-SEA_ICE_EXTENT
+  cwl: sea_ice_extent/xclim.SEA_ICE_EXTENT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SEN_SLOPE:
+  processId: xclim-SEN_SLOPE
+  cwl: sen_slope/xclim.SEN_SLOPE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/terrain-analysis
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SFCWIND_MAX:
+  processId: xclim-SFCWIND_MAX
+  cwl: sfcwind_max/xclim.SFCWIND_MAX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SFCWIND_MEAN:
+  processId: xclim-SFCWIND_MEAN
+  cwl: sfcwind_mean/xclim.SFCWIND_MEAN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.SFCWIND_MIN:
+  processId: xclim-SFCWIND_MIN
+  cwl: sfcwind_min/xclim.SFCWIND_MIN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SFCWINDMAX_MAX:
+  processId: xclim-SFCWINDMAX_MAX
+  cwl: sfcwindmax_max/xclim.SFCWINDMAX_MAX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SFCWINDMAX_MEAN:
+  processId: xclim-SFCWINDMAX_MEAN
+  cwl: sfcwindmax_mean/xclim.SFCWINDMAX_MEAN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.SFCWINDMAX_MIN:
+  processId: xclim-SFCWINDMAX_MIN
+  cwl: sfcwindmax_min/xclim.SFCWINDMAX_MIN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SHORTWAVE_UPWELLING_RADIATION_FROM_NET_DOWNWELLING:
+  processId: xclim-SHORTWAVE_UPWELLING_RADIATION_FROM_NET_DOWNWELLING
+  cwl: shortwave_upwelling_radiation_from_net_downwelling/xclim.SHORTWAVE_UPWELLING_RADIATION_FROM_NET_DOWNWELLING.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SND_DAYS_ABOVE:
+  processId: xclim-SND_DAYS_ABOVE
+  cwl: snd_days_above/xclim.SND_DAYS_ABOVE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SND_MAX_DOY:
+  processId: xclim-SND_MAX_DOY
+  cwl: snd_max_doy/xclim.SND_MAX_DOY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SND_SEASON_END:
+  processId: xclim-SND_SEASON_END
+  cwl: snd_season_end/xclim.SND_SEASON_END.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SND_SEASON_LENGTH:
+  processId: xclim-SND_SEASON_LENGTH
+  cwl: snd_season_length/xclim.SND_SEASON_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SND_SEASON_START:
+  processId: xclim-SND_SEASON_START
+  cwl: snd_season_start/xclim.SND_SEASON_START.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SND_STORM_DAYS:
+  processId: xclim-SND_STORM_DAYS
+  cwl: snd_storm_days/xclim.SND_STORM_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SND_TO_SNW:
+  processId: xclim-SND_TO_SNW
+  cwl: snd_to_snw/xclim.SND_TO_SNW.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SNOW_DEPTH:
+  processId: xclim-SNOW_DEPTH
+  cwl: snow_depth/xclim.SNOW_DEPTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SNOW_MELT_WE_MAX:
+  processId: xclim-SNOW_MELT_WE_MAX
+  cwl: snow_melt_we_max/xclim.SNOW_MELT_WE_MAX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SNOWFALL_FREQUENCY:
+  processId: xclim-SNOWFALL_FREQUENCY
+  cwl: snowfall_frequency/xclim.SNOWFALL_FREQUENCY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SNOWFALL_INTENSITY:
+  processId: xclim-SNOWFALL_INTENSITY
+  cwl: snowfall_intensity/xclim.SNOWFALL_INTENSITY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/ensemble
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SNW_DAYS_ABOVE:
+  processId: xclim-SNW_DAYS_ABOVE
+  cwl: snw_days_above/xclim.SNW_DAYS_ABOVE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SNW_MAX:
+  processId: xclim-SNW_MAX
+  cwl: snw_max/xclim.SNW_MAX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SNW_MAX_DOY:
+  processId: xclim-SNW_MAX_DOY
+  cwl: snw_max_doy/xclim.SNW_MAX_DOY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SNW_SEASON_END:
+  processId: xclim-SNW_SEASON_END
+  cwl: snw_season_end/xclim.SNW_SEASON_END.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SNW_SEASON_LENGTH:
+  processId: xclim-SNW_SEASON_LENGTH
+  cwl: snw_season_length/xclim.SNW_SEASON_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SNW_SEASON_START:
+  processId: xclim-SNW_SEASON_START
+  cwl: snw_season_start/xclim.SNW_SEASON_START.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SNW_STORM_DAYS:
+  processId: xclim-SNW_STORM_DAYS
+  cwl: snw_storm_days/xclim.SNW_STORM_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SNW_TO_SND:
+  processId: xclim-SNW_TO_SND
+  cwl: snw_to_snd/xclim.SNW_TO_SND.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SOLIDPRCPAVG:
+  processId: xclim-SOLIDPRCPAVG
+  cwl: solidprcpavg/xclim.SOLIDPRCPAVG.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.SOLIDPRCPTOT:
+  processId: xclim-SOLIDPRCPTOT
+  cwl: solidprcptot/xclim.SOLIDPRCPTOT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.STATS:
+  processId: xclim-STATS
+  cwl: stats/xclim.STATS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.TDPS_FROM_HUSS:
+  processId: xclim-TDPS_FROM_HUSS
+  cwl: tdps_from_huss/xclim.TDPS_FROM_HUSS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TG10P:
+  processId: xclim-TG10P
+  cwl: tg10p/xclim.TG10P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TG90P:
+  processId: xclim-TG90P
+  cwl: tg90p/xclim.TG90P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TG_DAYS_ABOVE:
+  processId: xclim-TG_DAYS_ABOVE
+  cwl: tg_days_above/xclim.TG_DAYS_ABOVE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TG_DAYS_BELOW:
+  processId: xclim-TG_DAYS_BELOW
+  cwl: tg_days_below/xclim.TG_DAYS_BELOW.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TG_MAX:
+  processId: xclim-TG_MAX
+  cwl: tg_max/xclim.TG_MAX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TG_MEAN:
+  processId: xclim-TG_MEAN
+  cwl: tg_mean/xclim.TG_MEAN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.TG_MIN:
+  processId: xclim-TG_MIN
+  cwl: tg_min/xclim.TG_MIN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.THAWING_DEGREE_DAYS:
+  processId: xclim-THAWING_DEGREE_DAYS
+  cwl: thawing_degree_days/xclim.THAWING_DEGREE_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TN10P:
+  processId: xclim-TN10P
+  cwl: tn10p/xclim.TN10P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TN90P:
+  processId: xclim-TN90P
+  cwl: tn90p/xclim.TN90P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TN_DAYS_ABOVE:
+  processId: xclim-TN_DAYS_ABOVE
+  cwl: tn_days_above/xclim.TN_DAYS_ABOVE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TN_DAYS_BELOW:
+  processId: xclim-TN_DAYS_BELOW
+  cwl: tn_days_below/xclim.TN_DAYS_BELOW.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TN_MAX:
+  processId: xclim-TN_MAX
+  cwl: tn_max/xclim.TN_MAX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TN_MEAN:
+  processId: xclim-TN_MEAN
+  cwl: tn_mean/xclim.TN_MEAN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.TN_MIN:
+  processId: xclim-TN_MIN
+  cwl: tn_min/xclim.TN_MIN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TROPICAL_NIGHTS:
+  processId: xclim-TROPICAL_NIGHTS
+  cwl: tropical_nights/xclim.TROPICAL_NIGHTS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TX10P:
+  processId: xclim-TX10P
+  cwl: tx10p/xclim.TX10P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TX90P:
+  processId: xclim-TX90P
+  cwl: tx90p/xclim.TX90P.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TX_DAYS_ABOVE:
+  processId: xclim-TX_DAYS_ABOVE
+  cwl: tx_days_above/xclim.TX_DAYS_ABOVE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TX_DAYS_BELOW:
+  processId: xclim-TX_DAYS_BELOW
+  cwl: tx_days_below/xclim.TX_DAYS_BELOW.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TX_MAX:
+  processId: xclim-TX_MAX
+  cwl: tx_max/xclim.TX_MAX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TX_MEAN:
+  processId: xclim-TX_MEAN
+  cwl: tx_mean/xclim.TX_MEAN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/statistics
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents:
+  - ogc.openeo.processes.cubes.reduce_dimension
+xclim.TX_MIN:
+  processId: xclim-TX_MIN
+  cwl: tx_min/xclim.TX_MIN.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.TX_TN_DAYS_ABOVE:
+  processId: xclim-TX_TN_DAYS_ABOVE
+  cwl: tx_tn_days_above/xclim.TX_TN_DAYS_ABOVE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.USDA_HARDINESS_ZONES:
+  processId: xclim-USDA_HARDINESS_ZONES
+  cwl: usda_hardiness_zones/xclim.USDA_HARDINESS_ZONES.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.UTCI:
+  processId: xclim-UTCI
+  cwl: utci/xclim.UTCI.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.VAPOR_PRESSURE:
+  processId: xclim-VAPOR_PRESSURE
+  cwl: vapor_pressure/xclim.VAPOR_PRESSURE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.VAPOR_PRESSURE_DEFICIT:
+  processId: xclim-VAPOR_PRESSURE_DEFICIT
+  cwl: vapor_pressure_deficit/xclim.VAPOR_PRESSURE_DEFICIT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WARM_AND_DRY_DAYS:
+  processId: xclim-WARM_AND_DRY_DAYS
+  cwl: warm_and_dry_days/xclim.WARM_AND_DRY_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WARM_AND_WET_DAYS:
+  processId: xclim-WARM_AND_WET_DAYS
+  cwl: warm_and_wet_days/xclim.WARM_AND_WET_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WARM_SPELL_DURATION_INDEX:
+  processId: xclim-WARM_SPELL_DURATION_INDEX
+  cwl: warm_spell_duration_index/xclim.WARM_SPELL_DURATION_INDEX.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WATER_BUDGET:
+  processId: xclim-WATER_BUDGET
+  cwl: water_budget/xclim.WATER_BUDGET.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WATER_BUDGET_FROM_TAS:
+  processId: xclim-WATER_BUDGET_FROM_TAS
+  cwl: water_budget_from_tas/xclim.WATER_BUDGET_FROM_TAS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WATER_CYCLE_INTENSITY:
+  processId: xclim-WATER_CYCLE_INTENSITY
+  cwl: water_cycle_intensity/xclim.WATER_CYCLE_INTENSITY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/ensemble
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WET_PRCPTOT:
+  processId: xclim-WET_PRCPTOT
+  cwl: wet_prcptot/xclim.WET_PRCPTOT.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WET_SPELL_FREQUENCY:
+  processId: xclim-WET_SPELL_FREQUENCY
+  cwl: wet_spell_frequency/xclim.WET_SPELL_FREQUENCY.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WET_SPELL_MAX_LENGTH:
+  processId: xclim-WET_SPELL_MAX_LENGTH
+  cwl: wet_spell_max_length/xclim.WET_SPELL_MAX_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WET_SPELL_TOTAL_LENGTH:
+  processId: xclim-WET_SPELL_TOTAL_LENGTH
+  cwl: wet_spell_total_length/xclim.WET_SPELL_TOTAL_LENGTH.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WETDAYS:
+  processId: xclim-WETDAYS
+  cwl: wetdays/xclim.WETDAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WETDAYS_PROP:
+  processId: xclim-WETDAYS_PROP
+  cwl: wetdays_prop/xclim.WETDAYS_PROP.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WIND_CHILL:
+  processId: xclim-WIND_CHILL
+  cwl: wind_chill/xclim.WIND_CHILL.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WIND_POWER_POTENTIAL:
+  processId: xclim-WIND_POWER_POTENTIAL
+  cwl: wind_power_potential/xclim.WIND_POWER_POTENTIAL.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WIND_PROFILE:
+  processId: xclim-WIND_PROFILE
+  cwl: wind_profile/xclim.WIND_PROFILE.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WIND_SPEED_FROM_VECTOR:
+  processId: xclim-WIND_SPEED_FROM_VECTOR
+  cwl: wind_speed_from_vector/xclim.WIND_SPEED_FROM_VECTOR.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WIND_VECTOR_FROM_SPEED:
+  processId: xclim-WIND_VECTOR_FROM_SPEED
+  cwl: wind_vector_from_speed/xclim.WIND_VECTOR_FROM_SPEED.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []
+xclim.WINDY_DAYS:
+  processId: xclim-WINDY_DAYS
+  cwl: windy_days/xclim.WINDY_DAYS.cwl
+  processTypes:
+  - http://www.opengis.net/def/process-type/climate
+  - http://www.opengis.net/def/process-type/climate-indicator
+  activityTypes: []
+  concepts:
+  - generic-profiles.concept.climate-data-processing
+  genericProfiles: []
+  openeoEquivalents: []

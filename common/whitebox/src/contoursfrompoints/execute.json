@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "input_vector_points_file": {
+      "href": "https://example.com/data"
+    },
+    "output_vector_lines_file": "value",
+    "contour_interval": "value"
+  },
+  "outputs": {}
+}

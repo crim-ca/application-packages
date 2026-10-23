@@ -1,0 +1,8 @@
+{
+  "inputs": {
+    "input_lidar_files": {
+      "href": "https://example.com/data"
+    }
+  },
+  "outputs": {}
+}

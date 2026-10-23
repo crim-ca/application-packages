@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "input_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "output_raster_minimum_value": "value",
+    "output_raster_maximum_value": "value"
+  },
+  "outputs": {}
+}

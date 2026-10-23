@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "image_1": {
+      "href": "https://example.com/data"
+    },
+    "image_2": {
+      "href": "https://example.com/data"
+    },
+    "output_correlation_file": "value",
+    "output_significance_file": "value"
+  },
+  "outputs": {}
+}

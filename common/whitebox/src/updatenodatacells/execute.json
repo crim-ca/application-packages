@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_file_1": {
+      "href": "https://example.com/data"
+    },
+    "input_file_2_update_layer": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value"
+  },
+  "outputs": {}
+}

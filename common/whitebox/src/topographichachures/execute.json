@@ -1,0 +1,17 @@
+{
+  "inputs": {
+    "input_raster_surface_file": {
+      "href": "https://example.com/data"
+    },
+    "output_topographic_hachures_file": "value",
+    "contour_interval": "value",
+    "seed_separation": "value",
+    "minimum_distance": "value",
+    "maximum_distance": "value",
+    "discretization": "value",
+    "maximum_turning_angle": "value",
+    "minimum_slope_angle": "value",
+    "nesting_depth": "value"
+  },
+  "outputs": {}
+}

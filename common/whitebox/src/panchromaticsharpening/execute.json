@@ -1,0 +1,9 @@
+{
+  "inputs": {
+    "input_panchromatic_band_file": {
+      "href": "https://example.com/data"
+    },
+    "output_colour_composite_file": "value"
+  },
+  "outputs": {}
+}

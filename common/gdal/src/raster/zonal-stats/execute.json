@@ -1,0 +1,17 @@
+{
+  "inputs": {
+    "input": {
+      "href": "https://example.com/data"
+    },
+    "zones": {
+      "href": "https://example.com/data"
+    },
+    "stat": "value",
+    "output_name": "value"
+  },
+  "outputs": {
+    "output": {
+      "transmissionMode": "reference"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+title: "crim-ca/application-packages"
+message: |
+  CWL Application Packages (OGC API - Processes / Weaver compatible) for GIS and climate tools:
+  GDAL, PDAL, WhiteboxTools, rasterio, CDO, NCO, xclim, supermorecado, s2mosaic.
+  If you use these packages, please cite them as below.
+
+authors:
+  - name: &crim Computer Research Institute of Montréal
+    city: "Montréal"
+    region: "Québec"
+    alias: CRIM
+    website: "https://www.crim.ca/"
+    email: "info@crim.ca"
+    tel: "1 (514) 840-1234"
+    country: CA
+    post-code: "H3N 1M3"
+    address: "101 – 405, avenue Ogilvy"
+  - &fmigneault
+    given-names: "Francis"
+    family-names: "Charette-Migneault"
+    alias: fmigneault
+    email: "francis.charette-migneault@crim.ca"
+    orcid: "https://orcid.org/0000-0003-4862-3349"
+    affiliation: *crim
+
+contact:
+  - *fmigneault
+
+identifiers:
+  - type: url
+    value: "https://github.com/crim-ca/application-packages"
+    description: "Source code repository."
+
+references:
+  - title: Weaver
+    authors:
+      - *fmigneault
+    url: "https://github.com/crim-ca/weaver"
+    type: software
+  - title: Weaver Documentation
+    authors:
+      - *fmigneault
+    url: "https://pavics-weaver.readthedocs.io/"
+    type: manual
+
+license: "Apache-2.0"
+type: "software"
+url: "https://github.com/crim-ca/application-packages"
+repository-code: "https://github.com/crim-ca/application-packages"
+
+keywords:
+  - "OGC"
+  - "OGC API - Processes"
+  - "CWL"
+  - "Common Workflow Language"
+  - "Application Package"
+  - "Workflow"
+  - "Docker"
+  - "Geospatial"
+  - "Climate"
+  - "GDAL"
+  - "PDAL"
+  - "WhiteboxTools"
+  - "CDO"
+  - "NCO"
+  - "xclim"

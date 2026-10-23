@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input": {
+      "href": "https://example.com/data"
+    }
+  },
+  "outputs": {
+    "output": {
+      "transmissionMode": "reference"
+    }
+  }
+}

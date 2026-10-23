@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "input_vector_file": {
+      "href": "https://example.com/data"
+    },
+    "field_name_1": "value",
+    "field_name_2": "value"
+  },
+  "outputs": {}
+}

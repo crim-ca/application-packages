@@ -1,0 +1,18 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "input_loading_file": {
+      "href": "https://example.com/data"
+    },
+    "input_efficiency_file": {
+      "href": "https://example.com/data"
+    },
+    "input_absorption_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value"
+  },
+  "outputs": {}
+}

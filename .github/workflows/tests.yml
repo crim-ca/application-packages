@@ -1,0 +1,19 @@
+name: Tests
+on:
+  push:
+  pull_request:
+
+jobs:
+  packages:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        module: [nco, supermorecado, s2mosaic, rasterio, pdal, gdal, whitebox, cdo, xclim]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install cwltool pytest pyyaml requests
+      - run: python -m pytest -q common/${{ matrix.module }}/tests

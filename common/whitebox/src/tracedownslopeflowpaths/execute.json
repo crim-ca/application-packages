@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "input_vector_seed_points_file": {
+      "href": "https://example.com/data"
+    },
+    "input_d8_pointer_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value"
+  },
+  "outputs": {}
+}

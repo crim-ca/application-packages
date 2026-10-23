@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "input_file": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "which_spatial_variable_should_be_assigned": "value"
+  },
+  "outputs": {}
+}

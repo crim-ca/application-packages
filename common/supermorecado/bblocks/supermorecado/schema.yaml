@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+description: OGC API - Processes process description of a supermorecado application
+  package.
+allOf:
+- $ref: bblocks://ogc.api.processes.v1.schemas.process
+- $ref: bblocks://ogc.api.processes.v2.schemas.staticIndicator
+- type: object
+  required:
+  - id
+  - version
+  properties:
+    id:
+      enum:
+      - supermorecado-burn
+      - supermorecado-edges
+      - supermorecado-heatmap
+      - supermorecado-union

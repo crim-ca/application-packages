@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "input_dem_file": {
+      "href": "https://example.com/data"
+    },
+    "input_dam_points": {
+      "href": "https://example.com/data"
+    },
+    "output_file": "value",
+    "max_dam_length_grid_cells": "value"
+  },
+  "outputs": {}
+}
