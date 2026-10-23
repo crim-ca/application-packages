@@ -4,6 +4,8 @@
   "abstract": "Profile of the OGC API - Processes descriptions of the 15 nco CWL application packages, with activity types, process types and generic profiles per tool.",
   "status": "under-development",
   "version": "0.1",
+  "dateTimeAddition": "2026-10-15T00:00:00Z",
+  "dateOfLastChange": "2026-10-15",
   "itemClass": "schema",
   "register": "app-packages",
   "dependsOn": [

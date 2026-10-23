@@ -15,4 +15,4 @@
 [submodule "OGC/OSPD-2026"]
 	path = OGC/OSPD-2026
 	url = https://github.com/crim-ca/bblocks-process-profiles
-	branch = example-unet-workflow
+	branch = master

@@ -7,6 +7,7 @@ import json
 import pathlib
 
 import yaml
+from make_deploy import build
 
 ROOT = pathlib.Path(__file__).parent.parent
 REG = "https://crim-ca.github.io/bblocks-process-profiles/def/"
@@ -103,6 +104,17 @@ def classify(pid: str) -> tuple:
     return concepts, sorted(set(profiles))
 
 
+IMPORTS = [
+    "https://crim-ca.github.io/bblocks-process-profiles/build/register.json",
+    "https://geolabs.github.io/bblocks-generic-provenance-profile/build/register.json",
+    "https://geolabs.github.io/bblocks-eoap-cct/build/register.json",
+    "https://geolabs.github.io/bblocks-openeo/build/register.json",
+    "https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json",
+    "https://geolabs.github.io/bblock-ogcapi-processes-part2/build/register.json",
+    "https://geolabs.github.io/bblocks-generic-profiles/build/register.json",
+]
+
+
 def main() -> None:
     for mod_dir in sorted((ROOT / "common").iterdir()):
         mod = mod_dir.name
@@ -133,7 +145,8 @@ def main() -> None:
             "name": f"Application packages: {mod}",
             "abstract": f"Profile of the OGC API - Processes descriptions of the {len(tools)} {mod} CWL application "
                         "packages, with activity types, process types and generic profiles per tool.",
-            "status": "under-development", "version": "0.1", "itemClass": "schema", "register": "app-packages",
+            "status": "under-development", "version": "0.1", "dateTimeAddition": "2026-10-15T00:00:00Z",
+            "dateOfLastChange": "2026-10-15", "itemClass": "schema", "register": "app-packages",
             "dependsOn": depends, "seeAlso": see_also,
             "conformanceClasses": ["http://www.opengis.net/spec/ogcapi-processes-1/1.0/conf/core"],
             "scope": "dev", "tags": ["application package", "CWL", "OGC API - Processes", mod] + extra_tags,
@@ -151,13 +164,70 @@ def main() -> None:
         (out / "description.md").write_text(
             f"# {mod} application packages\n\nBridge to `bblocks-process-profiles`. `tools.yaml` maps each of the "
             f"{len(tools)} tools to its CWL, deployed process id, registered activity types ({REG}activity-type/), "
-            "process types and the generic profiles (openEO processes) matching its operations.\n")
-    (ROOT / "common" / "bblocks-config.yaml").write_text(yaml.safe_dump({
+            "process types and the generic profiles (openEO processes) matching its operations.\n"
+            + tool_table(tools) + tool_details(mod_dir, tools))
+    (ROOT / "bblocks-config.yaml").write_text(yaml.safe_dump({
         "identifier-prefix": PREFIX, "name": "Application Packages",
         "abstract": "Building Blocks bridging CRIM application packages with the OSPD process profiles.",
         "baseURL": "https://crim-ca.github.io/application-packages/",
-        "imports": ["https://crim-ca.github.io/bblocks-process-profiles/build/register.json"],
+        "gitHubBaseURL": "https://github.com/crim-ca/application-packages/",
+        "license": "Apache-2.0", "schema-oas30-downcompile": False,
+        "imports": ["default"] + IMPORTS,
     }, sort_keys=False))
+
+
+def _type(t: object) -> str:
+    if isinstance(t, dict):
+        return (_type(t.get("items")) + "[]") if t.get("type") == "array" else str(t.get("type") or t.get("name"))
+    if isinstance(t, list):
+        return " | ".join(_type(x) for x in t)
+    return str(t)
+
+
+def _formats(fmts: list) -> str:
+    return ", ".join(f"`{f['mediaType']}`" for f in fmts or []) or "-"
+
+
+def _io_table(cwl_io: dict, desc_io: dict) -> list:
+    rows = ["| Name | Type | Description | Media types |", "|---|---|---|---|"]
+    for k, v in cwl_io.items():
+        doc = str(v.get("doc") or v.get("label") or "-").replace("|", "\\|").replace("\n", " ")
+        fm = _formats((desc_io.get(k) or {}).get("formats"))
+        rows.append(f"| `{k}` | `{_type(v.get('type')).replace('|', '\\|')}` | {doc} | {fm} |")
+    return rows
+
+
+def tool_details(mod_dir: pathlib.Path, tools: dict) -> str:
+    """Per-process sections: description, inputs and outputs with media types, sources."""
+    out = ["\n## Process details\n"]
+    for name, t in tools.items():
+        dep = build(mod_dir / "src" / t["cwl"])
+        pd = dep["processDescription"]["process"]
+        unit = dep["executionUnit"][0]["unit"]
+        reqs = unit.get("requirements") or {}
+        docker = (reqs.get("DockerRequirement") or {}).get("dockerPull", "-") if isinstance(reqs, dict) else "-"
+        src = next((m["href"] for m in pd.get("metadata", []) if m.get("rel") == "source"), None)
+        out += [f"\n### {t['processId']}\n", f"**{pd.get('title')}** (CWL id `{name}`, version {pd.get('version')})\n",
+                str(unit.get("doc", "")).split("\nReference:")[0] + "\n",
+                f"- Application: `{unit.get('class')}`, `baseCommand` `{unit.get('baseCommand')}`, Docker `{docker}`",
+                f"- CWL: `{t['cwl']}`", f"- Documentation: {src or '-'}",
+                f"- Process types: {', '.join(t['processTypes']) or '-'}",
+                f"- Activity types: {', '.join(t['activityTypes']) or '-'}",
+                f"- Generic profiles: {', '.join(t['genericProfiles']) or '-'}", "", "**Inputs**\n"]
+        out += _io_table(unit.get("inputs") or {}, pd.get("inputs") or {}) + ["", "**Outputs**\n"]
+        out += _io_table(unit.get("outputs") or {}, pd.get("outputs") or {})
+    return "\n".join(out) + "\n"
+
+
+def tool_table(tools: dict) -> str:
+    """Markdown table listing every tool with its mappings."""
+    rows = ["\n## Tools\n", "| Tool | Process id | Process types | Concepts | Generic profiles |",
+            "|---|---|---|---|---|"]
+    for name, t in tools.items():
+        cell = lambda k: ", ".join(f"`{v.rsplit('/', 1)[-1]}`" for v in t.get(k) or []) or "-"
+        rows.append(f"| [`{name}`](#{t['processId']}) | `{t['processId']}` | {cell('processTypes')} | {cell('concepts')} "
+                    f"| {cell('genericProfiles')} |")
+    return "\n".join(rows) + "\n"
 
 
 if __name__ == "__main__":
